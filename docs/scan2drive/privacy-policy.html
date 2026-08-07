@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scan2Drive — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #212121; }
+  h1 { color: #1976D2; font-size: 28px; margin-bottom: 4px; }
+  h2 { color: #1976D2; font-size: 20px; margin-top: 28px; border-bottom: 1px solid #E0E0E0; padding-bottom: 6px; }
+  .updated { color: #757575; font-size: 13px; }
+  ul { padding-left: 20px; }
+  code { background: #F5F5F5; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
+</style>
+</head>
+<body>
+
+<h1>Scan2Drive — Privacy Policy</h1>
+<p class="updated">Last updated: August 1, 2026</p>
+
+<p>Scan2Drive ("we", "our", "the app") is a productivity tool that lets you capture screenshots or scan documents and save them as PDF files to your device or your own Google Drive. This page explains what data the app accesses and how it is used.</p>
+
+<h2>Data stored on your device</h2>
+<ul>
+  <li><strong>PDF files</strong> you create are saved locally to <code>Android/data/com.llcailabs.scan2drive/files/Documents/PDFs/</code>. These files are private to the app and only accessible to you.</li>
+  <li><strong>App settings</strong> (language, default color mode, auto-crop preference, Pro license state) are stored locally in <code>SharedPreferences</code> on your device.</li>
+  <li><strong>OAuth tokens</strong> (encrypted with Android Keystore-backed AES-256) are stored locally if you link Google Drive for backup.</li>
+</ul>
+<p>None of the above is uploaded to us. We have no server. We do not see, collect, or transmit your PDFs, settings, or OAuth tokens.</p>
+
+<h2>Google Drive backup (optional)</h2>
+<p>If you choose to back up PDFs to Google Drive, the app uses Google's OAuth 2.0 flow to obtain access to your Drive. The app requests only the <code>drive.file</code> scope, which means it can only access files <em>it created</em> — it cannot read or modify any other files in your Drive.</p>
+<ul>
+  <li>Your Google account email address is fetched once during sign-in to display the connected account. It is not stored on any server.</li>
+  <li>OAuth access and refresh tokens are stored in the app's private <code>SharedPreferences</code> on your device, encrypted with Android Keystore-backed AES-256. They are used only to upload PDFs you explicitly select.</li>
+  <li>You can revoke the app's Drive access at any time from your <a href="https://myaccount.google.com/permissions">Google account permissions page</a>, or from inside the app at Settings → Google Drive → Unlink.</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>SYSTEM_ALERT_WINDOW</strong> — required to display the floating bubble so you can capture from any screen. Granted manually via Settings → Apps → Scan2Drive → Display over other apps. You can revoke this at any time, which stops the floating bubble.</li>
+  <li><strong>CAMERA</strong> — used only when you tap the "Camera scan" button to take a photo of a document. The camera is never used in the background or without an active user tap.</li>
+  <li><strong>FOREGROUND_SERVICE</strong> + <strong>FOREGROUND_SERVICE_MEDIA_PROJECTION</strong> — required to keep the floating bubble overlay alive while you use other apps, and to enable screen-capture for the screenshot-to-PDF flow on Android 14+.</li>
+  <li><strong>INTERNET</strong> — used only for the optional Google Drive backup feature. The app does not connect to the internet otherwise.</li>
+</ul>
+<p>The app does not request <code>READ_EXTERNAL_STORAGE</code>, <code>READ_CONTACTS</code>, location, microphone, or any other sensitive permission. It does not read your other files, contacts, photos, or messages.</p>
+
+<h2>Floating bubble behaviour</h2>
+<p>When enabled, Scan2Drive shows a small circular floating button (the "bubble") on top of other apps via Android's <code>SYSTEM_ALERT_WINDOW</code> overlay permission. The bubble is a foreground service (<code>BubbleService</code>) with a persistent low-priority notification in the status bar. Tapping the bubble opens a small menu; long-pressing returns you to the Scan2Drive main screen.</p>
+<p>The bubble does not capture screenshots in the background, does not read other apps' content, and does not transmit any data. It only acts when you tap it. You can disable the bubble at any time from the main screen toggle or by revoking the overlay permission.</p>
+
+<h2>Analytics &amp; advertising</h2>
+<p>Scan2Drive does not include analytics SDKs (no Firebase, no Crashlytics, no Google Analytics).</p>
+<p>The app uses Google AdMob to display ads. You will see a banner ad at the bottom of the main screen and an interstitial ad after you save a PDF. AdMob may collect a device advertising ID for ad personalisation and performance reporting. You can opt out at any time from <em>Settings → Google → Ads</em> on your device.</p>
+<p>If you have purchased a Pro license, no ads are displayed.</p>
+
+<h2>Children's privacy</h2>
+<p>Scan2Drive is not directed at children under 13 and does not knowingly collect personal data from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy as the app evolves. The "Last updated" date at the top will reflect the latest revision.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:bajubesarcom@gmail.com">bajubesarcom@gmail.com</a></p>
+
+</body>
+</html>
