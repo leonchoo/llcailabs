@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy &mdash; Quick QR Scanner by LLCAI Labs</title>
+    <meta name="description" content="Quick QR Scanner privacy policy: scans and settings live on your device; AdMob may show ads with the app's privacy switch on.">
+    <style>
+        :root { color-scheme: light; }
+        body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+               line-height: 1.55; max-width: 720px; margin: 2rem auto; padding: 0 1.5rem;
+               color: #1d1b20; background: #fefefe; }
+        h1 { font-size: 1.6rem; font-weight: 700; line-height: 1.2; color: #21005d; }
+        h2 { font-size: 1.05rem; font-weight: 700; margin-top: 1.6rem; color: #21005d; }
+        p, li { font-size: 0.97rem; }
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.35rem; }
+        blockquote { border-left: 4px solid #6750a4; padding: 0.4rem 0.8rem;
+                     background: #f1eef9; color: #1d1b20; }
+        footer { margin-top: 2.5rem; padding-top: 1rem;
+                 border-top: 1px solid #cac4d0; font-size: 0.85rem; color: #49454f; }
+        a { color: #6750a4; }
+        code { background: #f1eef9; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p>
+    <strong>App:</strong> Quick QR Scanner &nbsp;&middot;&nbsp;
+    <strong>Developer:</strong> LLCAI Labs &nbsp;&middot;&nbsp;
+    <strong>Contact:</strong> <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a> &nbsp;&middot;&nbsp;
+    <strong>Last updated:</strong> 2026-08-27
+</p>
+
+<p>
+    Quick QR Scanner is a utility application that decodes QR codes and
+    one-dimensional barcodes (EAN-13, EAN-8, UPC-A, UPC-E, Code 128,
+    Code 39, Code 93, ITF, PDF417, Aztec, Data Matrix) using the
+    device camera or an image picked from the gallery. The application
+    is provided by LLCAI Labs, a sole proprietor based in Kuala
+    Lumpur, Malaysia.
+</p>
+
+<p>
+    This policy describes the data that Quick QR Scanner collects,
+    stores, transmits, and shares with third parties.  It is written
+    in plain English so anyone can read it without legal training.
+</p>
+
+<h2>1. The short version</h2>
+<blockquote>
+    By default, Quick QR Scanner stores nothing on any network server.
+    The scans you perform, the gallery images you decode, and the
+    app settings you choose all live locally on your device.  Ads are
+    served by Google AdMob at the bottom of the Home and History
+    screens.  You can use the App with ads enabled, or you can avoid
+    looking at the ad slots (they are always pinned to the bottom and
+    never cover the camera, the result text, or any action you tap).
+    The App does not require an account and does not collect personal
+    data beyond what is needed to serve the scan result back to you.
+</blockquote>
+
+<h2>2. Data we collect</h2>
+
+<h3>2.1 Data stored locally on your device</h3>
+<ul>
+    <li><strong>Scan results</strong> (the raw value decoded from the
+        QR or barcode, the detected format, and the wall-clock time
+        of the scan) are stored in a local SQLite (Room) database
+        inside the application's sandbox.  These persist until you
+        tap a single row's Delete button, tap the History screen's
+        "Clear all scan history" button, or uninstall the application.
+    </li>
+    <li><strong>Settings</strong> &mdash; vibration toggle, scan
+        sound toggle, auto-open URLs toggle, and theme preference
+        (System / Light / Dark) &mdash; are persisted via Jetpack
+        DataStore Preferences in the application's sandbox.
+    </li>
+    <li>The single "Privacy Policy" row in the About section of
+        Settings opens the LLCAI Labs privacy policy URL via the
+        in-app <em>Privacy Policy</em> link.  This does not store any
+        additional data.
+    </li>
+</ul>
+<p>
+    None of the items above leave the device.  Removing the
+    application also removes all of these items.
+</p>
+
+<h3>2.2 Data collected by the camera pipeline</h3>
+<p>
+    Quick QR Scanner uses the device camera (with the
+    <code>android.permission.CAMERA</code> permission granted by you at
+    runtime) and Google's bundled ML Kit Barcode Scanning library to
+    detect and decode the QR or barcode in the camera's viewfinder.
+    The camera frames are processed entirely on-device; they are not
+    uploaded to any server.  ML Kit's bundled model
+    (<code>barcode_ssd_mobilenet_v1_dmp25_quant.tflite</code>,
+    <code>oned_feature_extractor_mobile.tflite</code>,
+    <code>oned_auto_regressor_mobile.tflite</code>) lives inside the
+    application's APK and runs locally.
+</p>
+
+<h3>2.3 Data collected when an ad is shown</h3>
+<p>
+    Banner ads are served by <strong>Google Mobile Ads (AdMob)</strong>
+    on the Home and History screens.  From the moment the App is
+    installed, AdMob may collect and share:
+</p>
+<ul>
+    <li>Advertising ID (GAID) &mdash; a resettable identifier Google
+        assigns to your Android device.</li>
+    <li>Coarse IP-derived location (country / region) &mdash; inferred
+        by Google's AdMob service to determine which ad campaigns
+        are eligible for your region.</li>
+    <li>Ad-impression events (which ad was shown, when, and whether
+        you tapped it).</li>
+    <li>Click-through events (what tap you made on the ad).</li>
+</ul>
+<p>
+    These data are governed by Google's AdMob policies, including the
+    AdMob privacy and messaging rules.  We do not control or see the
+    raw event stream; we only see aggregated dashboards.
+</p>
+
+<h3>2.4 Data the App does <em>not</em> collect</h3>
+<ul>
+    <li>Name, email address, phone number, postal address.</li>
+    <li>Account creation data (Quick QR Scanner has no account
+        system).</li>
+    <li>Payment information (Quick QR Scanner has no in-app
+        purchases).</li>
+    <li>Microphone, contacts, calendar, photo / video / document
+        content beyond the single image you explicitly pick from
+        the gallery for one decode.</li>
+    <li>Precise GPS / location data (no location permission is
+        requested).</li>
+    <li>Crash logs or stack traces beyond what the Android system
+        captures by default.</li>
+</ul>
+
+<h2>3. Third parties we work with</h2>
+<table style="border-collapse: collapse;">
+    <thead>
+        <tr style="text-align: left;">
+            <th style="padding: 0.4rem 0.8rem 0.4rem 0;">Third party</th>
+            <th style="padding: 0.4rem 0;">Data shared</th>
+            <th style="padding: 0.4rem 0;">Trigger</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 0.4rem 0.8rem 0.4rem 0;">Google AdMob</td>
+            <td style="padding: 0.4rem 0;">Ad serving &amp; attribution
+                metadata (GAID, coarse IP-region, ad-impression and
+                click-through events)</td>
+            <td style="padding: 0.4rem 0;">Whenever the user navigates
+                to Home or History (banner slot is rendered)</td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    We do not embed any other analytics SDKs, social-login SDKs,
+    crash-reporting SDKs, or attribution SDKs.  ML Kit Barcode
+    Scanning is bundled in the App and runs on-device; it does not
+    contact Google servers during normal use.
+</p>
+
+<h2>4. Children</h2>
+<p>
+    Quick QR Scanner is not designed for or marketed to children
+    under the age of 13.  We do not knowingly collect personal data
+    from anyone under 13.  If you believe a child has registered
+    or used the application under conditions that resulted in data
+    collection, please contact us at
+    <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>
+    and we will delete any data on our side as quickly as possible.
+</p>
+
+<h2>5. Your rights and controls</h2>
+<ul>
+    <li><strong>See what is on your device</strong> &mdash; the
+        History screen lists every saved scan, and the About
+        section of Settings shows the version and the Privacy Policy
+        link.
+    </li>
+    <li><strong>Delete a single scan</strong> &mdash; tap a row in
+        History and confirm.
+    </li>
+    <li><strong>Delete all scans</strong> &mdash; tap
+        <em>Clear all scan history</em> in Settings and confirm.
+    </li>
+    <li><strong>Reset your advertising ID</strong> &mdash; on
+        Android 14 and newer: <em>Settings &rarr; Security &amp;
+        Privacy &rarr; Other privacy settings &rarr; Ads</em>.
+        Resets the GAID so any future ad requests are seen as fresh
+        by ad networks.
+    </li>
+    <li><strong>Disable personalized ads</strong> &mdash; sign in to
+        <a href="https://myadcenter.google.com">myadcenter.google.com</a>
+        and turn off personalized ad categories for this app's
+        publisher.  You can also <strong>opt out</strong> of
+        personalized ads via Android's per-device ad preferences.
+    </li>
+    <li><strong>Uninstall</strong> &mdash; removes every piece of
+        local data the application stores, including the scan
+        history and the settings.  Nothing remains on the device
+        (AdMob may still hold ad-event metadata on Google's
+        servers, governed by Google's own retention policy).
+    </li>
+    <li><strong>Request remote deletion</strong> &mdash; because we
+        do not collect data on our own servers, there is rarely
+        anything to delete remotely.  In the rare case that we
+        have data on file (for example, if you write in to us and
+        we keep a support email), we delete it within 30 days of
+        receipt.  Contact
+        <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.
+    </li>
+</ul>
+
+<h2>6. Data retention</h2>
+<ul>
+    <li>Scans remain on the device until you delete them (single row
+        or "Clear all") or uninstall the application.</li>
+    <li>Settings remain on the device until the application is
+        uninstalled or the DataStore Preferences are cleared
+        manually.</li>
+    <li>Any data that reaches Google's AdMob service is retained
+        per Google's own privacy policy
+        (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>).
+        We do not control that retention window.</li>
+</ul>
+
+<h2>7. Data transit and security</h2>
+<p>
+    All network traffic generated by Quick QR Scanner is HTTPS
+    (TLS-encrypted).  Google's Mobile Ads SDK authenticates with
+    Google's servers and uses TLS 1.2 or higher by default.  Local
+    data live inside the application sandbox; another app cannot read
+    them without root privileges, and we never copy them off the
+    device.  Scan content is stored in the device's encrypted Room
+    SQLite database.
+</p>
+
+<h2>8. International transfers</h2>
+<p>
+    LLCAI Labs is based in Malaysia.  Ad-related data is processed by
+    Google's AdMob servers, which may be located in regions outside
+    your home jurisdiction.  This is governed by Google's global
+    privacy policies.
+</p>
+
+<h2>9. Camera permission</h2>
+<p>
+    Quick QR Scanner requests the
+    <code>android.permission.CAMERA</code> permission only when you
+    open the scanner tab.  If you deny the permission, the scanner
+    shows a "Camera permission required" screen with a
+    "Grant camera access" button.  No camera frames are captured
+    until you grant the permission.  The "Scan from gallery" action
+    uses the system Photo Picker and does not require camera access.
+</p>
+
+<h2>10. Policy updates</h2>
+<p>
+    If we change this policy, we will update the date at the top of
+    this page and add a short note under the date showing what
+    changed.  Material changes will result in an in-app banner
+    pointing at the new policy URL.
+</p>
+
+<h2>11. Contact</h2>
+<p>
+    Email <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>
+    for any privacy question, deletion request, or data subject
+    access request.  We answer within seven (7) business days.
+</p>
+
+<footer>
+    &copy; 2026 LLCAI Labs.  Released under the Apache 2.0 License
+    for source code; visual assets are the developer's property.
+    <br><br>
+    Quick QR Scanner by LLCAI Labs &mdash;
+    <a href="https://github.com/leonchoo/quickqrscanner">source on GitHub</a>
+</footer>
+
+</body>
+</html>
