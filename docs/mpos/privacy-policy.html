@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for mPOS - Mobile Point of Sale">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy - mPOS</title>
+    <style>
+        :root {
+            --color-text: #1a1a1a;
+            --color-text-muted: #555;
+            --color-bg: #ffffff;
+            --color-bg-alt: #f5f5f5;
+            --color-border: #e0e0e0;
+            --color-accent: #2563eb;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--color-text);
+            background: var(--color-bg);
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px 20px 64px;
+        }
+        header {
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin: 0 0 8px;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin: 32px 0 12px;
+            font-weight: 600;
+            padding-top: 8px;
+            border-top: 1px solid var(--color-border);
+        }
+        h3 {
+            font-size: 1.05rem;
+            margin: 20px 0 8px;
+            font-weight: 600;
+        }
+        p {
+            margin: 0 0 12px;
+        }
+        ul, ol {
+            padding-left: 24px;
+            margin: 0 0 12px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px;
+            font-size: 0.95rem;
+        }
+        th, td {
+            border: 1px solid var(--color-border);
+            padding: 8px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: var(--color-bg-alt);
+            font-weight: 600;
+        }
+        code {
+            background: var(--color-bg-alt);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.92em;
+        }
+        .meta {
+            color: var(--color-text-muted);
+            font-size: 0.92rem;
+            margin: 0;
+        }
+        .placeholder {
+            color: #b45309;
+            background: #fef3c7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-style: italic;
+        }
+        a {
+            color: var(--color-accent);
+            word-break: break-word;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+        @media (max-width: 480px) {
+            .container { padding: 16px 16px 48px; }
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1.15rem; }
+            table { font-size: 0.85rem; }
+            th, td { padding: 6px 8px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy — mPOS (Mobile Point of Sale)</h1>
+            <p class="meta">Last updated: <span class="placeholder">[NEEDS USER CONFIRMATION — set date before publication, e.g. 2026-08-30]</span></p>
+        </header>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>This Privacy Policy describes how the mPOS app ("the app", "we", "us") handles your data.</p>
+            <p>The app is designed for <strong>offline use</strong>: all your point-of-sale data (products, orders, sales history, app settings) is stored <strong>locally on your device</strong> in a private database. We do not operate any backend server, do not require you to create an account, and do not collect your sales data through our own infrastructure.</p>
+            <p>The only data that leaves your device is:</p>
+            <ul>
+                <li><strong>AdMob</strong> advertising data (handled by Google LLC, see Section 4)</li>
+                <li><strong>Google Drive backup files</strong> that you explicitly choose to upload (handled by Google LLC, see Section 5)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Data We Store on Your Device (Local Only)</h2>
+            <p>The following data is stored exclusively on your device, in an encrypted SQLite database (managed by Android Room):</p>
+            <ul>
+                <li><strong>Products</strong>: name, price, stock quantity, category, SKU, cost (optional), image path (local file path)</li>
+                <li><strong>Orders</strong>: order ID, timestamp, line items (product, quantity, price), subtotal, SST amount, total, payment method</li>
+                <li><strong>Stock movements</strong>: restock history, restock quantity, timestamp, reason</li>
+                <li><strong>Shop profile</strong>: shop name, address (optional), phone (optional), receipt footer text</li>
+                <li><strong>App settings</strong>: SST rate, currency code, app locale, low-stock threshold, cash rounding toggle, receipt printer MAC address (optional)</li>
+                <li><strong>Backup metadata</strong>: timestamp, schema version</li>
+            </ul>
+            <p>This data:</p>
+            <ul>
+                <li>Never leaves your device automatically</li>
+                <li>Is never transmitted to us or any third party by the app</li>
+                <li>Is stored in Android's app-private storage (<code>/data/data/com.llcailabs.mobilepos/</code>)</li>
+                <li>Is deleted when you uninstall the app</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Permissions</h2>
+            <p>The app requests the following Android permissions:</p>
+            <table>
+                <thead>
+                    <tr><th>Permission</th><th>Why</th><th>Optional?</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>INTERNET</code></td><td>AdMob ads, Google Drive backup</td><td>Required</td></tr>
+                    <tr><td><code>BLUETOOTH</code>, <code>BLUETOOTH_ADMIN</code> (API &le; 30)</td><td>Bluetooth receipt printer</td><td>Required if using printer</td></tr>
+                    <tr><td><code>BLUETOOTH_SCAN</code>, <code>BLUETOOTH_CONNECT</code> (API &ge; 31)</td><td>Bluetooth receipt printer</td><td>Required if using printer</td></tr>
+                    <tr><td><code>ACCESS_FINE_LOCATION</code> (API &le; 30)</td><td>Bluetooth printer discovery (Android 9 and below require this)</td><td>Required if using printer</td></tr>
+                    <tr><td><code>CAMERA</code> (optional, user must grant)</td><td>Optional product photo</td><td>Optional</td></tr>
+                    <tr><td><code>WRITE_EXTERNAL_STORAGE</code> (if granted)</td><td>Save backup file to Downloads</td><td>Optional</td></tr>
+                </tbody>
+            </table>
+            <p>No permission is used for surveillance, location tracking, or analytics.</p>
+        </section>
+
+        <section>
+            <h2>4. Third-Party Services — AdMob</h2>
+            <p>The app uses <strong>Google AdMob</strong> to display banner ads and (after a successful local backup) an interstitial ad. AdMob is operated by Google LLC.</p>
+            <p>When ads are displayed, AdMob may collect:</p>
+            <ul>
+                <li>Advertising ID (Android Advertising ID)</li>
+                <li>Device information (model, OS version, screen size)</li>
+                <li>Ad interaction data (impressions, clicks)</li>
+                <li>Coarse location (sometimes, derived from IP address)</li>
+                <li>IP address</li>
+            </ul>
+            <p>This data is collected by Google per its own privacy policy:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></li>
+            </ul>
+            <p>You can opt out of personalized ads by enabling "Opt out of Ads Personalization" in your Android device settings (Settings &rarr; Google &rarr; Ads).</p>
+            <p><span class="placeholder">[NEEDS USER CONFIRMATION]</span>: Whether the app uses personalized ads or non-personalized ads, and whether a User Messaging Platform (UMP) consent dialog is shown (required for EEA / UK users if personalized ads are used).</p>
+        </section>
+
+        <section>
+            <h2>5. Third-Party Services — Google Drive Backup</h2>
+            <p>The app can optionally back up your local database to your personal Google Drive. This is <strong>opt-in</strong>: the backup only happens when you tap the "Backup" button in Settings.</p>
+            <p>The backup uses <strong>Google Sign-In</strong> (OAuth 2.0). When you sign in:</p>
+            <ul>
+                <li>We request access to your Google Drive (only <code>drive.file</code> scope — limited to files created by the app)</li>
+                <li>We do <strong>not</strong> request access to your other Google services (Gmail, Calendar, Contacts, etc.)</li>
+                <li>Your Google account email is visible to the app (for displaying the connected account)</li>
+            </ul>
+            <p>Backup files contain the same data as Section 2 (products, orders, shop profile, app settings).</p>
+            <p>The backup file is uploaded to <strong>your</strong> Google Drive. We do not host the backup on our own servers.</p>
+            <p>OAuth scopes requested:</p>
+            <ul>
+                <li><code>https://www.googleapis.com/auth/drive.file</code> — read and write only files the app creates</li>
+            </ul>
+            <p>To revoke the app's access: visit <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> and remove "mPOS".</p>
+        </section>
+
+        <section>
+            <h2>6. Data Collection</h2>
+            <table>
+                <thead>
+                    <tr><th>Category</th><th>Collected?</th><th>By Whom</th><th>Purpose</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Products, orders, settings</td><td>Yes</td><td>App (local only)</td><td>App functionality</td></tr>
+                    <tr><td>Google account email (if backup enabled)</td><td>Yes</td><td>Google Sign-In</td><td>Account connection</td></tr>
+                    <tr><td>Advertising ID</td><td>Yes</td><td>Google AdMob</td><td>Ad serving</td></tr>
+                    <tr><td>Device ID / model</td><td>Yes</td><td>Google AdMob</td><td>Ad optimization</td></tr>
+                    <tr><td>IP address</td><td>Yes</td><td>Google AdMob, Google APIs</td><td>Networking</td></tr>
+                    <tr><td>Crash logs</td><td>No</td><td>—</td><td>—</td></tr>
+                    <tr><td>Analytics</td><td>No</td><td>—</td><td>—</td></tr>
+                    <tr><td>Contacts / location / microphone</td><td>No</td><td>—</td><td>—</td></tr>
+                </tbody>
+            </table>
+            <p>The app itself does <strong>not</strong> collect, transmit, or sell any of your product / order / sales data.</p>
+        </section>
+
+        <section>
+            <h2>7. Data Sharing</h2>
+            <table>
+                <thead>
+                    <tr><th>Recipient</th><th>What Is Shared</th><th>Why</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Google LLC (AdMob)</td><td>Advertising ID, ad interactions</td><td>Ad serving</td></tr>
+                    <tr><td>Google LLC (Drive API)</td><td>Backup file content, your Google account email</td><td>Cloud backup (opt-in)</td></tr>
+                </tbody>
+            </table>
+            <p>We do not share your data with any other third party.</p>
+        </section>
+
+        <section>
+            <h2>8. Data Retention</h2>
+            <ul>
+                <li><strong>Local database</strong>: retained until you uninstall the app or clear its data via Android Settings.</li>
+                <li><strong>AdMob data</strong>: governed by Google's retention policy.</li>
+                <li><strong>Google Drive backup files</strong>: retained on your Google Drive until you delete them manually.</li>
+                <li><strong>Crash logs</strong>: not collected.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Security</h2>
+            <ul>
+                <li><strong>Local database</strong>: stored in Android app-private storage (not world-readable on non-rooted devices).</li>
+                <li><strong>HTTPS</strong>: All network traffic (AdMob, Google Drive) is over TLS/HTTPS.</li>
+                <li><strong>OAuth tokens</strong>: stored in encrypted Android keystore (per Google Sign-In default).</li>
+                <li><strong>Google Drive API</strong>: limited to <code>drive.file</code> scope (cannot read your other Drive files).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>10. Children</h2>
+            <p>This app is <strong>not directed at children under 13</strong>. We do not knowingly collect data from children. If you believe a child has provided data through this app, please contact us.</p>
+        </section>
+
+        <section>
+            <h2>11. Your Rights (GDPR / PDPA / CCPA)</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li><strong>Access</strong>: View all data stored in the app at any time (via the app's UI or backup export).</li>
+                <li><strong>Delete</strong>: Uninstall the app to delete all local data. Revoke Google Sign-In access at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> to disconnect cloud backup.</li>
+                <li><strong>Portability</strong>: Export a backup file from Settings &rarr; Backup, which contains all your data in JSON format.</li>
+                <li><strong>Opt out of personalized ads</strong>: Settings &rarr; Google &rarr; Ads &rarr; Opt out of Ads Personalization on your Android device.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>12. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy. The "Last updated" date at the top will change when this happens. Material changes will be announced in the app.</p>
+        </section>
+
+        <section>
+            <h2>13. Contact</h2>
+            <p>For privacy questions or requests, contact:</p>
+            <p>
+                <span class="placeholder">[NEEDS USER CONFIRMATION — Developer name (legal entity)]</span><br>
+                <span class="placeholder">[NEEDS USER CONFIRMATION — Contact email, e.g. support@yourdomain.com]</span><br>
+                <span class="placeholder">[NEEDS USER CONFIRMATION — Mailing address (optional)]</span>
+            </p>
+        </section>
+
+        <section>
+            <h2>14. Legal Basis</h2>
+            <p>This app is provided as a software product. By installing and using the app, you consent to the data practices described above.</p>
+        </section>
+
+        <section>
+            <h2>15. Open Source Components</h2>
+            <p>The app is built with the following open-source libraries, each governed by its own license:</p>
+            <ul>
+                <li>Android (Apache 2.0)</li>
+                <li>Kotlin (Apache 2.0)</li>
+                <li>Jetpack Compose (Apache 2.0)</li>
+                <li>AndroidX (Apache 2.0)</li>
+                <li>Room (Apache 2.0)</li>
+                <li>Hilt (Apache 2.0)</li>
+                <li>DataStore (Apache 2.0)</li>
+                <li>Google Play Services Ads (Google Mobile Ads SDK) — proprietary license</li>
+                <li>Google Sign-In / Drive API — proprietary license</li>
+                <li>ML Kit Barcode Scanning (Apache 2.0) — included but not currently active in v0.5.22</li>
+            </ul>
+            <p>Full license texts are available in the app's third-party licenses screen.</p>
+        </section>
+
+        <footer>
+            <p>Document version 1.0. Generated from <code>docs/play-store-assets/privacy-policy.md</code>.</p>
+        </footer>
+    </div>
+</body>
+</html>
