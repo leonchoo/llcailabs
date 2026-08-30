@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mPOS - Mobile Point of Sale: offline-first point-of-sale app for small shops, stalls, and mobile sellers.">
+    <meta name="robots" content="index, follow">
+    <title>mPOS &mdash; Mobile Point of Sale</title>
+    <link rel="canonical" href="https://leonchoo.github.io/llcailabs/mpos/">
+    <style>
+        :root {
+            --color-text: #1a1a1a;
+            --color-text-muted: #555;
+            --color-bg: #ffffff;
+            --color-bg-alt: #f5f5f5;
+            --color-border: #e0e0e0;
+            --color-accent: #2563eb;
+            --color-accent-dark: #1e50c8;
+            --color-hero-bg: #f8fafc;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--color-text);
+            background: var(--color-bg);
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+        header {
+            text-align: center;
+            background: var(--color-hero-bg);
+            border-radius: 12px;
+            padding: 32px 24px;
+            margin-bottom: 32px;
+            border: 1px solid var(--color-border);
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 8px;
+            font-weight: 700;
+            color: var(--color-accent);
+        }
+        h2 {
+            font-size: 1.35rem;
+            margin: 32px 0 12px;
+            font-weight: 600;
+            padding-top: 8px;
+            border-top: 1px solid var(--color-border);
+        }
+        .tagline {
+            font-size: 1.05rem;
+            color: var(--color-text-muted);
+            margin: 0;
+        }
+        .badges {
+            margin-top: 16px;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+        .badges span {
+            display: inline-block;
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            padding: 3px 10px;
+            border-radius: 999px;
+            margin: 4px 4px;
+        }
+        p {
+            margin: 0 0 14px;
+        }
+        ul {
+            padding-left: 24px;
+            margin: 8px 0 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .feature-title {
+            font-weight: 600;
+        }
+        a {
+            color: var(--color-accent);
+            word-break: break-word;
+        }
+        a:hover {
+            color: var(--color-accent-dark);
+        }
+        .cta {
+            background: var(--color-accent);
+            color: #ffffff;
+            padding: 14px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .cta:hover {
+            background: var(--color-accent-dark);
+            color: #ffffff;
+        }
+        .cta-box {
+            background: var(--color-hero-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .cta-box p {
+            margin: 0 0 8px;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        @media (max-width: 480px) {
+            .container { padding: 20px 16px 48px; }
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1.15rem; }
+            header { padding: 24px 18px; }
+            .cta { display: block; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mPOS — Mobile Point of Sale</h1>
+            <p class="tagline">Offline-first point-of-sale app for small shops, stalls, and mobile sellers.</p>
+            <p class="badges">
+                <span>Offline-first</span>
+                <span>Multi-language</span>
+                <span>Optional Google Drive backup</span>
+            </p>
+        </header>
+
+        <section>
+            <p>mPOS is a free, offline-first point-of-sale app designed for small retail shops, market stalls, food trucks, and mobile sellers. All your point-of-sale data — products, orders, sales history, shop profile, and app settings — is stored locally on your Android device. mPOS does not require you to create an account to use it. Cloud backup to your personal Google Drive is entirely optional.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li><span class="feature-title">Product and inventory management.</span> Add products with name, price, category, SKU, stock quantity, and low-stock threshold. Edit prices, archive items, or mark them as unlimited-stock.</li>
+
+                <li><span class="feature-title">Fast checkout.</span> Tap product cards to add items to the cart, adjust quantities, review subtotal and SST, then tap Bayar. Cash rounding to the nearest 5 sen is applied to the final total.</li>
+
+                <li><span class="feature-title">Sales history.</span> Browse past orders by date. Tap any order to see the full item breakdown and amounts, and to reprint the receipt.</li>
+
+                <li><span class="feature-title">Receipt printing.</span> Connect a Bluetooth ESC/POS thermal printer (58 mm or 80 mm) for paper receipts. Auto-print after checkout, or reprint manually from the order detail screen.</li>
+
+                <li><span class="feature-title">Stock and restock.</span> See low-stock warnings on each product card and on the Reports dashboard. Restock quickly using the +5 / +10 / +20 chips or a custom quantity.</li>
+
+                <li><span class="feature-title">Backup and restore.</span> Export a local backup file to your Downloads folder, or back up to your own Google Drive (only files the app creates; the app cannot read your other Drive files). Restore from any backup file to recover products, orders, and settings.</li>
+
+                <li><span class="feature-title">Optional Google Drive backup.</span> Backup is opt-in and triggered manually by you. Sign in once with Google; mPOS uses the <code>drive.file</code> scope only and cannot touch the rest of your Google account.</li>
+
+                <li><span class="feature-title">Multi-language support.</span> English, Bahasa Malaysia (ms), Bahasa Indonesia (id), and Simplified Chinese (zh-CN). The app follows your device language by default.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Privacy</h2>
+            <p>mPOS does not require an account, does not collect analytics, and does not run any backend server. The only data that leaves your device is what you explicitly choose to share &mdash; AdMob advertising data and (optionally) Google Drive backup files.</p>
+            <p>Read the full Privacy Policy for details on what data is collected, how it is stored, and how you can delete it.</p>
+            <div class="cta-box">
+                <p><strong>Privacy Policy</strong></p>
+                <p><a class="cta" href="https://leonchoo.github.io/llcailabs/mpos/privacy-policy.html">View Privacy Policy &rarr;</a></p>
+                <p style="font-size: 0.9rem;">Includes the Data Deletion Request section.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>mPOS &mdash; Mobile Point of Sale &middot; Offline-first POS for Android &middot; No account required</p>
+            <p>This homepage is publicly accessible without login.</p>
+        </footer>
+    </div>
+</body>
+</html>
