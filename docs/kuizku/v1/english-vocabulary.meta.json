@@ -1,0 +1,17 @@
+{
+  "subjectId": "eng_vocab",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v1-master",
+    "nonce": "sG5NvIPOvROHP9ua",
+    "ciphertextSizeBytes": 4658,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "809af843730888e10111db74f3ee9284cac8c2e25306555a12a9eda4e2ecf6ae",
+    "ciphertextSha256": "a7b1c3942c8092dcbd8dd8fa2f3da696ce7b4343ff1ef861da49be7942f9ba61"
+  }
+}
