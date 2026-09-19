@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bankId": "llcai_kuizku_v4_test",
-  "publisherVersion": 1,
+  "publisherVersion": 2,
   "publishedAt": "2026-09-19T10:25:16Z",
   "publisher": "LLCAI Labs",
   "supportedLanguages": [
@@ -14,7 +14,7 @@
     "keyFetchUrl": null,
     "ivLength": 12,
     "tagLength": 16,
-    "note": "Phase 8D V4-TEST A — INTERNAL PILOT. AES-256-GCM with isolated v4-test-master key. Isolated from V1/V3. contentOrigin=ORIGINAL. License=self_authored. NOT for production."
+    "note": "Phase 8D V4-TEST B — INTERNAL PILOT. AES-256-GCM with isolated v4-test-master key. Isolated from V1/V3. contentOrigin=ORIGINAL. License=self_authored. NOT for production."
   },
   "integrity": {
     "algorithm": "SHA-256",
@@ -27,7 +27,7 @@
     "examName": null,
     "paperCode": null,
     "examStage": null,
-    "publisherNotes": "Phase 8D V4-TEST A INTERNAL PILOT. 62 ORIGINAL BM questions (Primary Y1-Y5). KuizKu Reference → Topic Blueprint → ORIGINAL pipeline. Quality Gate 10/10 PASS."
+    "publisherNotes": "Phase 8D V4-TEST B INTERNAL PILOT. 92 ORIGINAL BM questions (Primary Y1-Y5). KuizKu Reference → Topic Blueprint → ORIGINAL pipeline. Quality Gate 10/10 PASS."
   },
   "subjectGroups": [
     {
@@ -48,7 +48,7 @@
         "prim_bm_Y5_peribahasa",
         "prim_bm_Y5_simpulan_bahasa"
       ],
-      "questionCount": 62
+      "questionCount": 92
     }
   ],
   "subjects": [
@@ -62,9 +62,9 @@
       "displayOrder": 117,
       "file": "prim_bm_Y1_cerita.enc",
       "metaFile": "prim_bm_Y1_cerita.meta.json",
-      "checksumSha256": "3de50ad9d0539c3895d48d77bd2d95437248f171e12f8ef87bb2ef6a740adb03",
-      "fileSizeBytes": 6631,
-      "questionCount": 6
+      "checksumSha256": "15ab7be0ade338713afeaf764f4c63cbdb21d2f466cb87f030a705d2c9a14e4e",
+      "fileSizeBytes": 9839,
+      "questionCount": 9
     },
     {
       "subjectId": "prim_bm_Y1_karangan",
@@ -76,9 +76,9 @@
       "displayOrder": 122,
       "file": "prim_bm_Y1_karangan.enc",
       "metaFile": "prim_bm_Y1_karangan.meta.json",
-      "checksumSha256": "55266b7cd99eb8ea55f333ecd9b9ba38a0840be1684bee4abe9b163a705072e1",
-      "fileSizeBytes": 7499,
-      "questionCount": 7
+      "checksumSha256": "faad3c9ca4e5a4c13de2f5381090d008b928f95987a1b32336719cb06463eae8",
+      "fileSizeBytes": 10768,
+      "questionCount": 10
     },
     {
       "subjectId": "prim_bm_Y2_penjodoh_bilangan",
@@ -90,9 +90,9 @@
       "displayOrder": 276,
       "file": "prim_bm_Y2_penjodoh_bilangan.enc",
       "metaFile": "prim_bm_Y2_penjodoh_bilangan.meta.json",
-      "checksumSha256": "1ff32380c823d171a5d7d19d9d3e446354a6b09fb5dbcf3447af4b00a6e8fdfc",
-      "fileSizeBytes": 6832,
-      "questionCount": 6
+      "checksumSha256": "5050b22f17a11a4ac11a61b3f0934337dad0fd2359d54cf0e9ae7a0a32be30ef",
+      "fileSizeBytes": 10041,
+      "questionCount": 9
     },
     {
       "subjectId": "prim_bm_Y2_tatabahasa",
@@ -104,9 +104,9 @@
       "displayOrder": 207,
       "file": "prim_bm_Y2_tatabahasa.enc",
       "metaFile": "prim_bm_Y2_tatabahasa.meta.json",
-      "checksumSha256": "768cb80d494f6f4094594b7a20f4dcb46fec39aff6641222f285ca7520daea33",
-      "fileSizeBytes": 6589,
-      "questionCount": 6
+      "checksumSha256": "9cddefe7cb53bda501f9d52c17f08ee6f6eb3ceb66f90bf24d08a6eb70b1e561",
+      "fileSizeBytes": 9819,
+      "questionCount": 9
     },
     {
       "subjectId": "prim_bm_Y3_cerita",
@@ -118,9 +118,9 @@
       "displayOrder": 317,
       "file": "prim_bm_Y3_cerita.enc",
       "metaFile": "prim_bm_Y3_cerita.meta.json",
-      "checksumSha256": "9a30d3b5464cfd69b9db8a2364baf0e9810117cfee26d45fad54395dbae488fe",
-      "fileSizeBytes": 4494,
-      "questionCount": 4
+      "checksumSha256": "945b60d11f72fd026f14d80f4efb3924d04f537183f3ca6a8f61a579409f8485",
+      "fileSizeBytes": 6574,
+      "questionCount": 6
     },
     {
       "subjectId": "prim_bm_Y3_karangan",
@@ -132,9 +132,9 @@
       "displayOrder": 322,
       "file": "prim_bm_Y3_karangan.enc",
       "metaFile": "prim_bm_Y3_karangan.meta.json",
-      "checksumSha256": "b3edffaaabf4e4d1a3893142e774f46a038c7063182e15560773f57463191003",
-      "fileSizeBytes": 3741,
-      "questionCount": 3
+      "checksumSha256": "f959d0de9f1e65a9f668e3b28eaf53c6a5d3845ac6bd8bdcdb2631b25f1b3fc0",
+      "fileSizeBytes": 4880,
+      "questionCount": 4
     },
     {
       "subjectId": "prim_bm_Y3_kata_hubung",
@@ -146,9 +146,9 @@
       "displayOrder": 341,
       "file": "prim_bm_Y3_kata_hubung.enc",
       "metaFile": "prim_bm_Y3_kata_hubung.meta.json",
-      "checksumSha256": "10beb6e1304ed27289e5c6525db3ca85e82f8cd14252fbd3579c7aaf83f7f4b7",
-      "fileSizeBytes": 3430,
-      "questionCount": 3
+      "checksumSha256": "0ea6facd23e6e01158925a42c065fae38650311cca7794c3d148964d6e9db76c",
+      "fileSizeBytes": 5525,
+      "questionCount": 5
     },
     {
       "subjectId": "prim_bm_Y3_tatabahasa",
@@ -160,9 +160,9 @@
       "displayOrder": 307,
       "file": "prim_bm_Y3_tatabahasa.enc",
       "metaFile": "prim_bm_Y3_tatabahasa.meta.json",
-      "checksumSha256": "846b780c6c5b325f8ec8721952c710cf5a1c264137ddee736a4e7fa1453b0877",
-      "fileSizeBytes": 2346,
-      "questionCount": 2
+      "checksumSha256": "3a8ffcb73739c9cda089d03afa7f38fa6a8525eb27e5395af42bebd263b2f749",
+      "fileSizeBytes": 3364,
+      "questionCount": 3
     },
     {
       "subjectId": "prim_bm_Y4_karangan",
@@ -174,9 +174,9 @@
       "displayOrder": 422,
       "file": "prim_bm_Y4_karangan.enc",
       "metaFile": "prim_bm_Y4_karangan.meta.json",
-      "checksumSha256": "ebe7293ed2be339f2655d79c52ddd92e216254a413683db523546eb3d3e32890",
-      "fileSizeBytes": 7328,
-      "questionCount": 6
+      "checksumSha256": "8a5d77b7fd4027d8c0051dee47cd781e1eb9dca8496861af94a39ffafe73f64d",
+      "fileSizeBytes": 10827,
+      "questionCount": 9
     },
     {
       "subjectId": "prim_bm_Y4_penulisan",
@@ -188,9 +188,9 @@
       "displayOrder": 469,
       "file": "prim_bm_Y4_penulisan.enc",
       "metaFile": "prim_bm_Y4_penulisan.meta.json",
-      "checksumSha256": "e1ff0439d9ebf23dd9e45f5cea78a194b32ace20b128c546cf5775bc61907725",
-      "fileSizeBytes": 8288,
-      "questionCount": 7
+      "checksumSha256": "e753f122da19345030b87fa0b5de07424ea7611d1a541f873c4c9983c43ca067",
+      "fileSizeBytes": 11637,
+      "questionCount": 10
     },
     {
       "subjectId": "prim_bm_Y5_peribahasa",
@@ -202,9 +202,9 @@
       "displayOrder": 521,
       "file": "prim_bm_Y5_peribahasa.enc",
       "metaFile": "prim_bm_Y5_peribahasa.meta.json",
-      "checksumSha256": "83177c745603b1dae62a9b92e7e6c3f7f555ef2705b02d66162c72daf78290db",
-      "fileSizeBytes": 7609,
-      "questionCount": 6
+      "checksumSha256": "8b8cbaf926e58aaa0543dca8f30082ee39eab6e033de366aad53b0e65bbc6110",
+      "fileSizeBytes": 11143,
+      "questionCount": 9
     },
     {
       "subjectId": "prim_bm_Y5_simpulan_bahasa",
@@ -216,10 +216,10 @@
       "displayOrder": 513,
       "file": "prim_bm_Y5_simpulan_bahasa.enc",
       "metaFile": "prim_bm_Y5_simpulan_bahasa.meta.json",
-      "checksumSha256": "b9f0639a12f881b3586d94e04a7a990896176386973666b67404513083ca6a2b",
-      "fileSizeBytes": 7156,
-      "questionCount": 6
+      "checksumSha256": "7df3737ccee2cd60d1aea4cf4b19731ec4303be1da66f8f57de5e8e14ea9cd0e",
+      "fileSizeBytes": 10612,
+      "questionCount": 9
     }
   ],
-  "totalQuestions": 62
+  "totalQuestions": 92
 }
