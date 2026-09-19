@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y5_sajak",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "KUj6e2r1Dawu6BGi",
+    "ciphertextSizeBytes": 1069,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "9c6859e6675ca08d7e8ae4c314107e953a0435a506fb48b8b3cb5fe35b557236",
+    "ciphertextSha256": "f2c6f032006422d04bc84f7acccf06754186f960cb0cb2e8a00049e4027e5ecf"
+  }
+}
