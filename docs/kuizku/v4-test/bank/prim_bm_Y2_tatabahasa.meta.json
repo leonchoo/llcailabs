@@ -5,13 +5,13 @@
     "algorithm": "AES-256-GCM",
     "keyVersion": 1,
     "keyId": "v4-test-master",
-    "nonce": "Dw6TfjlDbVn6Mr1R",
-    "ciphertextSizeBytes": 8257,
+    "nonce": "VUuC3TDT6gt1dG8p",
+    "ciphertextSizeBytes": 6589,
     "ivLength": 12,
     "tagLength": 16
   },
   "integrity": {
-    "plaintextSha256": "5e983dc43653bf7dea9273d0b2556fd05735bafb58079bb9b505e8fe67c1812c",
-    "ciphertextSha256": "80a83cc2ac22ae284eb3b908625aa434026d1d583b6230e983a36b9d24a6d4c3"
+    "plaintextSha256": "0220d71a9baaabe663000f815fa322208b7125ddabe05aa7c8ae3502c4de4292",
+    "ciphertextSha256": "03c54a38918ca98c8c6dc80541d768dcd8acb3bd11990176e2661e1a49ec07f1"
   }
 }
