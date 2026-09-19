@@ -1,0 +1,17 @@
+{
+  "subjectId": "prim_bm_Y3_cerita",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "nonce": "o3f6P6CbnFAb1DX4",
+    "ciphertextSizeBytes": 5606,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "f68a9c2e9d333e0b50b99521ad5f47ad75825105f3851f44e89e55f667c23f8c",
+    "ciphertextSha256": "54dfe9c4e0c290c483eb7708e76203e02335c718836f634c747ad37e3c365bfa"
+  }
+}
