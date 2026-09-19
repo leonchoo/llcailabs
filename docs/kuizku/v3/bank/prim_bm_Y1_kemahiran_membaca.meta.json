@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y1_kemahiran_membaca",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "Dfwi151OMeu7UAut",
+    "ciphertextSizeBytes": 1034,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "56ae319d48303bf5aa5ed5e12d03a9e89bfd88ce9c6dbf78c876686c118daf08",
+    "ciphertextSha256": "6551f93a155e059eb8d7365d2f3d47dcff5789936228dceb66731e5bcf2c6af4"
+  }
+}
