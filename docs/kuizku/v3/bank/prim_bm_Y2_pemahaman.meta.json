@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y2_pemahaman",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "jbe5od+wIiB3R5u2",
+    "ciphertextSizeBytes": 1046,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "afc2a132f251aa063306ae0e6d5da26326ae7b97592af223488b79a7200a1e34",
+    "ciphertextSha256": "fdbb4ba35905b95bb80c6636c05627667c7fb05e56f765669ade9c844ad9802f"
+  }
+}
