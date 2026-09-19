@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y4_perbendaharaan_kata",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "rgxIPGDdDJcEFlMh",
+    "ciphertextSizeBytes": 1052,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "7a788ea7c6593950d8d8fe86130c3dd1978d27132472449a2d64623addd2e580",
+    "ciphertextSha256": "4ab6afe505ab6ae5cbdcb8ea6acd0857b88b3ca55f3368f56e4be0a0af5961e7"
+  }
+}
