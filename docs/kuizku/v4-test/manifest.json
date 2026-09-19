@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 3,
+  "bankId": "llcai_kuizku_v4_test",
+  "publisherVersion": 1,
+  "publishedAt": "2026-09-19T09:48:58Z",
+  "publisher": "LLCAI Labs",
+  "supportedLanguages": [
+    "ms"
+  ],
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "keyFetchUrl": null,
+    "ivLength": 12,
+    "tagLength": 16,
+    "note": "Phase 8D V4-TEST INTERNAL PILOT — AES-256-GCM with isolated v4-test-master key. Isolated from V1 (v1-master) and V3 (v3-bm-original-master). contentOrigin=ORIGINAL. License=self_authored. NOT for production distribution. 62 questions total. KuizKu app runtime URL=https://leonchoo.github.io/llcailabs/kuizku/v4-test/."
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "perFileChecksumSha256": true,
+    "manifestSignatureVersion": 0,
+    "manifestSignatureAlgorithm": null,
+    "note": "Phase 8D V4-TEST — integrity SHA-256 only (no PKI signature)."
+  },
+  "bankMetadata": {
+    "examName": null,
+    "paperCode": null,
+    "examStage": null,
+    "publisherNotes": "Phase 8D V4-TEST INTERNAL PILOT — KuizKu Reference → Topic Blueprint → ORIGINAL Question Generation pipeline (Phase 8). 62 ORIGINAL BM questions (Primary Y1-Y5). Tahun 6 = INSUFFICIENT_REFERENCE (not generated). Quality Gate 10/10 PASS. contentOrigin=ORIGINAL. License=self_authored. No official past paper content. No Phase 3.3 reference content. Isolated from V3 production."
+  },
+  "subjectGroups": [
+    {
+      "groupId": "v4-test-bm-original",
+      "examYear": null,
+      "gradeLevel": null,
+      "subjectIds": [
+        "prim_bm_Y1_cerita",
+        "prim_bm_Y1_karangan",
+        "prim_bm_Y2_penjodoh_bilangan",
+        "prim_bm_Y2_tatabahasa",
+        "prim_bm_Y3_cerita",
+        "prim_bm_Y3_karangan",
+        "prim_bm_Y3_kata_hubung",
+        "prim_bm_Y3_tatabahasa",
+        "prim_bm_Y4_karangan",
+        "prim_bm_Y4_penulisan",
+        "prim_bm_Y5_peribahasa",
+        "prim_bm_Y5_simpulan_bahasa"
+      ],
+      "questionCount": 62
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "prim_bm_Y1_cerita",
+      "displayName": {
+        "en": "Tahun 1 Cerita"
+      },
+      "icon": "menu_book",
+      "displayOrder": 159,
+      "file": "prim_bm_Y1_cerita.enc",
+      "metaFile": "prim_bm_Y1_cerita.meta.json",
+      "checksumSha256": "8b0f273f4f758ca7fe66adde16b7d35b3c57b156d7c2f7b995e13daf7e566973",
+      "fileSizeBytes": 8299,
+      "questionCount": 6
+    },
+    {
+      "subjectId": "prim_bm_Y1_karangan",
+      "displayName": {
+        "en": "Tahun 1 Karangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 116,
+      "file": "prim_bm_Y1_karangan.enc",
+      "metaFile": "prim_bm_Y1_karangan.meta.json",
+      "checksumSha256": "febe1335c80ef0f95c916e6734affaa8f6798876a1e38d694022a6a267b71b1b",
+      "fileSizeBytes": 9445,
+      "questionCount": 7
+    },
+    {
+      "subjectId": "prim_bm_Y2_penjodoh_bilangan",
+      "displayName": {
+        "en": "Tahun 2 Penjodoh Bilangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 287,
+      "file": "prim_bm_Y2_penjodoh_bilangan.enc",
+      "metaFile": "prim_bm_Y2_penjodoh_bilangan.meta.json",
+      "checksumSha256": "48a59a6b11afa3a9de7109690d1a3d95869ba7c0c0919c99e85d60d0df37d44d",
+      "fileSizeBytes": 8500,
+      "questionCount": 6
+    },
+    {
+      "subjectId": "prim_bm_Y2_tatabahasa",
+      "displayName": {
+        "en": "Tahun 2 Tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 214,
+      "file": "prim_bm_Y2_tatabahasa.enc",
+      "metaFile": "prim_bm_Y2_tatabahasa.meta.json",
+      "checksumSha256": "80a83cc2ac22ae284eb3b908625aa434026d1d583b6230e983a36b9d24a6d4c3",
+      "fileSizeBytes": 8257,
+      "questionCount": 6
+    },
+    {
+      "subjectId": "prim_bm_Y3_cerita",
+      "displayName": {
+        "en": "Tahun 3 Cerita"
+      },
+      "icon": "menu_book",
+      "displayOrder": 359,
+      "file": "prim_bm_Y3_cerita.enc",
+      "metaFile": "prim_bm_Y3_cerita.meta.json",
+      "checksumSha256": "54dfe9c4e0c290c483eb7708e76203e02335c718836f634c747ad37e3c365bfa",
+      "fileSizeBytes": 5606,
+      "questionCount": 4
+    },
+    {
+      "subjectId": "prim_bm_Y3_karangan",
+      "displayName": {
+        "en": "Tahun 3 Karangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 316,
+      "file": "prim_bm_Y3_karangan.enc",
+      "metaFile": "prim_bm_Y3_karangan.meta.json",
+      "checksumSha256": "3eb0ff709d4713a220c52552e13f44f60db9b2bfbbbb6fa7bbcd64288e51f479",
+      "fileSizeBytes": 4575,
+      "questionCount": 3
+    },
+    {
+      "subjectId": "prim_bm_Y3_kata_hubung",
+      "displayName": {
+        "en": "Tahun 3 Kata Hubung"
+      },
+      "icon": "menu_book",
+      "displayOrder": 344,
+      "file": "prim_bm_Y3_kata_hubung.enc",
+      "metaFile": "prim_bm_Y3_kata_hubung.meta.json",
+      "checksumSha256": "c25797a4a584f5ba021107da7f36c7a1f99440e872928c8de6344cb0413c878e",
+      "fileSizeBytes": 4264,
+      "questionCount": 3
+    },
+    {
+      "subjectId": "prim_bm_Y3_tatabahasa",
+      "displayName": {
+        "en": "Tahun 3 Tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 314,
+      "file": "prim_bm_Y3_tatabahasa.enc",
+      "metaFile": "prim_bm_Y3_tatabahasa.meta.json",
+      "checksumSha256": "193f4a2fe7a8c790905fdaad12bbc029ecb22af8c20b414e5c806f089af12ef0",
+      "fileSizeBytes": 2902,
+      "questionCount": 2
+    },
+    {
+      "subjectId": "prim_bm_Y4_karangan",
+      "displayName": {
+        "en": "Tahun 4 Karangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 416,
+      "file": "prim_bm_Y4_karangan.enc",
+      "metaFile": "prim_bm_Y4_karangan.meta.json",
+      "checksumSha256": "31baa007ee38d76b19be2ef0b8ee435592aae11dbb223899a6874a2c65627e5e",
+      "fileSizeBytes": 8996,
+      "questionCount": 6
+    },
+    {
+      "subjectId": "prim_bm_Y4_penulisan",
+      "displayName": {
+        "en": "Tahun 4 Penulisan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 473,
+      "file": "prim_bm_Y4_penulisan.enc",
+      "metaFile": "prim_bm_Y4_penulisan.meta.json",
+      "checksumSha256": "14ae40ca7134279103278c41af35c9334ba98fb705b8141d1c2ffdfd1d23d874",
+      "fileSizeBytes": 10234,
+      "questionCount": 7
+    },
+    {
+      "subjectId": "prim_bm_Y5_peribahasa",
+      "displayName": {
+        "en": "Tahun 5 Peribahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 506,
+      "file": "prim_bm_Y5_peribahasa.enc",
+      "metaFile": "prim_bm_Y5_peribahasa.meta.json",
+      "checksumSha256": "9e751f35c23fe7370d3f13e050f0475a5d569ac7995427b7f66d1db0fdf92d92",
+      "fileSizeBytes": 9277,
+      "questionCount": 6
+    },
+    {
+      "subjectId": "prim_bm_Y5_simpulan_bahasa",
+      "displayName": {
+        "en": "Tahun 5 Simpulan Bahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 596,
+      "file": "prim_bm_Y5_simpulan_bahasa.enc",
+      "metaFile": "prim_bm_Y5_simpulan_bahasa.meta.json",
+      "checksumSha256": "28b43d3c24549cb3498e509117c3e9b7eda9d84718f8dab9443a1d97111e93d0",
+      "fileSizeBytes": 8824,
+      "questionCount": 6
+    }
+  ],
+  "totalQuestions": 62
+}
