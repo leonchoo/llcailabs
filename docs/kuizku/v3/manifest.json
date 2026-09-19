@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 3,
+  "bankId": "llcai_kuizku_my_v3_bm_original",
+  "publisherVersion": 1,
+  "publishedAt": "2026-09-19T02:51:09Z",
+  "publisher": "LLCAI Labs",
+  "supportedLanguages": [
+    "ms"
+  ],
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "keyFetchUrl": null,
+    "ivLength": 12,
+    "tagLength": 16,
+    "note": "Phase 5 V3 — production ORIGINAL BM bank. keyId=v3-bm-original-master. BankConfig.baseUrl=.../v3/. NOT for redistribution."
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "perFileChecksumSha256": true,
+    "manifestSignatureVersion": 0,
+    "manifestSignatureAlgorithm": null,
+    "note": "Phase 5 V3 — integrity SHA-256 only (no PKI)."
+  },
+  "bankMetadata": {
+    "examName": null,
+    "paperCode": null,
+    "examStage": null,
+    "publisherNotes": "Phase 5 V3 production — ORIGINAL BM authoring, 30/30 HUMAN_APPROVED by 638 (2026-09-19). contentStatus=live. License=self_authored. contentOrigin=ORIGINAL. No official past paper content. No Phase 3.3 reference content."
+  },
+  "subjectGroups": [
+    {
+      "groupId": "kuizku-bm-original-2024",
+      "examYear": null,
+      "gradeLevel": null,
+      "subjectIds": [
+        "prim_bm_Y2_vocabulary",
+        "prim_bm_Y3_grammar",
+        "prim_bm_Y4_imbuhan",
+        "prim_bm_Y4_nilai_murni",
+        "prim_bm_Y5_penjodoh_bilangan",
+        "prim_bm_Y5_sajak",
+        "prim_bm_Y6_bahasa_standard"
+      ],
+      "questionCount": 10
+    },
+    {
+      "groupId": "kuizku-bm-original-2025",
+      "examYear": null,
+      "gradeLevel": null,
+      "subjectIds": [
+        "prim_bm_Y1_kemahiran_membaca",
+        "prim_bm_Y2_penulisan",
+        "prim_bm_Y2_tatabahasa",
+        "prim_bm_Y3_pemahaman",
+        "prim_bm_Y3_tatabahasa",
+        "prim_bm_Y4_karangan",
+        "prim_bm_Y4_simpulan_bahasa",
+        "prim_bm_Y5_peribahasa",
+        "prim_bm_Y5_tatabahasa",
+        "prim_bm_Y6_gaya_bahasa"
+      ],
+      "questionCount": 10
+    },
+    {
+      "groupId": "kuizku-bm-original-2026",
+      "examYear": null,
+      "gradeLevel": null,
+      "subjectIds": [
+        "prim_bm_Y1_vocabulary",
+        "prim_bm_Y2_pemahaman",
+        "prim_bm_Y3_penulisan",
+        "prim_bm_Y3_vocabulary",
+        "prim_bm_Y4_bahasa_lisan",
+        "prim_bm_Y4_perbendaharaan_kata",
+        "prim_bm_Y5_imbuhan",
+        "prim_bm_Y5_nilai_murni",
+        "prim_bm_Y6_karangan",
+        "prim_bm_Y6_tatabahasa"
+      ],
+      "questionCount": 10
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "prim_bm_Y1_kemahiran_membaca",
+      "displayName": {
+        "ms": "BM Tahun1 — kemahiran_membaca",
+        "en": "BM Tahun1 — kemahiran_membaca"
+      },
+      "icon": "menu_book",
+      "displayOrder": 11,
+      "file": "prim_bm_Y1_kemahiran_membaca.enc",
+      "metaFile": "prim_bm_Y1_kemahiran_membaca.meta.json",
+      "checksumSha256": "6551f93a155e059eb8d7365d2f3d47dcff5789936228dceb66731e5bcf2c6af4",
+      "fileSizeBytes": 1034,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y1_vocabulary",
+      "displayName": {
+        "ms": "BM Tahun1 — vocabulary",
+        "en": "BM Tahun1 — vocabulary"
+      },
+      "icon": "menu_book",
+      "displayOrder": 20,
+      "file": "prim_bm_Y1_vocabulary.enc",
+      "metaFile": "prim_bm_Y1_vocabulary.meta.json",
+      "checksumSha256": "3367614aeea1274f790ad07f03b96513bb42c7940fdf9d739c0bf49ff1913e6a",
+      "fileSizeBytes": 963,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y2_pemahaman",
+      "displayName": {
+        "ms": "BM Tahun2 — pemahaman",
+        "en": "BM Tahun2 — pemahaman"
+      },
+      "icon": "menu_book",
+      "displayOrder": 24,
+      "file": "prim_bm_Y2_pemahaman.enc",
+      "metaFile": "prim_bm_Y2_pemahaman.meta.json",
+      "checksumSha256": "fdbb4ba35905b95bb80c6636c05627667c7fb05e56f765669ade9c844ad9802f",
+      "fileSizeBytes": 1046,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y2_penulisan",
+      "displayName": {
+        "ms": "BM Tahun2 — penulisan",
+        "en": "BM Tahun2 — penulisan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 19,
+      "file": "prim_bm_Y2_penulisan.enc",
+      "metaFile": "prim_bm_Y2_penulisan.meta.json",
+      "checksumSha256": "74e105d8e0292e75c7a53fe7bd66fa4a651960c12edd39d4432088508780973f",
+      "fileSizeBytes": 1149,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y2_tatabahasa",
+      "displayName": {
+        "ms": "BM Tahun2 — tatabahasa",
+        "en": "BM Tahun2 — tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 12,
+      "file": "prim_bm_Y2_tatabahasa.enc",
+      "metaFile": "prim_bm_Y2_tatabahasa.meta.json",
+      "checksumSha256": "79852d5f2c937b48371e117cbc2505ecf3fd201dbf4a9a524cbb9ba97dd4850e",
+      "fileSizeBytes": 1144,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y2_vocabulary",
+      "displayName": {
+        "ms": "BM Tahun2 — vocabulary",
+        "en": "BM Tahun2 — vocabulary"
+      },
+      "icon": "menu_book",
+      "displayOrder": 1,
+      "file": "prim_bm_Y2_vocabulary.enc",
+      "metaFile": "prim_bm_Y2_vocabulary.meta.json",
+      "checksumSha256": "76e327f0e81e68613829eb27bbba52bd378eb93a2daf15ffb24a966d0d34d5d8",
+      "fileSizeBytes": 1121,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y3_grammar",
+      "displayName": {
+        "ms": "BM Tahun3 — grammar",
+        "en": "BM Tahun3 — grammar"
+      },
+      "icon": "menu_book",
+      "displayOrder": 2,
+      "file": "prim_bm_Y3_grammar.enc",
+      "metaFile": "prim_bm_Y3_grammar.meta.json",
+      "checksumSha256": "ac8e72deda3ede5523532a13f0be16eb6304db8b777bb7099ff2e9596beea82d",
+      "fileSizeBytes": 1249,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y3_pemahaman",
+      "displayName": {
+        "ms": "BM Tahun3 — pemahaman",
+        "en": "BM Tahun3 — pemahaman"
+      },
+      "icon": "menu_book",
+      "displayOrder": 13,
+      "file": "prim_bm_Y3_pemahaman.enc",
+      "metaFile": "prim_bm_Y3_pemahaman.meta.json",
+      "checksumSha256": "35ab6d9913706cfab022746540a1c6d2fba3d0aa6fb60b6d8f6c4c9b03f5e306",
+      "fileSizeBytes": 1249,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y3_penulisan",
+      "displayName": {
+        "ms": "BM Tahun3 — penulisan",
+        "en": "BM Tahun3 — penulisan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 21,
+      "file": "prim_bm_Y3_penulisan.enc",
+      "metaFile": "prim_bm_Y3_penulisan.meta.json",
+      "checksumSha256": "6e5b08f142150b357ed37e8679258b223599021533b699a9f8fb762bf4900956",
+      "fileSizeBytes": 1241,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y3_tatabahasa",
+      "displayName": {
+        "ms": "BM Tahun3 — tatabahasa",
+        "en": "BM Tahun3 — tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 17,
+      "file": "prim_bm_Y3_tatabahasa.enc",
+      "metaFile": "prim_bm_Y3_tatabahasa.meta.json",
+      "checksumSha256": "d79aef3bf78c6b4563b50c646f29e0391b392f36e80d0ed62bdc66e736903172",
+      "fileSizeBytes": 1028,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y3_vocabulary",
+      "displayName": {
+        "ms": "BM Tahun3 — vocabulary",
+        "en": "BM Tahun3 — vocabulary"
+      },
+      "icon": "menu_book",
+      "displayOrder": 6,
+      "file": "prim_bm_Y3_vocabulary.enc",
+      "metaFile": "prim_bm_Y3_vocabulary.meta.json",
+      "checksumSha256": "4889e138a3ea0b5857bf4e48fd46d643a1c77fc9aefb238e555745e4439be27f",
+      "fileSizeBytes": 1877,
+      "questionCount": 2
+    },
+    {
+      "subjectId": "prim_bm_Y4_bahasa_lisan",
+      "displayName": {
+        "ms": "BM Tahun4 — bahasa_lisan",
+        "en": "BM Tahun4 — bahasa_lisan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 27,
+      "file": "prim_bm_Y4_bahasa_lisan.enc",
+      "metaFile": "prim_bm_Y4_bahasa_lisan.meta.json",
+      "checksumSha256": "0e9abbc1b9af2b379dfd589c6678c925e16e640136a4410d26288db9c46f323c",
+      "fileSizeBytes": 1219,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y4_imbuhan",
+      "displayName": {
+        "ms": "BM Tahun4 — imbuhan",
+        "en": "BM Tahun4 — imbuhan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 5,
+      "file": "prim_bm_Y4_imbuhan.enc",
+      "metaFile": "prim_bm_Y4_imbuhan.meta.json",
+      "checksumSha256": "e1f2bd34a0fe3f61af3731e71a4ac14faeb3ba8c031f0c6d8c9f082e51dc255b",
+      "fileSizeBytes": 1209,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y4_karangan",
+      "displayName": {
+        "ms": "BM Tahun4 — karangan",
+        "en": "BM Tahun4 — karangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 14,
+      "file": "prim_bm_Y4_karangan.enc",
+      "metaFile": "prim_bm_Y4_karangan.meta.json",
+      "checksumSha256": "a7d0cde86e485011c2a730bf65982bd66d7c244330ecc135b326bf5976089494",
+      "fileSizeBytes": 1280,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y4_nilai_murni",
+      "displayName": {
+        "ms": "BM Tahun4 — nilai_murni",
+        "en": "BM Tahun4 — nilai_murni"
+      },
+      "icon": "menu_book",
+      "displayOrder": 9,
+      "file": "prim_bm_Y4_nilai_murni.enc",
+      "metaFile": "prim_bm_Y4_nilai_murni.meta.json",
+      "checksumSha256": "f03f0ccdfa99708ba81bc9127ab7eb2f23f5baa0221439d960502fc1d426049c",
+      "fileSizeBytes": 1231,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y4_perbendaharaan_kata",
+      "displayName": {
+        "ms": "BM Tahun4 — perbendaharaan_kata",
+        "en": "BM Tahun4 — perbendaharaan_kata"
+      },
+      "icon": "menu_book",
+      "displayOrder": 23,
+      "file": "prim_bm_Y4_perbendaharaan_kata.enc",
+      "metaFile": "prim_bm_Y4_perbendaharaan_kata.meta.json",
+      "checksumSha256": "4ab6afe505ab6ae5cbdcb8ea6acd0857b88b3ca55f3368f56e4be0a0af5961e7",
+      "fileSizeBytes": 1052,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y4_simpulan_bahasa",
+      "displayName": {
+        "ms": "BM Tahun4 — simpulan_bahasa",
+        "en": "BM Tahun4 — simpulan_bahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 3,
+      "file": "prim_bm_Y4_simpulan_bahasa.enc",
+      "metaFile": "prim_bm_Y4_simpulan_bahasa.meta.json",
+      "checksumSha256": "9bdac2d31865c5588d27e302636f0f0b83edb547ae30f3dbeeac2ca995a0862e",
+      "fileSizeBytes": 2378,
+      "questionCount": 2
+    },
+    {
+      "subjectId": "prim_bm_Y5_imbuhan",
+      "displayName": {
+        "ms": "BM Tahun5 — imbuhan",
+        "en": "BM Tahun5 — imbuhan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 22,
+      "file": "prim_bm_Y5_imbuhan.enc",
+      "metaFile": "prim_bm_Y5_imbuhan.meta.json",
+      "checksumSha256": "8c8200f30935d84ee23357c8eb80c224482d42b2dca4d9402124e733820ea527",
+      "fileSizeBytes": 1099,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y5_nilai_murni",
+      "displayName": {
+        "ms": "BM Tahun5 — nilai_murni",
+        "en": "BM Tahun5 — nilai_murni"
+      },
+      "icon": "menu_book",
+      "displayOrder": 25,
+      "file": "prim_bm_Y5_nilai_murni.enc",
+      "metaFile": "prim_bm_Y5_nilai_murni.meta.json",
+      "checksumSha256": "4b19fee1542e449e62e485a1ba1535e4b611595fefd71d5d812855405a9244d2",
+      "fileSizeBytes": 1271,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y5_penjodoh_bilangan",
+      "displayName": {
+        "ms": "BM Tahun5 — penjodoh_bilangan",
+        "en": "BM Tahun5 — penjodoh_bilangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 4,
+      "file": "prim_bm_Y5_penjodoh_bilangan.enc",
+      "metaFile": "prim_bm_Y5_penjodoh_bilangan.meta.json",
+      "checksumSha256": "a07a9ea438c96094ba1766999685e2237d6a463232311b59f3c60703c5420fe0",
+      "fileSizeBytes": 1147,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y5_peribahasa",
+      "displayName": {
+        "ms": "BM Tahun5 — peribahasa",
+        "en": "BM Tahun5 — peribahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 15,
+      "file": "prim_bm_Y5_peribahasa.enc",
+      "metaFile": "prim_bm_Y5_peribahasa.meta.json",
+      "checksumSha256": "c115ade1b8755b7bff7379933ef9f539cb435d179ba30d14ee0879f28400bd01",
+      "fileSizeBytes": 1214,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y5_sajak",
+      "displayName": {
+        "ms": "BM Tahun5 — sajak",
+        "en": "BM Tahun5 — sajak"
+      },
+      "icon": "menu_book",
+      "displayOrder": 8,
+      "file": "prim_bm_Y5_sajak.enc",
+      "metaFile": "prim_bm_Y5_sajak.meta.json",
+      "checksumSha256": "f2c6f032006422d04bc84f7acccf06754186f960cb0cb2e8a00049e4027e5ecf",
+      "fileSizeBytes": 1069,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y5_tatabahasa",
+      "displayName": {
+        "ms": "BM Tahun5 — tatabahasa",
+        "en": "BM Tahun5 — tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 18,
+      "file": "prim_bm_Y5_tatabahasa.enc",
+      "metaFile": "prim_bm_Y5_tatabahasa.meta.json",
+      "checksumSha256": "25678476220e715aacdf72c4850f3549921cdd0a00b45b263cf0c5ae897bc6c9",
+      "fileSizeBytes": 1201,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y6_bahasa_standard",
+      "displayName": {
+        "ms": "BM Tahun6 — bahasa_standard",
+        "en": "BM Tahun6 — bahasa_standard"
+      },
+      "icon": "menu_book",
+      "displayOrder": 10,
+      "file": "prim_bm_Y6_bahasa_standard.enc",
+      "metaFile": "prim_bm_Y6_bahasa_standard.meta.json",
+      "checksumSha256": "6daeeff4ffe2e99764b1d45ea822f1534eccb482f58fc0f6f49941049cc5ed3e",
+      "fileSizeBytes": 1175,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y6_gaya_bahasa",
+      "displayName": {
+        "ms": "BM Tahun6 — gaya_bahasa",
+        "en": "BM Tahun6 — gaya_bahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 16,
+      "file": "prim_bm_Y6_gaya_bahasa.enc",
+      "metaFile": "prim_bm_Y6_gaya_bahasa.meta.json",
+      "checksumSha256": "fc03642a206767c597c5b3b521d695abb0f6a5033c108eb396cdc08575e38deb",
+      "fileSizeBytes": 1155,
+      "questionCount": 1
+    },
+    {
+      "subjectId": "prim_bm_Y6_karangan",
+      "displayName": {
+        "ms": "BM Tahun6 — karangan",
+        "en": "BM Tahun6 — karangan"
+      },
+      "icon": "menu_book",
+      "displayOrder": 7,
+      "file": "prim_bm_Y6_karangan.enc",
+      "metaFile": "prim_bm_Y6_karangan.meta.json",
+      "checksumSha256": "f567f3569b29c5a90a898d43eec32bafe32ecdd122ae76d4bf296063f19a6aa4",
+      "fileSizeBytes": 2545,
+      "questionCount": 2
+    },
+    {
+      "subjectId": "prim_bm_Y6_tatabahasa",
+      "displayName": {
+        "ms": "BM Tahun6 — tatabahasa",
+        "en": "BM Tahun6 — tatabahasa"
+      },
+      "icon": "menu_book",
+      "displayOrder": 26,
+      "file": "prim_bm_Y6_tatabahasa.enc",
+      "metaFile": "prim_bm_Y6_tatabahasa.meta.json",
+      "checksumSha256": "ee6ed2f780a928eb8d27aff9d89b1737d7b87145326cc562be62601637d5021b",
+      "fileSizeBytes": 1112,
+      "questionCount": 1
+    }
+  ],
+  "totalQuestions": 30,
+  "note": "Phase 5 V3 production bank — 30 ORIGINAL BM questions 638 HUMAN_APPROVED. contentOrigin=ORIGINAL. No B-class authoring metadata leaked."
+}
