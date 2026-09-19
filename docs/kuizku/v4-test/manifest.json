@@ -10,7 +10,7 @@
   "encryption": {
     "algorithm": "AES-256-GCM",
     "keyVersion": 1,
-    "keyId": "wrong-key-id-not-allowed",
+    "keyId": "v4-test-master",
     "keyFetchUrl": null,
     "ivLength": 12,
     "tagLength": 16,
