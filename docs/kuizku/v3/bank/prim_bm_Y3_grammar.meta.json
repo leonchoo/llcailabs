@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y3_grammar",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "wR4VYaAlQkVF1vvR",
+    "ciphertextSizeBytes": 1249,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "7837689d7b4d0749f93e3180125b6a5aed1e72d0c90140d15867763a620ec10c",
+    "ciphertextSha256": "ac8e72deda3ede5523532a13f0be16eb6304db8b777bb7099ff2e9596beea82d"
+  }
+}
