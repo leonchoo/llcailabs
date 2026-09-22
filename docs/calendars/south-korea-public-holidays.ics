@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:South Korea Public Holidays
+X-WR-CALDESC:South Korean public holidays for 2026 (including new 2026 Labor Day and Constitution Day, plus substitute holidays), maintained by LLCAI Labs from the Act on Public Holidays and the Ministry of Personnel Management.
+X-WR-TIMEZONE:Asia/Seoul
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day (Sinjeong)
+DESCRIPTION:Source: Act on Public Holidays (대한민국 관공서의 공휴일에 관한 규정), MOPM. Type: statutory public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260216
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Seollal Day 1 (Lunar New Year)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory Lunar New Year holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Seollal Day 2 (Lunar New Year)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory Lunar New Year holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260218
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Seollal Day 3 (Lunar New Year)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory Lunar New Year holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260301
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:Independence Movement Day (Samiljeol)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory national holiday (Sunday; substitute 2 Mar).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260302
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+SUMMARY:Substitute for Independence Movement Day
+DESCRIPTION:Source: Act on Public Holidays. Type: substitute holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labor Day (Nodongjeol)
+DESCRIPTION:Source: Act on Public Holidays, amended 2026. NEW statutory public holiday. Note: Labor Day is NOT subject to the substitute-holiday rule.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260505
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Children's Day (Eorininal)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260524
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Buddha's Birthday (Bucheonim Osin Nal)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory Buddhist holiday (Sunday; substitute 25 May).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260525
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Substitute for Buddha's Birthday
+DESCRIPTION:Source: Act on Public Holidays. Type: substitute holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260606
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Memorial Day (Hyeonchungil)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory public holiday. Note: Memorial Day is NOT subject to the substitute-holiday rule.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260717
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Constitution Day (Jeheonjeol)
+DESCRIPTION:Source: Act on Public Holidays, amended 2026. NEW statutory public holiday from 2026.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260815
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Liberation Day (Gwangbokjeol)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory national holiday (Saturday; substitute 17 Aug).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20260817
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Substitute for Liberation Day
+DESCRIPTION:Source: Act on Public Holidays. Type: substitute holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20261003
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:National Foundation Day (Gaecheonjeol)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory national holiday (Saturday; substitute 5 Oct).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20261005
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Substitute for National Foundation Day
+DESCRIPTION:Source: Act on Public Holidays. Type: substitute holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20261009
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Hangul Day (Hangeulnal)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory national holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-south-korea-public-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day (Gidoktansinil)
+DESCRIPTION:Source: Act on Public Holidays. Type: statutory public holiday. Note: Christmas is NOT subject to the substitute-holiday rule.
+END:VEVENT
+END:VCALENDAR

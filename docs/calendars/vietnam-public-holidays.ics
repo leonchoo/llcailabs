@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vietnam Public Holidays
+X-WR-CALDESC:Vietnamese statutory public holidays and officially designated public-sector holidays for 2026, maintained by LLCAI Labs from MOH Dispatch 9441/TB-BNV and National Assembly Resolution on Culture Day.
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:International New Year's Day
+DESCRIPTION:Source: Ministry of Home Affairs (MOH) Dispatch 9441/TB-BNV. Type: statutory public holiday (1 day).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260216
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Tet Holiday - Day 1
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Official 5-day Tết holiday period (16-20 Feb 2026). Wider public-sector break included adjacent weekend days (14-15, 21-22 Feb) which are not listed.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Tet Holiday - Day 2
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Official 5-day Tết holiday period (16-20 Feb 2026).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260218
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Tet Holiday - Day 3
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Official 5-day Tết holiday period (16-20 Feb 2026).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260219
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+SUMMARY:Tet Holiday - Day 4
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Official 5-day Tết holiday period (16-20 Feb 2026).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260220
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+SUMMARY:Tet Holiday - Day 5
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Official 5-day Tết holiday period (16-20 Feb 2026).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260427
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:Hung Kings' Commemoration Day (substitute)
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Statutory Hung Kings Day (10th day of 3rd lunar month) falls Sunday 26 Apr; compensated to Monday 27 Apr.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260430
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Reunification Day
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Type: statutory public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:International Labour Day
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Type: statutory public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260901
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:National Day Holiday (official public-sector arrangement)
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. 1 Sep is the official public-sector arrangement adjacent to National Day; adjacent weekend days 5-6 Sep are regular weekends and not listed.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20260902
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:National Day
+DESCRIPTION:Source: MOH Dispatch 9441/TB-BNV. Type: statutory public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-vietnam-public-holidays-20261124
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Vietnam Culture Day (Ngy Vn ha Vit Nam)
+DESCRIPTION:Source: National Assembly Resolution (effective 1 July 2026), Resolution 80-NQ/TW. New 2026 statutory paid public holiday; workers receive full pay.
+END:VEVENT
+END:VCALENDAR

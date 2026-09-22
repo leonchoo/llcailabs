@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Malaysia Public Holidays (Federal/National)
+X-WR-CALDESC:Malaysian federal/national public holidays for 2026, maintained by LLCAI Labs from the Ministry of Foreign Affairs (KLN) official federal list. State-level holidays are excluded.
+X-WR-TIMEZONE:Asia/Kuala_Lumpur
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: Ministry of Foreign Affairs Malaysia (KLN) federal holiday list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Chinese New Year (Day 1)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260218
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Chinese New Year (Day 2)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260321
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:Hari Raya Aidilfitri (Day 1)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260322
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:Hari Raya Aidilfitri (Day 2)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labour Day
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260527
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Hari Raya Aidiladha
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260601
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Wesak Day / Yang di-Pertuan Agong's Birthday
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260617
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:Awal Muharram (Islamic New Year)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260825
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Maulidur Rasul (Birthday of the Prophet Muhammad)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260831
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:National Day (Hari Merdeka)
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20260916
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Malaysia Day
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20261108
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Deepavali
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-malaysia-federal-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: KLN federal list 2026. Scope: nationwide federal public holiday. State-level holidays excluded.
+END:VEVENT
+END:VCALENDAR

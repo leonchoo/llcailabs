@@ -1,0 +1,290 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Japan National Holidays
+X-WR-CALDESC:Japanese national holidays (国民の祝日) and statutory holidays (休日) maintained by LLCAI Labs from the Cabinet Office.
+X-WR-TIMEZONE:Asia/Tokyo
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day (元日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan (https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html). Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260112
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:Coming of Age Day (成人の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260211
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+SUMMARY:National Foundation Day (建国記念の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260223
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:Emperor's Birthday (天皇誕生日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260320
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Vernal Equinox (春分の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260429
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:Showa Day (昭和の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260503
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Constitution Memorial Day (憲法記念日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260504
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260505
+SUMMARY:Greenery Day (みどりの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260505
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Children's Day (こどもの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260506
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:Citizens' Holiday (国民の休日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 休日 (Act on National Holidays, Article 3 Paragraph 3 - sandwiched between two national holidays).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260720
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:Marine Day (海の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260811
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Mountain Day (山の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260921
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Respect for the Aged Day (敬老の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260922
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Citizens' Holiday (国民の休日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 休日 (Act on National Holidays, Article 3 Paragraph 3 - sandwiched between Respect for the Aged Day and Autumnal Equinox).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20260923
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Autumnal Equinox (秋分の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20261012
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Sports Day (スポーツの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20261103
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Culture Day (文化の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20261123
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Labor Thanksgiving Day (勤労感謝の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day (元日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270111
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Coming of Age Day (成人の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270211
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:National Foundation Day (建国記念の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270223
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Emperor's Birthday (天皇誕生日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270321
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Vernal Equinox (春分の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270322
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Substitute Holiday (振替休日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 休日 (Act on National Holidays, Article 3 Paragraph 2 - substitute for Vernal Equinox which falls on Sunday).
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270429
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Showa Day (昭和の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270503
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Constitution Memorial Day (憲法記念日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270504
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Greenery Day (みどりの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270505
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Children's Day (こどもの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270719
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:Marine Day (海の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270811
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Mountain Day (山の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270920
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270921
+SUMMARY:Respect for the Aged Day (敬老の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20270923
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:Autumnal Equinox (秋分の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20271011
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Sports Day (スポーツの日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20271103
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:Culture Day (文化の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-japan-national-holidays-20271123
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
+SUMMARY:Labor Thanksgiving Day (勤労感謝の日)
+DESCRIPTION:Source: Cabinet Office, Government of Japan. Type: 国民の祝日.
+END:VEVENT
+END:VCALENDAR

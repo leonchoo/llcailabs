@@ -281,76 +281,76 @@ const CALENDARS = [
         slug: "us-federal-holidays", status: "VERIFIED"
     },
 
-    // ---- NEEDS_REVIEW ----
+    // ---- VERIFIED (Phase 3-D, added 2026-09-22) ----
     {
-        flag: "🇲🇾", name: "Malaysia Public Holidays", country: "Malaysia",
-        category: "Public Holidays",
-        desc: "National and state public holidays. State-by-state coverage still being verified.",
-        sourceUrl: "https://www.malaysia.gov.my/en/calendar",
-        source: "Malaysian Government / KLN",
-        license: "Reference only",
+        flag: "🇯🇵", name: "Japan National Holidays", country: "Japan",
+        category: "National Holidays",
+        desc: "国民の祝日 (national holidays) and legally defined 休日 (振替休日 / 国民の休日), 2026–2027. 35 events.",
+        sourceUrl: "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+        source: "Cabinet Office, Government of Japan",
+        license: "Japanese Government public information",
         verified: "2026-09-22",
-        slug: "malaysia-public-holidays", status: "NEEDS_REVIEW"
+        slug: "japan-national-holidays", status: "VERIFIED"
     },
     {
-        flag: "🇮🇩", name: "Indonesia Public Holidays", country: "Indonesia",
+        flag: "🇹🇭", name: "Thailand Nationwide Holidays & Special Holidays", country: "Thailand",
         category: "Public Holidays",
-        desc: "Hari libur nasional dan cuti bersama (SKB 3 Menteri).",
-        sourceUrl: "https://www.setneg.go.id/",
-        source: "Sekretariat Negara / Kemenko PMK",
-        license: "Reference only",
+        desc: "Nationwide public holidays, nationwide substitutes, and nationwide special holidays for 2026. 22 events. Bangkok-only and financial-institution-only holidays are excluded.",
+        sourceUrl: "https://image.mfa.go.th/mfa/0/mkKfL2iULZ/Dip_List_March_2026/March_2026.pdf",
+        source: "Royal Thai Government / Ministry of Foreign Affairs",
+        license: "Thai Government public information",
         verified: "2026-09-22",
-        slug: "indonesia-public-holidays", status: "NEEDS_REVIEW"
-    },
-    {
-        flag: "🇹🇭", name: "Thailand Public Holidays", country: "Thailand",
-        category: "Public Holidays",
-        desc: "Thai national holidays (B.E. calendar).",
-        sourceUrl: "https://www.thaigov.go.th/",
-        source: "Royal Thai Government / MFA",
-        license: "Reference only",
-        verified: "2026-09-22",
-        slug: "thailand-public-holidays", status: "NEEDS_REVIEW"
-    },
-    {
-        flag: "🇵🇭", name: "Philippines Public Holidays", country: "Philippines",
-        category: "Public Holidays",
-        desc: "Regular and special non-working days, plus Islamic holidays by proclamation.",
-        sourceUrl: "https://www.officialgazette.gov.ph/nationwide-holidays/2026/",
-        source: "Official Gazette / Malacañang",
-        license: "Reference only",
-        verified: "2026-09-22",
-        slug: "philippines-public-holidays", status: "NEEDS_REVIEW"
+        slug: "thailand-nationwide-holidays", status: "VERIFIED"
     },
     {
         flag: "🇻🇳", name: "Vietnam Public Holidays", country: "Vietnam",
         category: "Public Holidays",
-        desc: "Vietnamese national holidays and compensatory leave.",
+        desc: "Statutory public holidays and official public-sector arrangements for 2026 (including the new Vietnam Culture Day on 24 Nov). 12 events.",
         sourceUrl: "https://en.baochinhphu.vn/",
         source: "Vietnam Government Portal / Ministry of Home Affairs",
-        license: "Reference only",
+        license: "Vietnamese Government public information",
         verified: "2026-09-22",
-        slug: "vietnam-public-holidays", status: "NEEDS_REVIEW"
+        slug: "vietnam-public-holidays", status: "VERIFIED"
     },
     {
-        flag: "🇯🇵", name: "Japan Public Holidays", country: "Japan",
+        flag: "🇲🇾", name: "Malaysia Public Holidays (Federal/National)", country: "Malaysia",
         category: "Public Holidays",
-        desc: "国民の祝日 (national holidays).",
-        sourceUrl: "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-        source: "Cabinet Office (内閣府)",
-        license: "Reference only",
+        desc: "Federal/national public holidays for 2026. 14 events. State-level holidays (Johor, Selangor, Sabah, Sarawak, etc.) are excluded.",
+        sourceUrl: "https://www.kln.gov.my/",
+        source: "Ministry of Foreign Affairs Malaysia (KLN)",
+        license: "Malaysian Government public information",
         verified: "2026-09-22",
-        slug: "japan-public-holidays", status: "NEEDS_REVIEW"
+        slug: "malaysia-federal-holidays", status: "VERIFIED"
     },
     {
         flag: "🇰🇷", name: "South Korea Public Holidays", country: "South Korea",
         category: "Public Holidays",
-        desc: "Korean national holidays (공휴일).",
-        sourceUrl: "https://www.korea.kr/",
-        source: "Republic of Korea Government",
-        license: "Reference only",
+        desc: "Korean public holidays for 2026 (공휴일), including the new Labor Day (1 May) and Constitution Day (17 Jul), plus applicable substitute holidays. 18 events.",
+        sourceUrl: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=240404",
+        source: "Ministry of Personnel Management / Korean Law Information Center",
+        license: "Republic of Korea public information",
         verified: "2026-09-22",
-        slug: "south-korea-public-holidays", status: "NEEDS_REVIEW"
+        slug: "south-korea-public-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇮🇩", name: "Indonesia National Holidays (Hari Libur Nasional)", country: "Indonesia",
+        category: "Public Holidays",
+        desc: "17 Hari Libur Nasional for 2026 per the SKB 3 Menteri. 17 events. Cuti Bersama (collective leave bridges) are excluded.",
+        sourceUrl: "https://www.kemenkopmk.go.id/",
+        source: "Kemenko PMK / SKB 3 Menteri",
+        license: "Indonesian Government public information",
+        verified: "2026-09-22",
+        slug: "indonesia-national-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇵🇭", name: "Philippines Public Holidays", country: "Philippines",
+        category: "Public Holidays",
+        desc: "Regular Holidays + nationwide Special Non-Working Days for 2026 per Proclamation No. 1006 and subsequent proclamations. 20 events. Local/city/municipal holidays and Special Working Days are excluded.",
+        sourceUrl: "https://www.officialgazette.gov.ph/nationwide-holidays/2026/",
+        source: "Official Gazette / Malacañang",
+        license: "Philippine Government public information",
+        verified: "2026-09-22",
+        slug: "philippines-public-holidays", status: "VERIFIED"
     }
 ];
 

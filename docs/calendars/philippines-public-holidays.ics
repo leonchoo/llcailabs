@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Philippines Public Holidays
+X-WR-CALDESC:Philippine national public holidays for 2026 (Regular Holidays + nationwide Special Non-Working Days), maintained by LLCAI Labs from Proclamation No. 1006 and subsequent proclamations. Local/city/municipal holidays and Special Working Days are excluded.
+X-WR-TIMEZONE:Asia/Manila
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: Proclamation No. 1006 (2025), Official Gazette of the Philippines. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Chinese New Year
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260320
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Eid'l Fitr
+DESCRIPTION:Source: Proclamation No. 1189. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260402
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:Maundy Thursday
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260403
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Good Friday
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260404
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Black Saturday
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260409
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+SUMMARY:Araw ng Kagitingan (Day of Valor)
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labor Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260527
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Eid'l Adha
+DESCRIPTION:Source: Proclamation No. 1264. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260612
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Independence Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260821
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:Ninoy Aquino Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20260831
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:National Heroes Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:All Saints' Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261102
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:All Souls' Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261130
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Bonifacio Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261208
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Feast of the Immaculate Conception
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261224
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Christmas Eve
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261230
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Rizal Day
+DESCRIPTION:Source: Proclamation No. 1006. Type: Regular Holiday.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-philippines-public-holidays-20261231
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Last Day of the Year
+DESCRIPTION:Source: Proclamation No. 1006. Type: Nationwide Special Non-Working Day. Local/city/municipal holidays and Special Working Days excluded.
+END:VEVENT
+END:VCALENDAR

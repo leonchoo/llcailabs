@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indonesia National Holidays (Hari Libur Nasional)
+X-WR-CALDESC:Indonesian national public holidays (Hari Libur Nasional) for 2026, maintained by LLCAI Labs from the SKB 3 Menteri (Kemenko PMK). Cuti Bersama (collective leave bridges) are excluded.
+X-WR-TIMEZONE:Asia/Jakarta
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:Tahun Baru Masehi (New Year's Day)
+DESCRIPTION:Source: SKB 3 Menteri (Kemenko PMK) Libur Nasional 2026. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260116
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:Isra Mikraj
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Tahun Baru Imlek (Chinese New Year)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260319
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:Hari Suci Nyepi (Day of Silence)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260321
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:Hari Raya Idul Fitri (Day 1)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260322
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:Hari Raya Idul Fitri (Day 2)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260403
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Wafat Isa Almasih (Good Friday)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260405
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:Paskah (Easter)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Hari Buruh (Labour Day)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260514
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:Kenaikan Isa Almasih (Ascension Day)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260527
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Hari Raya Idul Adha
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260531
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Hari Raya Waisak
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260601
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Hari Lahir Pancasila (Pancasila Day)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260616
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Tahun Baru Islam (1 Muharram)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260817
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Hari Kemerdekaan (Independence Day)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20260825
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Maulid Nabi Muhammad
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-indonesia-national-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Hari Raya Natal (Christmas)
+DESCRIPTION:Source: SKB 3 Menteri. Type: Hari Libur Nasional. Cuti Bersama (collective leave bridges) are excluded.
+END:VEVENT
+END:VCALENDAR
