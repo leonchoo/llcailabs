@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.llcailabs.agecalculator",
+      "sha256_cert_fingerprints": [
+        "12:A4:6D:63:F1:82:E5:4C:80:A6:34:42:D1:11:55:BA:42:61:40:DC:5E:74:C9:0C:5B:CB:12:2C:91:8D:F1:30"
+      ]
+    }
+  }
+]
