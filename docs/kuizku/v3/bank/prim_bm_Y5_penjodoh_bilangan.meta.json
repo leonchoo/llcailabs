@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y5_penjodoh_bilangan",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "8mPBoh3AaTH7P9/L",
+    "ciphertextSizeBytes": 1147,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "e57fea11d26437ec1d84c5a3ef6c6281b2f32c0718f0eb6a4010ec59fb345227",
+    "ciphertextSha256": "a07a9ea438c96094ba1766999685e2237d6a463232311b59f3c60703c5420fe0"
+  }
+}

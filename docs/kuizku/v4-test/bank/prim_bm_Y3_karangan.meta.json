@@ -1,0 +1,17 @@
+{
+  "subjectId": "prim_bm_Y3_karangan",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "nonce": "Hi331EsSrVYSL0DA",
+    "ciphertextSizeBytes": 4880,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "3e53a97440cd21628b1adf197682cba892d51aa5de5577b79338105fb16f3f67",
+    "ciphertextSha256": "f959d0de9f1e65a9f668e3b28eaf53c6a5d3845ac6bd8bdcdb2631b25f1b3fc0"
+  }
+}

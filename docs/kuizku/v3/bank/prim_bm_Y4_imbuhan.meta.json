@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y4_imbuhan",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "/N6yIuv8qJvdjVd9",
+    "ciphertextSizeBytes": 1209,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "8361892dc10910301e2dc51f20c8a8f5c9587bb2a66d4c981a032b6ee2682766",
+    "ciphertextSha256": "e1f2bd34a0fe3f61af3731e71a4ac14faeb3ba8c031f0c6d8c9f082e51dc255b"
+  }
+}

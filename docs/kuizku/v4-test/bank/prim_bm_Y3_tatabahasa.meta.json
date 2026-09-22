@@ -1,0 +1,17 @@
+{
+  "subjectId": "prim_bm_Y3_tatabahasa",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "nonce": "8Oqc/qQzXbXLEV+m",
+    "ciphertextSizeBytes": 3364,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "2aeb45938b90900cdd19f7a10a7c1c49f6859fb3923b92dbd77fae47f5a6c873",
+    "ciphertextSha256": "3a8ffcb73739c9cda089d03afa7f38fa6a8525eb27e5395af42bebd263b2f749"
+  }
+}

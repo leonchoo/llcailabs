@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y4_nilai_murni",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "bCYImom9p9DorP1t",
+    "ciphertextSizeBytes": 1231,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "b84c27405e07bc39a27bd0502dab6717eb39098e49756ce9e6de7edbbc8c75dc",
+    "ciphertextSha256": "f03f0ccdfa99708ba81bc9127ab7eb2f23f5baa0221439d960502fc1d426049c"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y6_gaya_bahasa",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "OF1KibdT40RSik3i",
+    "ciphertextSizeBytes": 1155,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "3b47912216fc798bcf1aa45076c96d2a2dc7ff35896fdf42405071dd8a405de1",
+    "ciphertextSha256": "fc03642a206767c597c5b3b521d695abb0f6a5033c108eb396cdc08575e38deb"
+  }
+}

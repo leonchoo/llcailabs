@@ -1,0 +1,17 @@
+{
+  "subjectId": "prim_bm_Y5_peribahasa",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "nonce": "yQAzAf6qiqK2x2it",
+    "ciphertextSizeBytes": 11143,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "ac7359e4fa5d260f9e4d36ed9495102b42936ce09abdd25bc35b936840704bcc",
+    "ciphertextSha256": "8b8cbaf926e58aaa0543dca8f30082ee39eab6e033de366aad53b0e65bbc6110"
+  }
+}

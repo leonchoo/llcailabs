@@ -1,0 +1,17 @@
+{
+  "subjectId": "prim_bm_Y3_kata_hubung",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-test-master",
+    "nonce": "n7qjNc79IVg4qneS",
+    "ciphertextSizeBytes": 5525,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "e6dba1177b9aee9a21ef1113351f6d61652d4c570320ea9c967a47bf4ece71ff",
+    "ciphertextSha256": "0ea6facd23e6e01158925a42c065fae38650311cca7794c3d148964d6e9db76c"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "bankId": "llcai_kuizku_v1",
+  "publisherVersion": 1,
+  "publishedAt": "2026-09-13T01:08:58.743546800Z",
+  "publisher": "LLCAI Labs",
+  "supportedLanguages": ["en"],
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v1-master",
+    "keyFetchUrl": null,
+    "ivLength": 12,
+    "tagLength": 16,
+    "note": "Phase 2C V1 — hardcoded key in :app BuildConfig via local.properties"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "perFileChecksumSha256": true,
+    "manifestSignatureVersion": 0,
+    "manifestSignatureAlgorithm": null,
+    "note": "Phase 2C V1 — no PKI signature; integrity is SHA-256 only"
+  },
+  "subjects": [
+    {
+      "subjectId": "eng_vocab",
+      "displayName": { "en": "English Vocabulary" },
+      "icon": "menu_book",
+      "displayOrder": 2,
+      "file": "english-vocabulary.enc",
+      "metaFile": "english-vocabulary.meta.json",
+      "checksumSha256": "80ca05cfe3b04b0826d3f5ae201d41af1b52225225848f6b350b61345f520a78",
+      "fileSizeBytes": 4658,
+      "questionCount": 13
+    },
+    {
+      "subjectId": "gen_know",
+      "displayName": { "en": "General Knowledge" },
+      "icon": "menu_book",
+      "displayOrder": 1,
+      "file": "general-knowledge.enc",
+      "metaFile": "general-knowledge.meta.json",
+      "checksumSha256": "1ab93668ac5e44ed7715f6741fac90e5d85c444ccdb6e9b56426272de79d3d39",
+      "fileSizeBytes": 4606,
+      "questionCount": 12
+    }
+  ],
+  "totalQuestions": 25
+}

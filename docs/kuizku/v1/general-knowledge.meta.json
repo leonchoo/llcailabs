@@ -1,0 +1,17 @@
+{
+  "subjectId": "gen_know",
+  "schemaVersion": 1,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v1-master",
+    "nonce": "+cm8vbV0FnIuTuEL",
+    "ciphertextSizeBytes": 4606,
+    "ivLength": 12,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "1d50a49fd37f76258a51f8b3195bf6bdb917377e40ccc3a33da37357b1fa5393",
+    "ciphertextSha256": "1ab93668ac5e44ed7715f6741fac90e5d85c444ccdb6e9b56426272de79d3d39"
+  }
+}

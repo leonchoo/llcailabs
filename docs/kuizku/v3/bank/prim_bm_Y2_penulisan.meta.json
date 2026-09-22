@@ -1,0 +1,16 @@
+{
+  "subjectId": "prim_bm_Y2_penulisan",
+  "schemaVersion": 3,
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v3-bm-original-master",
+    "nonce": "E2+l0y7QbxWCWkfL",
+    "ciphertextSizeBytes": 1149,
+    "tagLength": 16
+  },
+  "integrity": {
+    "plaintextSha256": "b022c47f86fe980e7b87fd1cae6bd3039c9f5d01512de46aa24d542819ca2f06",
+    "ciphertextSha256": "74e105d8e0292e75c7a53fe7bd66fa4a651960c12edd39d4432088508780973f"
+  }
+}
