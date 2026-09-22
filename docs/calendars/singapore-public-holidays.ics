@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Singapore Public Holidays
+X-WR-CALDESC:Singapore public holidays maintained by LLCAI Labs from MOM / data.gov.sg.
+X-WR-TIMEZONE:Asia/Singapore
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260217
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Chinese New Year
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260218
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Chinese New Year
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260321
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:Hari Raya Puasa
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260403
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Good Friday
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labour Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260527
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Hari Raya Haji
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260531
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Vesak Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20260809
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:National Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20261108
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Deepavali
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270206
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Chinese New Year
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270207
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Chinese New Year
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270208
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Chinese New Year (Observed)
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270310
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Hari Raya Puasa
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270326
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Good Friday
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270501
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Labour Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270517
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Hari Raya Haji
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270520
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:Vesak Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20270809
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:National Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20271028
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
+SUMMARY:Deepavali
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-singapore-public-holidays-20271225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: Ministry of Manpower Singapore (data.gov.sg / mom.gov.sg). License: Singapore Open Data Licence.
+END:VEVENT
+END:VCALENDAR

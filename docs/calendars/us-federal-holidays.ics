@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LLCAI Labs//Calendar Directory//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:US Federal Holidays
+X-WR-CALDESC:U.S. federal holidays maintained by LLCAI Labs from the U.S. Office of Personnel Management. Observed dates follow OPM; state/local holidays are not included.
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260119
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260216
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Washington's Birthday
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260525
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Memorial Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260619
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Juneteenth National Independence Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260703
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Independence Day (observed)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20260907
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20261012
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Columbus Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20261111
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Veterans Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20261126
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20261225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270101
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270118
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270215
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Washington's Birthday
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270531
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Memorial Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270618
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Juneteenth National Independence Day (observed)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270705
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Independence Day (observed)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20270906
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Labor Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20271011
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Columbus Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20271111
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Veterans Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20271125
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20271224
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+SUMMARY:Christmas Day (observed)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20271231
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:New Year's Day (observed\, observed in lieu of Sat Jan 1 2028)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280117
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280117
+DTEND;VALUE=DATE:20280118
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280221
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280221
+DTEND;VALUE=DATE:20280222
+SUMMARY:Washington's Birthday
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280529
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280529
+DTEND;VALUE=DATE:20280530
+SUMMARY:Memorial Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280619
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280619
+DTEND;VALUE=DATE:20280620
+SUMMARY:Juneteenth National Independence Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280704
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280704
+DTEND;VALUE=DATE:20280705
+SUMMARY:Independence Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20280904
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20280904
+DTEND;VALUE=DATE:20280905
+SUMMARY:Labor Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20281009
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20281009
+DTEND;VALUE=DATE:20281010
+SUMMARY:Columbus Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20281110
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20281110
+DTEND;VALUE=DATE:20281111
+SUMMARY:Veterans Day (observed)
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20281123
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20281123
+DTEND;VALUE=DATE:20281124
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+BEGIN:VEVENT
+UID:llcailabs-us-federal-holidays-20281225
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20281225
+DTEND;VALUE=DATE:20281226
+SUMMARY:Christmas Day
+DESCRIPTION:Source: U.S. Office of Personnel Management (OPM). U.S. Government work (public domain). Observed dates follow OPM.
+END:VEVENT
+END:VCALENDAR

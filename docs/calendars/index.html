@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendar Directory &mdash; My Days by LLCAI Labs</title>
+    <meta name="description" content="Public holidays and events you can subscribe to from inside My Days. Copy an ICS URL or open it straight in the app.">
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #fefefe;
+            --surface: #f6f3fb;
+            --text: #1d1b20;
+            --muted: #49454f;
+            --primary: #6750a4;
+            --primary-dark: #21005d;
+            --border: #cac4d0;
+            --ok: #1e6e3e;
+            --warn: #8a6100;
+            --soon: #8a8494;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.55;
+            margin: 0;
+            padding: 0;
+            color: var(--text);
+            background: var(--bg);
+        }
+        header.hero {
+            padding: 2.5rem 1.25rem 1.5rem;
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+        header.hero .eyebrow {
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        header.hero h1 {
+            font-size: 1.9rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin: 0.35rem 0 0.35rem;
+            color: var(--primary-dark);
+        }
+        header.hero p.sub {
+            margin: 0;
+            color: var(--muted);
+            font-size: 1.02rem;
+            max-width: 640px;
+        }
+        main {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 1.25rem 3rem;
+        }
+        .group-title {
+            margin: 1.75rem 0 0.6rem;
+            font-size: 0.85rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 700;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (min-width: 960px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1.1rem 1.1rem 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+        }
+        .card.review { opacity: 0.9; }
+        .card h2 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin: 0;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .card .meta {
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+        .card .meta strong { color: var(--text); font-weight: 600; }
+        .card .desc {
+            font-size: 0.9rem;
+            color: var(--text);
+            margin: 0.1rem 0 0.2rem;
+        }
+        .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            padding: 0.15rem 0.55rem;
+            border-radius: 999px;
+            text-transform: uppercase;
+            width: fit-content;
+        }
+        .badge.verified { background: #dff3e4; color: var(--ok); }
+        .badge.review { background: #fdeecb; color: var(--warn); }
+        .badge.unavailable { background: #eceaf0; color: var(--soon); }
+        .actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: auto;
+            flex-wrap: wrap;
+        }
+        button {
+            appearance: none;
+            border: 1px solid var(--primary);
+            background: var(--primary);
+            color: #fff;
+            padding: 0.55rem 0.9rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            flex: 1 1 auto;
+            min-height: 44px;
+        }
+        button.secondary {
+            background: transparent;
+            color: var(--primary);
+        }
+        button:disabled {
+            border-color: var(--border);
+            background: transparent;
+            color: var(--soon);
+            cursor: not-allowed;
+        }
+        .url-line {
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.75rem;
+            color: var(--muted);
+            word-break: break-all;
+            background: #fff;
+            border: 1px dashed var(--border);
+            padding: 0.4rem 0.5rem;
+            border-radius: 8px;
+        }
+        .attrib {
+            font-size: 0.78rem;
+            color: var(--muted);
+        }
+        .attrib a { color: var(--primary); word-break: break-all; }
+        footer {
+            max-width: 1080px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 1.25rem 2.5rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        a { color: var(--primary); }
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 24px;
+            transform: translateX(-50%);
+            background: var(--primary-dark);
+            color: #fff;
+            padding: 0.6rem 1rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            pointer-events: none;
+            z-index: 10;
+        }
+        .toast.show { opacity: 1; }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <div class="eyebrow">LLCAI Labs &middot; My Days</div>
+    <h1>Calendar Directory</h1>
+    <p class="sub">
+        Public holidays and recurring events you can subscribe to from inside
+        <strong>My Days</strong>. Pick a calendar, tap <em>Copy URL</em> and
+        paste it in the app, or tap <em>Import to My Days</em> to open it
+        directly. Calendars marked <strong>Verified</strong> are maintained by
+        LLCAI Labs from official government sources.
+    </p>
+</header>
+
+<main>
+    <div class="group-title">Verified</div>
+    <div class="grid" id="verified"></div>
+
+    <div class="group-title">Coming soon</div>
+    <div class="grid" id="review"></div>
+</main>
+
+<footer>
+    <p>
+        Calendars here are maintained by LLCAI Labs from official government
+        sources and released under the licences noted on each card. My Days
+        imports read-only &mdash; it never writes back to your device calendar
+        and never requires an account.
+        Questions or corrections?
+        <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.
+    </p>
+</footer>
+
+<div class="toast" id="toast">URL copied</div>
+
+<script>
+const BASE = "https://leonchoo.github.io/llcailabs";
+const CAL_ROOT = BASE + "/calendars";
+const IMPORT_BASE = BASE + "/calendar/import?url=";
+
+// status: VERIFIED | NEEDS_REVIEW | NOT_AVAILABLE
+const CALENDARS = [
+    {
+        flag: "🇸🇬", name: "Singapore Public Holidays", country: "Singapore",
+        category: "Public Holidays",
+        desc: "Singapore national public holidays for 2026 and 2027.",
+        sourceUrl: "https://data.gov.sg/datasets?agencies=MOM",
+        source: "Ministry of Manpower (MOM) / data.gov.sg",
+        license: "Singapore Open Data Licence",
+        verified: "2026-09-22",
+        slug: "singapore-public-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇬🇧", name: "Bank Holidays (England & Wales)", country: "United Kingdom",
+        category: "Bank Holidays",
+        desc: "Bank holidays for England & Wales, 2026–2028.",
+        sourceUrl: "https://www.gov.uk/bank-holidays",
+        source: "UK Government (GOV.UK)",
+        license: "Open Government Licence v3.0",
+        verified: "2026-09-22",
+        slug: "uk-england-wales-bank-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇬🇧", name: "Bank Holidays (Scotland)", country: "United Kingdom",
+        category: "Bank Holidays",
+        desc: "Bank holidays for Scotland, 2026–2028.",
+        sourceUrl: "https://www.gov.uk/bank-holidays",
+        source: "UK Government (GOV.UK)",
+        license: "Open Government Licence v3.0",
+        verified: "2026-09-22",
+        slug: "uk-scotland-bank-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇬🇧", name: "Bank Holidays (Northern Ireland)", country: "United Kingdom",
+        category: "Bank Holidays",
+        desc: "Bank holidays for Northern Ireland, 2026–2028.",
+        sourceUrl: "https://www.gov.uk/bank-holidays",
+        source: "UK Government (GOV.UK)",
+        license: "Open Government Licence v3.0",
+        verified: "2026-09-22",
+        slug: "uk-northern-ireland-bank-holidays", status: "VERIFIED"
+    },
+    {
+        flag: "🇺🇸", name: "US Federal Holidays", country: "United States",
+        category: "Federal Holidays",
+        desc: "U.S. federal holidays for 2026–2028, including observed dates per OPM. State and local holidays are not included.",
+        sourceUrl: "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+        source: "U.S. Office of Personnel Management (OPM)",
+        license: "U.S. Government work (public domain)",
+        verified: "2026-09-22",
+        slug: "us-federal-holidays", status: "VERIFIED"
+    },
+
+    // ---- NEEDS_REVIEW ----
+    {
+        flag: "🇲🇾", name: "Malaysia Public Holidays", country: "Malaysia",
+        category: "Public Holidays",
+        desc: "National and state public holidays. State-by-state coverage still being verified.",
+        sourceUrl: "https://www.malaysia.gov.my/en/calendar",
+        source: "Malaysian Government / KLN",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "malaysia-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇮🇩", name: "Indonesia Public Holidays", country: "Indonesia",
+        category: "Public Holidays",
+        desc: "Hari libur nasional dan cuti bersama (SKB 3 Menteri).",
+        sourceUrl: "https://www.setneg.go.id/",
+        source: "Sekretariat Negara / Kemenko PMK",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "indonesia-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇹🇭", name: "Thailand Public Holidays", country: "Thailand",
+        category: "Public Holidays",
+        desc: "Thai national holidays (B.E. calendar).",
+        sourceUrl: "https://www.thaigov.go.th/",
+        source: "Royal Thai Government / MFA",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "thailand-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇵🇭", name: "Philippines Public Holidays", country: "Philippines",
+        category: "Public Holidays",
+        desc: "Regular and special non-working days, plus Islamic holidays by proclamation.",
+        sourceUrl: "https://www.officialgazette.gov.ph/nationwide-holidays/2026/",
+        source: "Official Gazette / Malacañang",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "philippines-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇻🇳", name: "Vietnam Public Holidays", country: "Vietnam",
+        category: "Public Holidays",
+        desc: "Vietnamese national holidays and compensatory leave.",
+        sourceUrl: "https://en.baochinhphu.vn/",
+        source: "Vietnam Government Portal / Ministry of Home Affairs",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "vietnam-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇯🇵", name: "Japan Public Holidays", country: "Japan",
+        category: "Public Holidays",
+        desc: "国民の祝日 (national holidays).",
+        sourceUrl: "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+        source: "Cabinet Office (内閣府)",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "japan-public-holidays", status: "NEEDS_REVIEW"
+    },
+    {
+        flag: "🇰🇷", name: "South Korea Public Holidays", country: "South Korea",
+        category: "Public Holidays",
+        desc: "Korean national holidays (공휴일).",
+        sourceUrl: "https://www.korea.kr/",
+        source: "Republic of Korea Government",
+        license: "Reference only",
+        verified: "2026-09-22",
+        slug: "south-korea-public-holidays", status: "NEEDS_REVIEW"
+    }
+];
+
+function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+}
+
+function badgeFor(status) {
+    if (status === "VERIFIED") return '<span class="badge verified">Verified</span>';
+    if (status === "NEEDS_REVIEW") return '<span class="badge review">Coming soon</span>';
+    return '<span class="badge unavailable">Unavailable</span>';
+}
+
+function cardHtml(cal) {
+    const ready = cal.status === "VERIFIED";
+    const url = CAL_ROOT + "/" + cal.slug + ".ics";
+    const importUrl = IMPORT_BASE + encodeURIComponent(url);
+    return `
+    <article class="card ${ready ? "" : "review"}">
+        ${badgeFor(cal.status)}
+        <h2><span aria-hidden="true">${cal.flag}</span> ${esc(cal.name)}</h2>
+        <div class="meta"><strong>Country:</strong> ${esc(cal.country)}</div>
+        <div class="meta"><strong>Category:</strong> ${esc(cal.category)}</div>
+        <p class="desc">${esc(cal.desc)}</p>
+        <div class="attrib"><strong>Source:</strong> <a href="${esc(cal.sourceUrl)}" target="_blank" rel="noopener">${esc(cal.source)}</a></div>
+        <div class="attrib"><strong>License:</strong> ${esc(cal.license)}</div>
+        <div class="attrib"><strong>Last verified:</strong> ${esc(cal.verified)}</div>
+        ${ready ? `<div class="url-line">${esc(url)}</div>` : ""}
+        <div class="actions">
+            <button class="secondary" data-copy="${ready ? esc(url) : ""}" ${ready ? "" : "disabled"}>Copy URL</button>
+            <button data-import="${ready ? esc(importUrl) : ""}" ${ready ? "" : "disabled"}>Import to My Days</button>
+        </div>
+    </article>`;
+}
+
+function render() {
+    document.getElementById("verified").innerHTML =
+        CALENDARS.filter(c => c.status === "VERIFIED").map(cardHtml).join("");
+    document.getElementById("review").innerHTML =
+        CALENDARS.filter(c => c.status !== "VERIFIED").map(cardHtml).join("");
+}
+
+function toast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(t._h);
+    t._h = setTimeout(() => t.classList.remove("show"), 1600);
+}
+
+document.addEventListener("click", async (e) => {
+    const copy = e.target.closest("[data-copy]");
+    if (copy && copy.dataset.copy) {
+        try {
+            await navigator.clipboard.writeText(copy.dataset.copy);
+            toast("ICS URL copied");
+        } catch (_) {
+            const ta = document.createElement("textarea");
+            ta.value = copy.dataset.copy;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            ta.remove();
+            toast("ICS URL copied");
+        }
+        return;
+    }
+    const imp = e.target.closest("[data-import]");
+    if (imp && imp.dataset.import) {
+        window.location.href = imp.dataset.import;
+    }
+});
+
+render();
+</script>
+</body>
+</html>
