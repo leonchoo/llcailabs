@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 3,
+  "bankId": "llcai_kuizku_v4",
+  "publisherVersion": 1,
+  "publishedAt": "2026-09-24T00:18:30Z",
+  "publisher": "LLCAI Labs (638 authorized, V4 production)",
+  "supportedLanguages": [
+    "en",
+    "ms"
+  ],
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "keyVersion": 1,
+    "keyId": "v4-master",
+    "keyFetchUrl": null,
+    "ivLength": 12,
+    "tagLength": 16,
+    "note": "Phase 4 V4 Production build — AES-256-GCM with v4-master key. Isolated from V1 (v1-master), V3 (v3-bm-original-master), and V4-TEST (v4-test-master). contentOrigin=ORIGINAL. License=self_authored. KuizKu runtime URL=https://leonchoo.github.io/llcailabs/kuizku/v4/. 24 subject/year files (BM Y1-Y6 + EN Y2-Y6 + Math Y1-Y6 + Science Y2-Y6). 12070 questions total. KuizKu Source: kuizku-content banks/primary/sk (consolidated 2026-09-24)."
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "perFileChecksumSha256": true,
+    "manifestSignatureVersion": 0,
+    "manifestSignatureAlgorithm": null,
+    "note": "Phase 4 V4 Production — integrity SHA-256 only (no PKI signature)."
+  },
+  "bankMetadata": {
+    "examName": null,
+    "paperCode": null,
+    "examStage": null,
+    "publisherNotes": "Phase 4 V4 PRODUCTION. 12070 ORIGINAL questions (Primary SK Y1-Y6 across 4 subjects BM/English/Math/Science). KuizKu Content Repository banks/primary/sk/. Quality Gate: 21+ gates PASS per subject/year. Source contentOrigin=ORIGINAL, License=self_authored. Subject mapping: 1 file = 1 (subject, year). 24 .enc + 24 .meta.json."
+  },
+  "subjectGroups": [
+    {
+      "groupId": "v4-production-primary-sk",
+      "examYear": null,
+      "gradeLevel": null,
+      "subjectIds": [
+        "prim_bm_Y1_production",
+        "prim_english_Y2_production",
+        "prim_english_Y3_production",
+        "prim_english_Y4_production",
+        "prim_english_Y5_production",
+        "prim_english_Y6_production",
+        "prim_math_Y1_production",
+        "prim_math_Y2_production",
+        "prim_math_Y3_production",
+        "prim_math_Y4_production",
+        "prim_math_Y5_production",
+        "prim_math_Y6_production",
+        "prim_science_Y2_production",
+        "prim_science_Y3_production",
+        "prim_science_Y4_production",
+        "prim_science_Y5_production",
+        "prim_science_Y6_production",
+        "prim_science_Y1_production",
+        "prim_english_Y1_production",
+        "prim_bm_Y2_production",
+        "prim_bm_Y3_production",
+        "prim_bm_Y4_production",
+        "prim_bm_Y5_production",
+        "prim_bm_Y6_production"
+      ],
+      "questionCount": 12070
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "prim_bm_Y1_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun1",
+        "ms": "Bahasa Melayu Tahun1"
+      },
+      "icon": "menu_book",
+      "displayOrder": 198,
+      "file": "prim_bm_Y1_production.enc",
+      "metaFile": "prim_bm_Y1_production.meta.json",
+      "checksumSha256": "fa7aa5be68192d7b129a8a58736c64df79dcce3d29541ca6eed7f0b9824aa3c2",
+      "fileSizeBytes": 394804,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun1",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y2_production",
+      "displayName": {
+        "en": "English Year2",
+        "ms": "Bahasa Inggeris Year2"
+      },
+      "icon": "menu_book",
+      "displayOrder": 201,
+      "file": "prim_english_Y2_production.enc",
+      "metaFile": "prim_english_Y2_production.meta.json",
+      "checksumSha256": "280089a5ab2997c62faa97fb95196b00a1587cca6fdc1cc96d81b1e6efce9974",
+      "fileSizeBytes": 377254,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun2",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y3_production",
+      "displayName": {
+        "en": "English Year3",
+        "ms": "Bahasa Inggeris Year3"
+      },
+      "icon": "menu_book",
+      "displayOrder": 301,
+      "file": "prim_english_Y3_production.enc",
+      "metaFile": "prim_english_Y3_production.meta.json",
+      "checksumSha256": "b3fc019ace840f1f66d9559156fc915c4e2df668284da873efc6e0ef6a001626",
+      "fileSizeBytes": 366946,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun3",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y4_production",
+      "displayName": {
+        "en": "English Year4",
+        "ms": "Bahasa Inggeris Year4"
+      },
+      "icon": "menu_book",
+      "displayOrder": 401,
+      "file": "prim_english_Y4_production.enc",
+      "metaFile": "prim_english_Y4_production.meta.json",
+      "checksumSha256": "a2e36e42aad1ad93234a26720c6b813954f2ddb9b4a92eff38b40802b3b694d5",
+      "fileSizeBytes": 369906,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun4",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y5_production",
+      "displayName": {
+        "en": "English Year5",
+        "ms": "Bahasa Inggeris Year5"
+      },
+      "icon": "menu_book",
+      "displayOrder": 501,
+      "file": "prim_english_Y5_production.enc",
+      "metaFile": "prim_english_Y5_production.meta.json",
+      "checksumSha256": "7384d50f9f093a8989008272fce105613d498bc34ceb3daeccb103a91e828c3f",
+      "fileSizeBytes": 373782,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun5",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y6_production",
+      "displayName": {
+        "en": "English Year6",
+        "ms": "Bahasa Inggeris Year6"
+      },
+      "icon": "menu_book",
+      "displayOrder": 601,
+      "file": "prim_english_Y6_production.enc",
+      "metaFile": "prim_english_Y6_production.meta.json",
+      "checksumSha256": "73ec038fa597dc12ea8c3ef6337b7d37462be0302227fb0cbeb10b29f6cf0329",
+      "fileSizeBytes": 365107,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun6",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y1_production",
+      "displayName": {
+        "en": "Mathematics Tahun1",
+        "ms": "Matematik Tahun1"
+      },
+      "icon": "menu_book",
+      "displayOrder": 109,
+      "file": "prim_math_Y1_production.enc",
+      "metaFile": "prim_math_Y1_production.meta.json",
+      "checksumSha256": "922c0123c9d576062e9447c23ddc2f132fe950ccd1e65bffe36aa10299ad2e05",
+      "fileSizeBytes": 448662,
+      "questionCount": 570,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun1",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y2_production",
+      "displayName": {
+        "en": "Mathematics Tahun2",
+        "ms": "Matematik Tahun2"
+      },
+      "icon": "menu_book",
+      "displayOrder": 209,
+      "file": "prim_math_Y2_production.enc",
+      "metaFile": "prim_math_Y2_production.meta.json",
+      "checksumSha256": "d94e11c23ce254c7678e6ab55be9bc76b303a670b2ad3dd567195650d9497637",
+      "fileSizeBytes": 357303,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun2",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y3_production",
+      "displayName": {
+        "en": "Mathematics Tahun3",
+        "ms": "Matematik Tahun3"
+      },
+      "icon": "menu_book",
+      "displayOrder": 309,
+      "file": "prim_math_Y3_production.enc",
+      "metaFile": "prim_math_Y3_production.meta.json",
+      "checksumSha256": "665f36be36e9d908e3524cf3f2342efdea211fcbf88ba920080f04e900f592db",
+      "fileSizeBytes": 350335,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun3",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y4_production",
+      "displayName": {
+        "en": "Mathematics Tahun4",
+        "ms": "Matematik Tahun4"
+      },
+      "icon": "menu_book",
+      "displayOrder": 409,
+      "file": "prim_math_Y4_production.enc",
+      "metaFile": "prim_math_Y4_production.meta.json",
+      "checksumSha256": "f6080e6d409881d17aa4385703eba4a19d76b39316d6724b06fe7f096a54c2f6",
+      "fileSizeBytes": 355612,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun4",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y5_production",
+      "displayName": {
+        "en": "Mathematics Tahun5",
+        "ms": "Matematik Tahun5"
+      },
+      "icon": "menu_book",
+      "displayOrder": 509,
+      "file": "prim_math_Y5_production.enc",
+      "metaFile": "prim_math_Y5_production.meta.json",
+      "checksumSha256": "9a37730712b44017ec992cdc5ab0875df7fe6613b8797f40fc2a091a041f1b9d",
+      "fileSizeBytes": 356018,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun5",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_math_Y6_production",
+      "displayName": {
+        "en": "Mathematics Tahun6",
+        "ms": "Matematik Tahun6"
+      },
+      "icon": "menu_book",
+      "displayOrder": 609,
+      "file": "prim_math_Y6_production.enc",
+      "metaFile": "prim_math_Y6_production.meta.json",
+      "checksumSha256": "30b47abfe2008d351d3c84212638b19a2720e0204b631beae33f46edd56fa04a",
+      "fileSizeBytes": 358788,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun6",
+      "subjectCode": "math",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y2_production",
+      "displayName": {
+        "en": "Science Year2",
+        "ms": "Sains Year2"
+      },
+      "icon": "menu_book",
+      "displayOrder": 215,
+      "file": "prim_science_Y2_production.enc",
+      "metaFile": "prim_science_Y2_production.meta.json",
+      "checksumSha256": "2e7f61d35c6c2fcc2d6b18e24f8308274606e1d0071dcf9da06b1116249217db",
+      "fileSizeBytes": 385763,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun2",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y3_production",
+      "displayName": {
+        "en": "Science Year3",
+        "ms": "Sains Year3"
+      },
+      "icon": "menu_book",
+      "displayOrder": 315,
+      "file": "prim_science_Y3_production.enc",
+      "metaFile": "prim_science_Y3_production.meta.json",
+      "checksumSha256": "f735192489011ab3c6068eb7b02449deb610677c7a1e183a917e2dcdc6490ee4",
+      "fileSizeBytes": 383440,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun3",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y4_production",
+      "displayName": {
+        "en": "Science Year4",
+        "ms": "Sains Year4"
+      },
+      "icon": "menu_book",
+      "displayOrder": 415,
+      "file": "prim_science_Y4_production.enc",
+      "metaFile": "prim_science_Y4_production.meta.json",
+      "checksumSha256": "d2100d43ed44be1cd3665ee8d6a351df1cbc6887976de09a2b06c2ca8917ce32",
+      "fileSizeBytes": 378970,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun4",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y5_production",
+      "displayName": {
+        "en": "Science Year5",
+        "ms": "Sains Year5"
+      },
+      "icon": "menu_book",
+      "displayOrder": 515,
+      "file": "prim_science_Y5_production.enc",
+      "metaFile": "prim_science_Y5_production.meta.json",
+      "checksumSha256": "d4e7b2f5afbe3e98b44b4c48bb8d9dc8219543068ed4d4c9050fdec15b9135de",
+      "fileSizeBytes": 380448,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun5",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y6_production",
+      "displayName": {
+        "en": "Science Year6",
+        "ms": "Sains Year6"
+      },
+      "icon": "menu_book",
+      "displayOrder": 615,
+      "file": "prim_science_Y6_production.enc",
+      "metaFile": "prim_science_Y6_production.meta.json",
+      "checksumSha256": "e7fe43084bcf3e18db8be97d9b54215baadb58851d2255632d31ef5ee13cf110",
+      "fileSizeBytes": 370159,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun6",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_science_Y1_production",
+      "displayName": {
+        "en": "Science Year1",
+        "ms": "Sains Year1"
+      },
+      "icon": "menu_book",
+      "displayOrder": 115,
+      "file": "prim_science_Y1_production.enc",
+      "metaFile": "prim_science_Y1_production.meta.json",
+      "checksumSha256": "3d4ac546dfa30acb78cc199e0f3a824389ddab9174e8865412bb5ae3aca61fb2",
+      "fileSizeBytes": 381054,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun1",
+      "subjectCode": "science",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_english_Y1_production",
+      "displayName": {
+        "en": "English Year1",
+        "ms": "Bahasa Inggeris Year1"
+      },
+      "icon": "menu_book",
+      "displayOrder": 101,
+      "file": "prim_english_Y1_production.enc",
+      "metaFile": "prim_english_Y1_production.meta.json",
+      "checksumSha256": "f0b19e6bd2eaa1d059dc4c431acf18f3cb88d49eaabedeb2c82b16a212c4cdd9",
+      "fileSizeBytes": 372299,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "en",
+      "gradeLevel": "Tahun1",
+      "subjectCode": "english",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_bm_Y2_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun2",
+        "ms": "Bahasa Melayu Tahun2"
+      },
+      "icon": "menu_book",
+      "displayOrder": 298,
+      "file": "prim_bm_Y2_production.enc",
+      "metaFile": "prim_bm_Y2_production.meta.json",
+      "checksumSha256": "c59cb0f9bb442ec1f85f64433ca998062165cd9c70dc7e5cbce4dd827f2461d8",
+      "fileSizeBytes": 384016,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun2",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_bm_Y3_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun3",
+        "ms": "Bahasa Melayu Tahun3"
+      },
+      "icon": "menu_book",
+      "displayOrder": 398,
+      "file": "prim_bm_Y3_production.enc",
+      "metaFile": "prim_bm_Y3_production.meta.json",
+      "checksumSha256": "cce320a186be0d945de7b55a4a77846506c5edf9bf7edd6b962d6c515e3cbd45",
+      "fileSizeBytes": 373733,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun3",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_bm_Y4_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun4",
+        "ms": "Bahasa Melayu Tahun4"
+      },
+      "icon": "menu_book",
+      "displayOrder": 498,
+      "file": "prim_bm_Y4_production.enc",
+      "metaFile": "prim_bm_Y4_production.meta.json",
+      "checksumSha256": "241f1e9cb06abfc664f6a8425b323a0e41a3b6b8248c25b3715f7530c5c3d716",
+      "fileSizeBytes": 367594,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun4",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_bm_Y5_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun5",
+        "ms": "Bahasa Melayu Tahun5"
+      },
+      "icon": "menu_book",
+      "displayOrder": 598,
+      "file": "prim_bm_Y5_production.enc",
+      "metaFile": "prim_bm_Y5_production.meta.json",
+      "checksumSha256": "f70c28098edfb1e62b088ef771f5db0c8810a5bfab94db2082d722c2c7f42cdd",
+      "fileSizeBytes": 367742,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun5",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    },
+    {
+      "subjectId": "prim_bm_Y6_production",
+      "displayName": {
+        "en": "Bahasa Melayu Tahun6",
+        "ms": "Bahasa Melayu Tahun6"
+      },
+      "icon": "menu_book",
+      "displayOrder": 698,
+      "file": "prim_bm_Y6_production.enc",
+      "metaFile": "prim_bm_Y6_production.meta.json",
+      "checksumSha256": "1fadca08850087ec279b5ee9f5185690a87e58b9033f856c6008814b14289cc5",
+      "fileSizeBytes": 368485,
+      "questionCount": 500,
+      "schoolTrack": "sk",
+      "language": "ms",
+      "gradeLevel": "Tahun6",
+      "subjectCode": "bm",
+      "curriculum": "KSSR"
+    }
+  ],
+  "totalQuestions": 12070
+}
