@@ -1,0 +1,476 @@
+{
+  "schemaVersion": "5.0",
+  "version": "v1",
+  "manifestVersion": "1.0",
+  "publishedAt": "2026-09-25T00:00:00Z",
+  "format": "kuizku_secondary_v1_index",
+  "totalBanks": 28,
+  "totalQuestions": 14050,
+  "bankTier": "T1=2050 T2=2000 T3=2000 T4=4000 T5=4000",
+  "tierCounts": {
+    "T1": {
+      "count": 2050,
+      "file": "t1.json"
+    },
+    "T2": {
+      "count": 2000,
+      "file": "t2.json"
+    },
+    "T3": {
+      "count": 2000,
+      "file": "t3.json"
+    },
+    "T4": {
+      "count": 4000,
+      "file": "t4.json"
+    },
+    "T5": {
+      "count": 4000,
+      "file": "t5.json"
+    }
+  },
+  "globalIntegrity": {
+    "globalPayloadSha256": "8df3b102dab53690a364f905790a64ccf457e1b9dc50fbc5af343bb07f0eeb87",
+    "manifestSha256": "30e9737c615f76aa03d675e5a2c2c44809400397306ab3cc88f42e5d22bb6404"
+  },
+  "canonicalExistingBankPaths": [
+    {
+      "tier": "T1",
+      "subject": "bm",
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t1.json",
+      "canonicalGitHubBlobSha": "05884809143c61b75b5d8c797db29c745892127d",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/bm/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "english",
+      "canonicalGitHubPath": "banks/secondary/sk/en/t1.json",
+      "canonicalGitHubBlobSha": "3839889b3ed37e158fadcafaf8713419ed205809",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/en/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "math",
+      "canonicalGitHubPath": "banks/secondary/sk/math/t1.json",
+      "canonicalGitHubBlobSha": "40caae8c22751d28f5ad65dbb029833b9cc5c138",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/math/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "science",
+      "canonicalGitHubPath": "banks/secondary/sk/science/t1.json",
+      "canonicalGitHubBlobSha": "28304d4780a9baee34cd9c59fa80a78f32dba27a",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/science/t1.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "bm",
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t2.json",
+      "canonicalGitHubBlobSha": "edba680ca5d715d14eaf523ee06dbedf3fa0c43c",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/bm/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "english",
+      "canonicalGitHubPath": "banks/secondary/sk/en/t2.json",
+      "canonicalGitHubBlobSha": "85dccfe2c2a59bb28b4874cd867393c73198fed7",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/en/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "math",
+      "canonicalGitHubPath": "banks/secondary/sk/math/t2.json",
+      "canonicalGitHubBlobSha": "c23ef9030aa4d929d68f7726a3920224640b832f",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/math/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "science",
+      "canonicalGitHubPath": "banks/secondary/sk/science/t2.json",
+      "canonicalGitHubBlobSha": "9affa6f5558c5b23ecffcede1c5cd72f9b46dac0",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/science/t2.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "bm",
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t3.json",
+      "canonicalGitHubBlobSha": "3d0f86ce9faee9ba4dd974bcd0b71a2b32487a31",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/bm/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "english",
+      "canonicalGitHubPath": "banks/secondary/sk/en/t3.json",
+      "canonicalGitHubBlobSha": "001672e9cd8774a8a830d956b47e869c8f987ff7",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/en/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "math",
+      "canonicalGitHubPath": "banks/secondary/sk/math/t3.json",
+      "canonicalGitHubBlobSha": "b4fe827cf5a23fa26a30d88921ddf29c504b7c6d",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/math/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "science",
+      "canonicalGitHubPath": "banks/secondary/sk/science/t3.json",
+      "canonicalGitHubBlobSha": "a59daf7e85738f105989fdc2d616063f3dace14a",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/science/t3.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "bm",
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t4.json",
+      "canonicalGitHubBlobSha": "201322cf9af56718892d2e8bdf2e0c5dd4d101e7",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/bm/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "math",
+      "canonicalGitHubPath": "banks/secondary/sk/math/t4.json",
+      "canonicalGitHubBlobSha": "43ed2797ca5a26967d646a2a51bc6525e4e05ccc",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/math/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "addmath",
+      "canonicalGitHubPath": "banks/secondary/sk/additional_mathematics/t4.json",
+      "canonicalGitHubBlobSha": "2719f38427a592822725b0fbb6620017177c08c0",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/addmath/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "science",
+      "canonicalGitHubPath": "banks/secondary/sk/science/t4.json",
+      "canonicalGitHubBlobSha": "baa117d6cbbf096d4bd0e21b565dac964adb95f8",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/science/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "physics",
+      "canonicalGitHubPath": "banks/secondary/sk/physics/t4.json",
+      "canonicalGitHubBlobSha": "cd52f73e301be728a0a5ca601270b1b7ef7f6902",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/physics/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "chemistry",
+      "canonicalGitHubPath": "banks/secondary/sk/chemistry/t4.json",
+      "canonicalGitHubBlobSha": "a9aca2ab6849be0a91a87f9d3e9fa0dd7b47f948",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/chemistry/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "biology",
+      "canonicalGitHubPath": "banks/secondary/sk/biology/t4.json",
+      "canonicalGitHubBlobSha": "1b9b245d695fb1a9acfedab2914c3537e13227fc",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/biology/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "english",
+      "canonicalGitHubPath": "banks/secondary/sk/english/t4.json",
+      "canonicalGitHubBlobSha": "742f40b90bc12cd05ff4e00861e4c30f0424a833",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/english/t4.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "bm",
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t5.json",
+      "canonicalGitHubBlobSha": "642237041f5cec021efb8bb66909366bb9501692",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/bm/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "english",
+      "canonicalGitHubPath": "banks/secondary/sk/english/t5.json",
+      "canonicalGitHubBlobSha": "cab94cc2913a7e55c9f408d933aea17f7cfac353",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/english/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "math",
+      "canonicalGitHubPath": "banks/secondary/sk/math/t5.json",
+      "canonicalGitHubBlobSha": "298f24b9adb6a36680ec66e7b4902c6a69ca9b2a",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/math/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "addmath",
+      "canonicalGitHubPath": "banks/secondary/sk/additional_mathematics/t5.json",
+      "canonicalGitHubBlobSha": "c2661ae33cfdf0eae62ea1ec99b4f14e3952d801",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/addmath/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "science",
+      "canonicalGitHubPath": "banks/secondary/sk/science/t5.json",
+      "canonicalGitHubBlobSha": "908eb63f6c4faf9e524833db0d02df5ad4cc34a1",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/science/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "physics",
+      "canonicalGitHubPath": "banks/secondary/sk/physics/t5.json",
+      "canonicalGitHubBlobSha": "2a9866588b8af7482f471b789e632852096ec166",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/physics/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "chemistry",
+      "canonicalGitHubPath": "banks/secondary/sk/chemistry/t5.json",
+      "canonicalGitHubBlobSha": "1480709e087135626704fdcc3fa7561a24847aa3",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/chemistry/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "biology",
+      "canonicalGitHubPath": "banks/secondary/sk/biology/t5.json",
+      "canonicalGitHubBlobSha": "038a34f8733c799b8811622e8564ab5037771d5a",
+      "canonicalGitHubRawUrl": "https://leonchoo.github.io/banks/secondary/sk/biology/t5.json"
+    }
+  ],
+  "publishedConsolidatedTierPaths": [
+    {
+      "tier": "T1",
+      "file": "t1.json",
+      "sha256": "2a3e65305b656b06424b4d6f44dedf325529df7109c801d6e2bea3944f3333fc",
+      "sizeBytes": 1878708,
+      "count": 2050
+    },
+    {
+      "tier": "T2",
+      "file": "t2.json",
+      "sha256": "3c875a056af4021ed51e0f3c3025f181947362c34e87a9dd34fb8b2e6f6318b2",
+      "sizeBytes": 1501673,
+      "count": 2000
+    },
+    {
+      "tier": "T3",
+      "file": "t3.json",
+      "sha256": "197766d14b26fcc9b9f4fe9bf036cdc095e1b349ff5fb8e8da2c4a1f1832a9a5",
+      "sizeBytes": 1533631,
+      "count": 2000
+    },
+    {
+      "tier": "T4",
+      "file": "t4.json",
+      "sha256": "5c6a0abbec4f03cfda64f50be1fcc39c1d1b9de63299b6944fc81b1521b62a77",
+      "sizeBytes": 4103362,
+      "count": 4000
+    },
+    {
+      "tier": "T5",
+      "file": "t5.json",
+      "sha256": "5f03a63d6ba78eb35360ced4465b0f87405e2c7d69427b3293731b7394a35e72",
+      "sizeBytes": 4679042,
+      "count": 4000
+    }
+  ],
+  "specialCases": {
+    "T1BM": {
+      "count": 550,
+      "note": "T1 BM = 550 questions (50 surplus preserved, not a QA failure)",
+      "stage_gap": "25 questions lack `stage` field (legacy/v5-compatibility)"
+    }
+  },
+  "subjects": [
+    {
+      "tier": "T1",
+      "subject": "bm",
+      "language": "ms",
+      "count": 550,
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "english",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/en/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "math",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/math/t1.json"
+    },
+    {
+      "tier": "T1",
+      "subject": "science",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/science/t1.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "bm",
+      "language": "ms",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "english",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/en/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "math",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/math/t2.json"
+    },
+    {
+      "tier": "T2",
+      "subject": "science",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/science/t2.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "bm",
+      "language": "ms",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "english",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/en/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "math",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/math/t3.json"
+    },
+    {
+      "tier": "T3",
+      "subject": "science",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/science/t3.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "bm",
+      "language": "ms",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "math",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/math/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "addmath",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/additional_mathematics/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "science",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/science/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "physics",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/physics/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "chemistry",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/chemistry/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "biology",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/biology/t4.json"
+    },
+    {
+      "tier": "T4",
+      "subject": "english",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/english/t4.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "bm",
+      "language": "ms",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/bm/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "english",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/english/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "math",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/math/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "addmath",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/additional_mathematics/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "science",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/science/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "physics",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/physics/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "chemistry",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/chemistry/t5.json"
+    },
+    {
+      "tier": "T5",
+      "subject": "biology",
+      "language": "en",
+      "count": 500,
+      "canonicalGitHubPath": "banks/secondary/sk/biology/t5.json"
+    }
+  ]
+}
