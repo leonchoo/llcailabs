@@ -1,0 +1,10 @@
+# Ensure app-ads.txt is always stored as LF and served unchanged by GitHub Pages
+docs/app-ads.txt text eol=lf
+
+# Other plain-text assets we want LF-only on disk
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.txt  text eol=lf
+*.svg  text eol=lf
+*.md   text eol=lf

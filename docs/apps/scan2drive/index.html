@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scan2Drive · LLCAI Labs</title>
+  <meta name="description" content="Scan2Drive by LLCAI Labs. Scan paper documents with your camera and save them as PDFs to your phone or Google Drive. Local data, optional Drive backup.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/apps/scan2drive/">
+  <meta property="og:title" content="Scan2Drive">
+  <meta property="og:description" content="Scan paper to PDF. Local data, optional Drive backup.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://llcailabs.com/apps/scan2drive/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Productivity · Documents</span>
+        <h1>Scan2Drive</h1>
+        <p class="page-header__lead">Scan paper documents with your camera and save them as PDFs
+          to your phone or Google Drive. All files stored locally; Drive backup is opt-in.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg is-disabled" aria-disabled="true"
+             href="https://play.google.com/store/apps/details?id=com.llcailabs.scan2drive"
+             rel="noopener" tabindex="-1">
+            Get it on Google Play
+          </a>
+          <span class="badge-soon">Coming soon</span>
+          <a class="btn btn--secondary btn--lg" href="/scan2drive/privacy-policy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow">
+        <h2>About Scan2Drive</h2>
+        <p>Scan2Drive turns your phone's camera into a portable scanner. Capture pages, save them as
+          PDFs to your phone, and (optionally) sync to your personal Google Drive.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Camera-based scanning.</strong> Auto-detect page edges, correct perspective,
+            and save clean PDFs.</li>
+          <li><strong>Local storage.</strong> PDFs are saved locally to
+            <code>Android/data/com.llcailabs.scan2drive/files/Documents/PDFs/</code>. Files are private
+            to the app and only accessible to you.</li>
+          <li><strong>Optional Google Drive backup.</strong> Link Drive to back up PDFs to your own
+            account. OAuth tokens are encrypted with Android Keystore-backed AES-256 and stored
+            locally.</li>
+          <li><strong>App settings on device.</strong> Language, default color mode, auto-crop
+            preference, Pro license state — all stored in SharedPreferences on your device.</li>
+        </ul>
+
+        <h2>Privacy</h2>
+        <p>PDFs, settings, and OAuth tokens are stored locally. None of this is uploaded unless you
+          explicitly link Drive and trigger a backup. We have no server. We do not see, collect, or
+          transmit your documents.</p>
+
+        <div class="cta-box">
+          <p><strong>Privacy Policy</strong></p>
+          <p class="cta-box__lead">Includes a Data Deletion Request page.</p>
+          <a class="btn btn--primary" href="/scan2drive/privacy-policy.html">View Privacy Policy →</a>
+        </div>
+
+        <h2>App info</h2>
+        <ul class="app-info">
+          <li><strong>Category</strong><span>Productivity</span></li>
+          <li><strong>Package</strong><code>com.llcailabs.scan2drive</code></li>
+          <li><strong>Platform</strong><span>Android</span></li>
+          <li><strong>Account</strong><span>None required (Drive link is optional)</span></li>
+          <li><strong>Offline</strong><span>Core scanning works offline</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/apps/">Apps</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

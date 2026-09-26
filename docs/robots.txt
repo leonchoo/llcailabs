@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# LLCAI Labs canonical site
+Sitemap: https://llcailabs.com/sitemap.xml

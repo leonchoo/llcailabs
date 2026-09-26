@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Age Calculator · LLCAI Labs</title>
+  <meta name="description" content="Age Calculator by LLCAI Labs. Compute your exact age in years, months, and days, or the difference between any two dates. All data on your device; AdMob is off by default.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/apps/age-calculator/">
+  <meta property="og:title" content="Age Calculator">
+  <meta property="og:description" content="Exact age in years, months, days and date difference. On-device only.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://llcailabs.com/apps/age-calculator/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Utility · Date math</span>
+        <h1>Age Calculator</h1>
+        <p class="page-header__lead">Compute your exact age in years, months, and days, or the
+          difference between any two dates. All data on your device.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg is-disabled" aria-disabled="true"
+             href="https://play.google.com/store/apps/details?id=com.llcailabs.agecalculator"
+             rel="noopener" tabindex="-1">
+            Get it on Google Play
+          </a>
+          <span class="badge-soon">Coming soon</span>
+          <a class="btn btn--secondary btn--lg" href="/agecalculator/privacy-policy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow">
+        <h2>About Age Calculator</h2>
+        <p>Age Calculator is a simple, on-device utility for computing your exact age and the
+          difference between two dates. Everything you type is stored only on your device, and
+          AdMob advertising is disabled by default &mdash; turn it on only if you choose to.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Exact age.</strong> Computes years, months, and days from a chosen birth date
+            to today (or any reference date).</li>
+          <li><strong>Living counter.</strong> Shows the number of days you have lived.</li>
+          <li><strong>Date difference.</strong> Compute the gap between any two dates
+            (years / months / days / total days).</li>
+          <li><strong>Reminders.</strong> Optional local reminders for upcoming birthdays or
+            anniversaries.</li>
+        </ul>
+
+        <h2>Privacy</h2>
+        <p>Birth dates and reference dates you enter are stored locally on your device. AdMob
+          advertising is <strong>off by default</strong>; if you turn it on in Settings it may
+          serve non-personalized ads based on coarse device info. No account is required.</p>
+
+        <div class="cta-box">
+          <p><strong>Privacy Policy</strong></p>
+          <p class="cta-box__lead">Full details on what data is collected, how it is stored, and how to delete it.</p>
+          <a class="btn btn--primary" href="/agecalculator/privacy-policy.html">View Privacy Policy →</a>
+        </div>
+
+        <h2>App info</h2>
+        <ul class="app-info">
+          <li><strong>Category</strong><span>Utility</span></li>
+          <li><strong>Package</strong><code>com.llcailabs.agecalculator</code></li>
+          <li><strong>Platform</strong><span>Android</span></li>
+          <li><strong>Account</strong><span>None required</span></li>
+          <li><strong>Ads</strong><span>Off by default; opt-in in Settings</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/apps/">Apps</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
