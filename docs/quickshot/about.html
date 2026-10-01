@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>About QuickShot · LLCAI Labs</title>
+  <meta name="description" content="About QuickShot: a screenshot and annotation Chrome extension built by LLCAI Labs. Local-only processing, no account, no upload, no analytics.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/quickshot/about.html">
+  <meta property="og:title" content="About QuickShot">
+  <meta property="og:description" content="A Chrome screenshot &amp; annotate extension built by LLCAI Labs. Local-only by design.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://llcailabs.com/quickshot/about.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <style>
+    :root {
+      --brand-primary: #0891b2;
+      --brand-primary-dark: #0e7490;
+      --qs-eyebrow-bg: #ecfeff;
+      --qs-eyebrow-fg: #0e7490;
+    }
+    .hero__eyebrow { background: var(--qs-eyebrow-bg); color: var(--qs-eyebrow-fg); }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Chrome Extension · About</span>
+        <h1>About QuickShot</h1>
+        <p class="page-header__lead">A screenshot and annotation Chrome extension
+          built by LLCAI Labs.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--prose">
+        <h2>What it is</h2>
+        <p>QuickShot is a Chrome extension that lets you capture, annotate, and
+          export screenshots without leaving the browser. Capture a region, the
+          visible page, or the entire scrollable page; annotate with pen,
+          arrows, shapes, text, numbers, blur, pixelate, and crop; then save as
+          PNG, JPG, or PDF, or copy to the clipboard.</p>
+        <p>The full workflow is <strong>Capture → Annotate → Export</strong>, with
+          nothing in between and nothing sent to a remote server.</p>
+
+        <h2>Design principles</h2>
+        <p>QuickShot was built around three principles.</p>
+
+        <h3>1. Local-first</h3>
+        <p>Every pixel of your screenshot stays in your browser until you choose
+          to download it. QuickShot does not upload screenshots, does not
+          require an account, and does not include any analytics or tracking
+          SDKs. There is no &ldquo;send to our cloud&rdquo; step, because there
+          is no cloud step at all.</p>
+
+        <h3>2. Predictable and fast</h3>
+        <p>The capture mode is one click. The annotation toolbar opens
+          immediately on the captured canvas. Export is a single click on the
+          format you want. There is no preview screen you have to click past,
+          no sign-in modal, no upsell.</p>
+
+        <h3>3. No surprises</h3>
+        <p>The settings panel exposes only what you'd expect: theme, default
+          export format, JPG quality, filename template, keyboard shortcut
+          overrides, history on/off. There is no telemetry switch because there
+          is no telemetry to toggle.</p>
+
+        <h2>What QuickShot is not</h2>
+        <ul>
+          <li>It is not a screen recorder. QuickShot captures still images.</li>
+          <li>It is not a screenshot hosting service. QuickShot does not host,
+            share, or upload your screenshots.</li>
+          <li>It is not an OCR or text-recognition tool.</li>
+          <li>It is not connected to Google Drive, Dropbox, or any cloud
+            storage. Files are saved through Chrome's own download API.</li>
+          <li>It is not an AI assistant. There is no model on a server and no
+            model on your machine that processes your screenshots.</li>
+        </ul>
+
+        <h2>Who makes QuickShot</h2>
+        <p>QuickShot is built and maintained by <strong>LLCAI Labs</strong>, a
+          small studio that publishes a handful of privacy-respecting tools and
+          games. The same principles apply across every product in our
+          portfolio: no account required, no analytics by default, and no
+          &ldquo;the data is technically anonymous&rdquo; fine print.</p>
+
+        <h2>Versioning</h2>
+        <p>QuickShot's version is shown in <code>chrome://extensions</code> under
+          the extension card. The release notes for each version are linked
+          from the Chrome Web Store listing once QuickShot is published.</p>
+
+        <h2>Contact</h2>
+        <p>For support, feature requests, or bug reports, see the
+          <a href="/quickshot/support.html">Support</a> page or email
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/quickshot/privacy-policy.html">Privacy Policy</a>
+        <a href="/quickshot/support.html">Support</a>
+        <a href="/quickshot/about.html">About</a>
+        <a href="/privacy/">Site Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

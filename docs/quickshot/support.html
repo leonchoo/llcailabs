@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>QuickShot Support · LLCAI Labs</title>
+  <meta name="description" content="QuickShot support: frequently asked questions, contact information, and a step-by-step quickstart guide for the Chrome extension.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/quickshot/support.html">
+  <meta property="og:title" content="QuickShot Support">
+  <meta property="og:description" content="Quickstart, FAQs, and contact for QuickShot — Chrome screenshot &amp; annotate extension by LLCAI Labs.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://llcailabs.com/quickshot/support.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <style>
+    :root {
+      --brand-primary: #0891b2;
+      --brand-primary-dark: #0e7490;
+      --qs-eyebrow-bg: #ecfeff;
+      --qs-eyebrow-fg: #0e7490;
+    }
+    .hero__eyebrow { background: var(--qs-eyebrow-bg); color: var(--qs-eyebrow-fg); }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Chrome Extension · Support</span>
+        <h1>QuickShot Support</h1>
+        <p class="page-header__lead">Help with capture modes, annotations, export, and
+          everything else in QuickShot.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--prose">
+        <h2>Quickstart</h2>
+        <ol>
+          <li>Install QuickShot from the Chrome Web Store (link will be added
+            once published).</li>
+          <li>Click the QuickShot icon in the Chrome toolbar, or use the
+            keyboard shortcut <code>Alt</code> + <code>Shift</code> + <code>S</code>
+            (default).</li>
+          <li>Pick a capture mode: <strong>Region</strong>, <strong>Visible</strong>,
+            or <strong>Full Page</strong>.</li>
+          <li>Annotate: pen, arrow, rectangle, circle, text, number, blur,
+            pixelate, crop.</li>
+          <li>Export: PNG, JPG, PDF, or copy to clipboard.</li>
+        </ol>
+
+        <h2>Capture Modes</h2>
+
+        <h3>Region Capture</h3>
+        <p>Drag a rectangle anywhere on the page. Only that area is captured.
+          Useful for capturing one element, one panel, or a custom size.</p>
+
+        <h3>Visible Capture</h3>
+        <p>Captures exactly what's visible in the current browser viewport,
+          at the current zoom level. The fastest option for everyday use.</p>
+
+        <h3>Full Page Capture</h3>
+        <p>Captures the entire scrollable page, stitching multiple viewport
+          scrolls into one image. Resolution is preserved for high-DPI /
+          Retina screens.</p>
+
+        <h2>Annotation Tools</h2>
+        <ul>
+          <li><strong>Pen.</strong> Freehand drawing. Color and stroke width are
+            adjustable from the toolbar.</li>
+          <li><strong>Arrow.</strong> A directional marker with adjustable color
+            and size.</li>
+          <li><strong>Rectangle.</strong> A sharp, rectangular outline. Useful
+            for bounding a region.</li>
+          <li><strong>Circle.</strong> A round highlight or marker.</li>
+          <li><strong>Text.</strong> A text label with adjustable font size and
+            color.</li>
+          <li><strong>Number markers.</strong> Drop numbered steps in sequence.
+            Useful for tutorials and walk-throughs.</li>
+          <li><strong>Blur.</strong> Smooths pixels behind a region. Good for
+            light redaction of faces or names.</li>
+          <li><strong>Pixelate.</strong> Mosaic-style redaction. Good for
+            strong redaction of account numbers or email addresses.</li>
+          <li><strong>Crop.</strong> Trim the canvas to a chosen rectangle.</li>
+        </ul>
+
+        <h2>Export Options</h2>
+        <ul>
+          <li><strong>PNG.</strong> Lossless. The default for technical
+            screenshots.</li>
+          <li><strong>JPG.</strong> Smaller files with adjustable quality
+            (configurable in settings).</li>
+          <li><strong>PDF.</strong> A single-page PDF, ready to share.</li>
+          <li><strong>Copy to clipboard.</strong> Pastes the image directly
+            into chat or other apps.</li>
+        </ul>
+        <p>The exported filename follows a customizable template. You can set
+          the template in QuickShot's settings (for example,
+          <code>quickshot-{{date}}-{{time}}</code>).</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Does QuickShot upload my screenshots anywhere?</h3>
+        <p>No. QuickShot is fully local. It does not contact any server to
+          process, store, or share your screenshots. See the
+          <a href="/quickshot/privacy-policy.html">Privacy Policy</a> for
+          details.</p>
+
+        <h3>Do I need an account?</h3>
+        <p>No account, no sign-in, no email. Install and use.</p>
+
+        <h3>Does QuickShot track me?</h3>
+        <p>No analytics, no advertising, no tracking SDKs, no third-party
+          CDN scripts. The extension does not embed any network communication
+          other than what the Chrome capture APIs require.</p>
+
+        <h3>Will my screenshots show up in History automatically?</h3>
+        <p>Only if you have not disabled the History feature in settings.
+          History is stored locally in IndexedDB. You can clear it at any
+          time from QuickShot's UI.</p>
+
+        <h3>Can I disable the JPG quality setting?</h3>
+        <p>Yes. QuickShot's settings panel exposes theme, default export format,
+          JPG quality, filename template, and keyboard shortcut overrides.
+          All settings are stored locally.</p>
+
+        <h3>What about themes?</h3>
+        <p>QuickShot follows your system theme. You can also force Light or
+          Dark mode from the toolbar.</p>
+
+        <h3>Why isn't the Chrome Web Store link live?</h3>
+        <p>The Chrome Web Store listing is being prepared. Until it's published,
+          the "Get QuickShot" button on the homepage is intentionally a
+          disabled placeholder. Subscribe by emailing
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a> if
+          you'd like to be notified at launch.</p>
+
+        <h2>Reporting a bug</h2>
+        <p>If QuickShot misbehaves, please email
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a> with:
+        </p>
+        <ul>
+          <li>Chrome version (visit <code>chrome://version</code>)</li>
+          <li>Operating system</li>
+          <li>QuickShot version (visible in the extension's settings panel)</li>
+          <li>Steps to reproduce, with screenshots if possible (taken with
+            QuickShot, of course).</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>For anything else — feature requests, partnership, or just to say
+          hello — email
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/quickshot/privacy-policy.html">Privacy Policy</a>
+        <a href="/quickshot/support.html">Support</a>
+        <a href="/quickshot/about.html">About</a>
+        <a href="/privacy/">Site Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

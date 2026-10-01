@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>QuickShot Privacy Policy · LLCAI Labs</title>
+  <meta name="description" content="QuickShot privacy policy: screenshots are processed locally in your browser. QuickShot does not require an account, does not upload screenshots, and does not collect analytics, advertising, or tracking data.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/quickshot/privacy-policy.html">
+  <meta property="og:title" content="QuickShot Privacy Policy">
+  <meta property="og:description" content="Screenshots processed locally. No account, no upload, no analytics.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://llcailabs.com/quickshot/privacy-policy.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <style>
+    :root {
+      --brand-primary: #0891b2;
+      --brand-primary-dark: #0e7490;
+      --qs-eyebrow-bg: #ecfeff;
+      --qs-eyebrow-fg: #0e7490;
+    }
+    .hero__eyebrow { background: var(--qs-eyebrow-bg); color: var(--qs-eyebrow-fg); }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Chrome Extension · Privacy Policy</span>
+        <h1>QuickShot Privacy Policy</h1>
+        <p class="page-header__lead">
+          <strong>App:</strong> QuickShot &nbsp;·&nbsp;
+          <strong>Developer:</strong> LLCAI Labs &nbsp;·&nbsp;
+          <strong>Contact:</strong> <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>
+        </p>
+        <p class="page-header__lead"><em>Last updated: October 1, 2026</em></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--prose">
+        <h2>Summary</h2>
+        <p>QuickShot is a screenshot and annotation extension for Chrome. It is
+          designed to capture, annotate, and export screenshots without sending
+          any of that data to a remote server. QuickShot does not require an
+          account, does not collect analytics or telemetry, and does not include
+          any advertising identifiers or tracking SDKs.</p>
+
+        <h2>Data QuickShot Does Not Collect</h2>
+        <p>QuickShot does not collect, store, transmit, or sell any of the
+          following:</p>
+        <ul>
+          <li>Names</li>
+          <li>Email addresses</li>
+          <li>Passwords</li>
+          <li>Browsing history</li>
+          <li>Website content for transmission</li>
+          <li>Screenshot images</li>
+          <li>Analytics data</li>
+          <li>Advertising identifiers</li>
+          <li>Tracking information</li>
+        </ul>
+        <p><strong>QuickShot does not upload screenshots.</strong> The
+          extension never sends your captured image, the page it was captured
+          from, or any derived annotation data to LLCAI Labs or to any third
+          party.</p>
+
+        <h2>How QuickShot Handles Your Screenshots</h2>
+        <p><strong>Capture.</strong> When you trigger a screenshot, QuickShot
+          reads pixels from the active tab (or a selected region of it) using
+          Chrome's standard extension APIs. The pixels stay in memory inside
+          your browser.</p>
+        <p><strong>Annotate.</strong> All annotations (pen, arrow, rectangle,
+          circle, text, numbers, blur, pixelate, crop) are drawn into an
+          in-memory canvas in the extension's own UI. The canvas is updated as
+          you draw; nothing is written to disk unless you choose to export.</p>
+        <p><strong>Export.</strong> When you save or copy, QuickShot writes the
+          finished image using one of the following local actions:</p>
+        <ul>
+          <li><strong>PNG / JPG / PDF download.</strong> Written through Chrome's
+            own download functionality, which saves to your default downloads
+            directory.</li>
+          <li><strong>Copy to clipboard.</strong> Writes the encoded image bytes
+            to the local clipboard when initiated by you.</li>
+        </ul>
+        <p>Nothing is uploaded over the network by QuickShot.</p>
+
+        <h2>Screenshot History</h2>
+        <p>QuickShot may store screenshot history in local IndexedDB on your
+          device. This history is stored only on your machine and is cleared
+          when you remove the extension or use QuickShot's "clear history"
+          action. QuickShot does not sync your history to any external
+          service.</p>
+
+        <h2>Settings</h2>
+        <p>QuickShot stores preferences (theme, default export format, JPG
+          quality, filename pattern, keyboard shortcut overrides) locally using
+          Chrome's <code>chrome.storage</code> extension API. These settings
+          stay on your device and are not transmitted.</p>
+
+        <h2>Permissions</h2>
+        <p>QuickShot requests only the Chrome permissions required for its
+          functionality:</p>
+        <ul>
+          <li><strong>activeTab / tabs</strong> &mdash; to capture the visible page.</li>
+          <li><strong>scripting</strong> &mdash; to capture full-page screenshots
+            via Chrome's standard scripting APIs.</li>
+          <li><strong>downloads</strong> &mdash; to save exported PNG / JPG / PDF
+            files to your local downloads directory.</li>
+          <li><strong>clipboardWrite</strong> &mdash; to copy the exported image
+            to your local clipboard when you choose the copy action.</li>
+          <li><strong>storage</strong> &mdash; to save your preferences and
+            screenshot history locally.</li>
+        </ul>
+        <p>QuickShot does not request <code>webRequest</code>,
+          <code>proxy</code>, <code>vpn</code>, or any permission that would
+          allow it to inspect, modify, or relay your browsing traffic.</p>
+
+        <h2>Third Parties</h2>
+        <p>QuickShot does not embed third-party analytics, advertising,
+          tracking, social-media, or content-delivery SDKs. The only outbound
+          network calls QuickShot can make are standard Chrome API calls (for
+          example, requesting a page screenshot via Chrome's built-in capture
+          APIs); no third-party endpoint is contacted.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>QuickShot is not directed at children under 13. Because QuickShot
+          does not collect personal information, the practical effect of
+          this section is that QuickShot does not collect, use, or disclose
+          personal information from children.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If this privacy policy changes, the updated version will be posted
+          at this URL with a revised "Last updated" date. Material changes will
+          be reflected in the extension's release notes.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, please contact
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/quickshot/">QuickShot</a>
+        <a href="/quickshot/privacy-policy.html">Privacy Policy</a>
+        <a href="/quickshot/support.html">Support</a>
+        <a href="/quickshot/about.html">About</a>
+        <a href="/privacy/">Site Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
