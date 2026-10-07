@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "6.0",
+  "bankId": "llcai_kuizku_v6",
+  "publisherVersion": 1,
+  "manifestVersion": "sjkc-y1-y6-v1.0.0",
+  "publishedAt": "2026-10-07T00:07:26Z",
+  "schoolTrack": "SJKC",
+  "publisher": {
+    "name": "leon.choo",
+    "keyId": null
+  },
+  "supportedLanguages": [
+    "zh",
+    "ms",
+    "en"
+  ],
+  "integrity": {
+    "manifestSha256": "c1f918c86e519052e22c8c0aa89324c43d7e72f6a484a796966ac711d9138f28",
+    "globalPayloadSha256": "47ae2d990d84bf53efb7c73c1450309c471f5d58999956b463c04a92c5f93fcb",
+    "algorithm": "SHA-256"
+  },
+  "primary": {
+    "stage": "primary",
+    "files": [
+      {
+        "file": "primary/y1/bc.json",
+        "level": 1,
+        "subjectCode": "bc",
+        "sizeBytes": 671602,
+        "sha256": "1b8a00d2162fa54189e326ff83e1d9b717c056c475deb8d9e97c407108c67948",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y1/bm.json",
+        "level": 1,
+        "subjectCode": "bm",
+        "sizeBytes": 625248,
+        "sha256": "82aa02335925578b0972ed7cb3b932a3b722826e8b7b6766b8d03d6e0468fe55",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y1/en.json",
+        "level": 1,
+        "subjectCode": "en",
+        "sizeBytes": 694285,
+        "sha256": "fb1a32eadc34a9be473c627468d6bfdeb5422a3ee21c2c1bac17f4903d76999b",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y1/math.json",
+        "level": 1,
+        "subjectCode": "math",
+        "sizeBytes": 700681,
+        "sha256": "5d6379c861622c787e552f80e64188786d1e146b1e01e99af0150709ccb3bef6",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y1/science.json",
+        "level": 1,
+        "subjectCode": "science",
+        "sizeBytes": 645347,
+        "sha256": "1245cd779543a282848390143f8476b8b623656a553523547603bfbab7f5d79a",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y2/bc.json",
+        "level": 2,
+        "subjectCode": "bc",
+        "sizeBytes": 697208,
+        "sha256": "c8755bf18a0b6657bd9a09d46d04d9e25a8020bc7d90ddb68bfb753b6648bbe2",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y2/bm.json",
+        "level": 2,
+        "subjectCode": "bm",
+        "sizeBytes": 729190,
+        "sha256": "e51d0db76df9770869e1b17bc60ec2c7dea5c342825e561c0e7f58dbf9dfc0ae",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y2/en.json",
+        "level": 2,
+        "subjectCode": "en",
+        "sizeBytes": 649550,
+        "sha256": "aa10fc83db2e59b544a7a9a89ac1dcb69193d5468d5310967e75a21e02e72c93",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y2/math.json",
+        "level": 2,
+        "subjectCode": "math",
+        "sizeBytes": 652270,
+        "sha256": "584a02485a73102c5919e2346a7758a7f8d08e08e3e2a0d1bef243ebed85a863",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y2/science.json",
+        "level": 2,
+        "subjectCode": "science",
+        "sizeBytes": 723569,
+        "sha256": "56d3902f411740be3face7c332af640bbdf83c27dc87c0b29f51e230fa74b9f1",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y3/bc.json",
+        "level": 3,
+        "subjectCode": "bc",
+        "sizeBytes": 679611,
+        "sha256": "e53fa57f067b5d4796465e0284d0147b1757bba3a914f368094355ebcd1805cf",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y3/bm.json",
+        "level": 3,
+        "subjectCode": "bm",
+        "sizeBytes": 660211,
+        "sha256": "8a209e7190598e3d4b055cd7b1116634812430f82bc124286845b1a01aaac501",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y3/en.json",
+        "level": 3,
+        "subjectCode": "en",
+        "sizeBytes": 662746,
+        "sha256": "f6a2bc0611414c09c02feb8a752025d38fd4be3400097791f9170721e7d34745",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y3/math.json",
+        "level": 3,
+        "subjectCode": "math",
+        "sizeBytes": 632855,
+        "sha256": "e5508a391d06b0c9a4535351acf643e0c4dcccb531deca43da7571d680516648",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y3/science.json",
+        "level": 3,
+        "subjectCode": "science",
+        "sizeBytes": 666330,
+        "sha256": "b03338c776c8dd3ef33c1c570b86f96f34caad772ef88c9fc3f70b4cc55ac632",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y4/bc.json",
+        "level": 4,
+        "subjectCode": "bc",
+        "sizeBytes": 738991,
+        "sha256": "1240caef8c660e43eb4b1bfd6f0119734c9b8215b5e6f78a4cc13966f88c8a1c",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y4/bm.json",
+        "level": 4,
+        "subjectCode": "bm",
+        "sizeBytes": 690513,
+        "sha256": "9cc91e678a0e1800d0e7dba3b2c96345cb2113f3214409fbed1e4c78d1813d3e",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y4/en.json",
+        "level": 4,
+        "subjectCode": "en",
+        "sizeBytes": 686007,
+        "sha256": "18f2ea960f85124fbbda3d1e28f8754babfc90ca555f3f21187c313e7db4647d",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y4/math.json",
+        "level": 4,
+        "subjectCode": "math",
+        "sizeBytes": 632634,
+        "sha256": "00d4bec8461627b7bae7e4b616dd924e9be9b864eba57471caf40c0646f87fda",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y4/science.json",
+        "level": 4,
+        "subjectCode": "science",
+        "sizeBytes": 688037,
+        "sha256": "a8d89497e232d123472070348508d0ec964c0e21a16ad02d4914b6fdf3d56cdd",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y5/bc.json",
+        "level": 5,
+        "subjectCode": "bc",
+        "sizeBytes": 752495,
+        "sha256": "35239afbd871e2b1f2e2819437ff204b85da2395282788275668b29355646f4c",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y5/bm.json",
+        "level": 5,
+        "subjectCode": "bm",
+        "sizeBytes": 685667,
+        "sha256": "fa001b2c88fc5e822ab4bd7fddcbb3c6db302f27b888e7bd36bc6716afc96122",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y5/en.json",
+        "level": 5,
+        "subjectCode": "en",
+        "sizeBytes": 702243,
+        "sha256": "07fbdbc1e9b4cb1354838880c92cb9cc7e7988c8b0a72527d92708424ff30af1",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y5/math.json",
+        "level": 5,
+        "subjectCode": "math",
+        "sizeBytes": 660242,
+        "sha256": "3cd759dfb1f34a018e7155dd011e910162876ba3cb07157e33e49716bfb2de3e",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y5/science.json",
+        "level": 5,
+        "subjectCode": "science",
+        "sizeBytes": 730513,
+        "sha256": "9924172e2f0fd6e83e31b097983e15dc68008c1bd81ecb4dd2759348f4646429",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y6/bc.json",
+        "level": 6,
+        "subjectCode": "bc",
+        "sizeBytes": 700754,
+        "sha256": "176da9182bfa1ee0ba16ed63593a8fbde4b22b8364df90c103943d4b249c9658",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y6/bm.json",
+        "level": 6,
+        "subjectCode": "bm",
+        "sizeBytes": 752081,
+        "sha256": "48ae5a2d1fbc66575e355363aaf23f86e4640b7973df85d9c9e8b03dd269d999",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y6/en.json",
+        "level": 6,
+        "subjectCode": "en",
+        "sizeBytes": 700424,
+        "sha256": "502f0e4de621f2c36d9e7d78c88b6ceafb5931c32bd1a2254654a1029ad3adc4",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y6/math.json",
+        "level": 6,
+        "subjectCode": "math",
+        "sizeBytes": 664683,
+        "sha256": "26f3b63ebc1ebb117fc358895560b8f4d37953ac643365f31cde74d8caa47b8b",
+        "questionCount": 500,
+        "displayName": {}
+      },
+      {
+        "file": "primary/y6/science.json",
+        "level": 6,
+        "subjectCode": "science",
+        "sizeBytes": 773253,
+        "sha256": "43855f7de2e878fdac7f71181608179d02f7e3ccdd79083a906afbd8887088c0",
+        "questionCount": 500,
+        "displayName": {}
+      }
+    ]
+  },
+  "secondary": {
+    "stage": "secondary",
+    "files": []
+  },
+  "encryption": {
+    "scheme": null
+  }
+}
