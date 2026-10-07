@@ -15,8 +15,8 @@
     "en"
   ],
   "integrity": {
-    "manifestSha256": "c7ad6d439eebe1b8bfcf4a4a1f11727b7334d71b43dec59856aff1d2e725ba0e",
-    "globalPayloadSha256": "7d4e43bf894c53e214596f9f104a052c3b4aeaaa42b767d65671ae53c45cdfdb",
+    "manifestSha256": "aa41e279ed8f37f038ed0efba222fa0a6119b8af20deb8c1ae4f9d0d1d6d570f",
+    "globalPayloadSha256": "c37489184e31398ac362a2f9f6a50db98e7f2c253eade2e66926f6b75bbc7a63",
     "algorithm": "SHA-256"
   },
   "primary": {
