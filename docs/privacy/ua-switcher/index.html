@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>User-Agent Switcher — Privacy Policy · LLCAI Labs</title>
+  <meta name="description" content="Privacy policy for the User-Agent Switcher Chrome extension. No personal data is collected, nothing is sent to any server, and all settings are stored locally on your device.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/privacy/ua-switcher/">
+  <meta property="og:title" content="User-Agent Switcher — Privacy Policy">
+  <meta property="og:description" content="User-Agent Switcher collects no personal data and sends nothing to any server.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://llcailabs.com/privacy/ua-switcher/">
+  <meta property="og:site_name" content="LLCAI Labs">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/privacy/" aria-current="page">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">User-Agent Switcher · Privacy</span>
+        <h1>Privacy Policy</h1>
+        <p class="page-header__lead">Last updated: 2026</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow prose">
+
+        <h2>1. Summary</h2>
+        <p>User-Agent Switcher is a local-first Chrome extension. It <strong>does not collect any
+          personal data</strong> and <strong>does not send anything to any server</strong>. All of
+          your settings are stored on your own device in Chrome&rsquo;s local storage.</p>
+
+        <h2>2. Data we collect</h2>
+        <p><strong>We do not collect any personal data.</strong> The extension has no account
+          system, no analytics, no advertising, and no backend server. It cannot contact any
+          external service.</p>
+
+        <h2>3. Data stored on your device</h2>
+        <p>The only information the extension stores is your configuration, kept in
+          Chrome&rsquo;s <code>chrome.storage.local</code> on your device:</p>
+        <ul>
+          <li>the currently selected identity (preset or custom User-Agent);</li>
+          <li>your saved custom User-Agent strings;</li>
+          <li>your per-site rules (site and its User-Agent);</li>
+          <li>the enable/disable state and interface-language preference.</li>
+        </ul>
+        <p>None of this data is uploaded, shared, or transmitted anywhere.</p>
+
+        <h2>4. Chrome permissions and their purpose</h2>
+        <ul>
+          <li><strong><code>declarativeNetRequest</code></strong> — used to rewrite the
+            <code>User-Agent</code> request header (the core feature). No network traffic is
+            initiated by the extension.</li>
+          <li><strong><code>storage</code></strong> — saves your settings locally on your
+            device.</li>
+          <li><strong><code>tabs</code></strong> — used only to open the extension&rsquo;s own
+            settings page from the toolbar popup.</li>
+        </ul>
+
+        <h2>5. Children&rsquo;s privacy</h2>
+        <p>The extension is not directed at children under 13 and does not knowingly collect any
+          personal information from anyone.</p>
+
+        <h2>6. Deleting your data</h2>
+        <p>Because all data is stored locally, you can delete it at any time by removing the
+          extension at <code>chrome://extensions</code>. This immediately clears every locally saved
+          preset, custom User-Agent and per-site rule.</p>
+
+        <h2>7. Changes to this policy</h2>
+        <p>We may update this policy from time to time. When we do, the &ldquo;Last updated&rdquo;
+          date at the top of this page will be changed.</p>
+
+        <h2>8. Contact</h2>
+        <p>For privacy questions or data-deletion requests, contact
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>.</p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

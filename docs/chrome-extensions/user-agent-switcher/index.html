@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>User-Agent Switcher — Chrome Extension · LLCAI Labs</title>
+  <meta name="description" content="User-Agent Switcher is a free Chrome extension for web compatibility and development testing. Switch between Android, iPhone, iPad, Windows, Mac, Edge and Firefox user agents in one click. Manifest V3.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/chrome-extensions/user-agent-switcher/">
+  <meta property="og:title" content="User-Agent Switcher — Chrome Extension">
+  <meta property="og:description" content="One-click User-Agent switching for web compatibility and development testing.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://llcailabs.com/chrome-extensions/user-agent-switcher/">
+  <meta property="og:site_name" content="LLCAI Labs">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/" aria-current="page">Extensions</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">Chrome Extension · Developer Tools</span>
+        <h1>User-Agent Switcher</h1>
+        <p class="page-header__lead">Switch your browser&rsquo;s User-Agent in one click to test how
+          websites render on different devices and browsers. Free, lightweight, Manifest V3.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg" href="/support/ua-switcher/">How to install</a>
+          <a class="btn btn--secondary btn--lg" href="/privacy/ua-switcher/">Privacy policy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow">
+        <h2>About User-Agent Switcher</h2>
+        <p>User-Agent Switcher is a lightweight Chrome extension that lets you instantly change the
+          User-Agent your browser sends to websites. It is designed for <strong>web compatibility
+          testing</strong> and <strong>development testing</strong> — for example, checking how a
+          mobile site looks, or verifying that a page behaves correctly across browsers. All
+          settings are stored locally on your device.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li><strong>One-click device presets.</strong> Switch between Android, iPhone, iPad,
+            Windows, Mac, Edge and Firefox user agents from the toolbar popup.</li>
+          <li><strong>Custom User-Agent.</strong> Paste any User-Agent string and save it for use
+            globally or in per-site rules.</li>
+          <li><strong>Per-site rules.</strong> Set a specific User-Agent for a chosen website while
+            all other sites keep the global identity or Chrome&rsquo;s default.</li>
+          <li><strong>Global enable / disable.</strong> Pause simulation entirely with one switch.</li>
+          <li><strong>Restore default.</strong> One click returns to Chrome&rsquo;s native
+            User-Agent.</li>
+          <li><strong>Mobile hint.</strong> Mobile presets also send <code>sec-ch-ua-mobile:
+            ?1</code> for better mobile-site detection.</li>
+          <li><strong>Manifest V3.</strong> Built with the current Chrome extension architecture;
+            uses <code>declarativeNetRequest</code> to rewrite request headers and never injects
+            scripts into pages.</li>
+        </ul>
+
+        <h2>Intended use</h2>
+        <p>This extension is intended for web compatibility and development testing. It does
+          <strong>not</strong> guarantee that you can bypass a website&rsquo;s security checks,
+          login restrictions, or anti-bot mechanisms. Changing the User-Agent does not alter every
+          browser fingerprint (for example, real screen size, some Client Hints, or hardware
+          information), so a few strict sites may still detect your real device.</p>
+
+        <div class="cta-box">
+          <p><strong>Need help?</strong></p>
+          <p class="cta-box__lead">Installation steps, usage guides, FAQ and troubleshooting.</p>
+          <a class="btn btn--primary" href="/support/ua-switcher/">Open support guide →</a>
+        </div>
+
+        <h2>Privacy</h2>
+        <p>User-Agent Switcher does not collect personal data and does not send anything to any
+          server. Your presets, custom User-Agents and per-site rules are saved only in Chrome&rsquo;s
+          local storage on your device.</p>
+
+        <div class="cta-box">
+          <p><strong>Privacy Policy</strong></p>
+          <a class="btn btn--primary" href="/privacy/ua-switcher/">View privacy policy →</a>
+        </div>
+
+        <h2>App info</h2>
+        <ul class="app-info">
+          <li><strong>Platform</strong><span>Chrome (Manifest V3)</span></li>
+          <li><strong>Category</strong><span>Developer Tools</span></li>
+          <li><strong>Permissions</strong><span><code>declarativeNetRequest</code> · <code>storage</code> · <code>tabs</code></span></li>
+          <li><strong>Account</strong><span>None required</span></li>
+          <li><strong>Data</strong><span>Local only — nothing leaves your device</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

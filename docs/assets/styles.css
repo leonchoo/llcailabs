@@ -151,6 +151,7 @@ code {
 .site-brand:hover { color: var(--brand-primary); text-decoration: none; }
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--s-5);
   align-items: center;
 }

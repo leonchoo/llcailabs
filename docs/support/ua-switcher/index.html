@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>User-Agent Switcher — Support &amp; FAQ · LLCAI Labs</title>
+  <meta name="description" content="Help and support for the User-Agent Switcher Chrome extension: installation, choosing presets, custom User-Agents, per-site rules, troubleshooting and FAQ.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llcailabs.com/support/ua-switcher/">
+  <meta property="og:title" content="User-Agent Switcher — Support &amp; FAQ">
+  <meta property="og:description" content="Installation, usage guide, FAQ and troubleshooting for User-Agent Switcher.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://llcailabs.com/support/ua-switcher/">
+  <meta property="og:site_name" content="LLCAI Labs">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
+        <span class="site-brand__name">LLCAI Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container">
+        <span class="hero__eyebrow">User-Agent Switcher · Support</span>
+        <h1>Support &amp; FAQ</h1>
+        <p class="page-header__lead">How to install and use the User-Agent Switcher extension,
+          plus answers to common questions.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow prose">
+
+        <h2>1. How to install</h2>
+        <p>User-Agent Switcher is a <strong>Manifest V3</strong> Chrome extension. If you received a
+          packaged <code>.zip</code> or the source folder, you can load it locally:</p>
+        <ol>
+          <li>Open Chrome and go to <code>chrome://extensions</code>.</li>
+          <li>Turn on <strong>Developer mode</strong> (top-right corner).</li>
+          <li>Click <strong>Load unpacked</strong> and select the folder that contains the
+            <code>manifest.json</code> file.</li>
+          <li>The User-Agent Switcher icon appears in your toolbar — click it and choose
+            <strong>Pin</strong> so it stays visible.</li>
+        </ol>
+        <p>Once the extension is published to the Chrome Web Store, installation will also be
+          available from the store listing.</p>
+
+        <h2>2. Choose a preset User-Agent</h2>
+        <p>Presets let you switch between common browsers and devices in one click:</p>
+        <ol>
+          <li>Click the toolbar icon to open the popup.</li>
+          <li>In the <strong>Quick switch</strong> area, tap a device button — Android, iPhone,
+            iPad, Windows, Mac, Edge or Firefox.</li>
+          <li>The active identity is highlighted. The current identity is shown at the top of the
+            popup (for example, &ldquo;Current: iPhone&rdquo;).</li>
+        </ol>
+
+        <h2>3. Set a custom User-Agent</h2>
+        <ol>
+          <li>Right-click the toolbar icon and choose <strong>Options</strong> (or open it from the
+            popup via <strong>Full settings</strong>).</li>
+          <li>Under <strong>Custom User-Agent</strong>, enter a name and paste your User-Agent
+            string.</li>
+          <li>Optionally tick <strong>Simulate mobile</strong> to also send
+            <code>sec-ch-ua-mobile: ?1</code>.</li>
+          <li>Click <strong>Add</strong>. The saved profile can now be selected as the global
+            identity or used in a per-site rule.</li>
+        </ol>
+
+        <h2>4. Set a User-Agent for a specific website</h2>
+        <ol>
+          <li>Open <strong>Options</strong> (right-click the icon → Options).</li>
+          <li>Under <strong>Per-site rules</strong>, enter a site domain or keyword (for example,
+            <code>example.com</code> or <code>m.example.com</code>).</li>
+          <li>Choose the identity this site should use, then click <strong>Add rule</strong>.</li>
+          <li>All other sites keep the global identity (or Chrome&rsquo;s default when none is
+            set).</li>
+        </ol>
+
+        <h2>5. Disable or restore the default</h2>
+        <ul>
+          <li><strong>Pause simulation</strong> — open the popup and turn off <strong>Simulation
+            on</strong>. This stops all User-Agent changes, including per-site rules.</li>
+          <li><strong>Restore default</strong> — in the popup, click <strong>Restore default</strong>.
+            This clears the global identity so Chrome uses its native User-Agent again.</li>
+        </ul>
+
+        <h2>6. Troubleshooting &amp; FAQ</h2>
+        <h3>I switched User-Agent but the site looks the same.</h3>
+        <p>Some sites detect devices using Client Hints, real screen size, or cached pages rather
+          than the User-Agent alone. Try a hard refresh, or check whether the site reads Client
+          Hints. Changing the User-Agent does not change every browser fingerprint.</p>
+        <h3>Will this bypass a site&rsquo;s login or anti-bot checks?</h3>
+        <p>No, and it is not designed to. The extension is for web compatibility and development
+          testing only. It does not guarantee access to any restricted content.</p>
+        <h3>Does the extension collect or send my data?</h3>
+        <p>No. All settings are stored locally in Chrome. See the
+          <a href="/privacy/ua-switcher/">privacy policy</a>.</p>
+        <h3>How do I delete my saved settings?</h3>
+        <p>Remove the extension at <code>chrome://extensions</code>. This clears all locally saved
+          presets, custom User-Agents and per-site rules.</p>
+        <h3>Does it work in Firefox or Safari?</h3>
+        <p>The current version is built for Chrome (Manifest V3) only.</p>
+
+        <h2>7. Contact</h2>
+        <p>If you still need help, send a message to
+          <a href="mailto:llcailabs@gmail.com">llcailabs@gmail.com</a>. Please include the extension
+          version, your Chrome version, the steps you took, and a short description of the issue.
+          Screenshots are welcome.</p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="/apps/">Apps</a>
+        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
