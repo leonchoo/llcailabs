@@ -1,18 +1,18 @@
 [
   {
     "path": "index.html",
-    "bytes": 18325,
-    "sha256": "90d4f2564cc4f080f2d576f16e70c41285220719a6c71ec919ce63870312a9f2"
+    "bytes": 18244,
+    "sha256": "8b6b2b1072cd22730490b542a6a5f471238bfb2392b3135cafb6a9ac1591fa59"
   },
   {
     "path": "apps/index.html",
-    "bytes": 13748,
-    "sha256": "007db5d4ea89405e01daccc4a8aadf3f5fba267696a56ec03440599d092e0ffa"
+    "bytes": 13586,
+    "sha256": "fcbb79adc2485cf4d5a57820b4655b2136dd35301678dce6fd947d187ed67f69"
   },
   {
     "path": "games/index.html",
-    "bytes": 9102,
-    "sha256": "33a98856d84b031134601e95d435ab6a236428dbe79dfafa38a680ad5c5142cf"
+    "bytes": 9021,
+    "sha256": "0db9816d76b323fc2bd7ac888e0f78f1f50045c8814aa705f1d1506ee226e8c8"
   },
   {
     "path": "extensions/index.html",
@@ -36,48 +36,48 @@
   },
   {
     "path": "apps/quick-qr-scanner/index.html",
-    "bytes": 17054,
-    "sha256": "6cdec636c1803a6abefe9c196e1a8b30ceb1626546b2f67d6b3d5a19bf632df7"
+    "bytes": 16919,
+    "sha256": "0286b30a9fd5c8de8a951977c9899aeebc9dd4be37ec9b47e26fd5a31c46e40e"
   },
   {
     "path": "apps/scan2drive/index.html",
-    "bytes": 17476,
-    "sha256": "12c70b6937e4c6f961431f21c721375d16c17697a67ecbebfed9be6599ece79d"
+    "bytes": 17341,
+    "sha256": "aa768e55e935abd6146c37df2ba0b68e5ab0e12d685b1eaa4a77dc9b7642f69b"
   },
   {
     "path": "apps/age-calculator/index.html",
-    "bytes": 17783,
-    "sha256": "cfa7d31d5a20fa8573c8da3ec35ad9cd67bbe5d7b00224c2566d31f60b600d9d"
+    "bytes": 17648,
+    "sha256": "e2a85d56c5ed0906c1ae1e01341efc8418b5f48bb355482e967d40b957f735cf"
   },
   {
     "path": "apps/uconverter/index.html",
-    "bytes": 17222,
-    "sha256": "b8e57e83ce3863ca8b8429258bc2ee120cbac4e7d77e2bfb39a3736a63912792"
+    "bytes": 17087,
+    "sha256": "9872e55571af4153455ee854b1a7fb01f127e7bef1bb33685552bec35e020f4d"
   },
   {
     "path": "apps/snapledger/index.html",
-    "bytes": 17081,
-    "sha256": "4b042d56ff9f425852257550ce0cb8dfe7e2131f95690b823770bc54ede43cf7"
+    "bytes": 16946,
+    "sha256": "cc0e66cb4f9dc86ad8bb75f76debb2b745278910b4e87729cc3d53fa72acb25c"
   },
   {
     "path": "apps/mpos/index.html",
-    "bytes": 17385,
-    "sha256": "2a8ebf47971d74ff3e4b55933fadd346a2fc3418a21a6d0096a49e8f7addcc80"
+    "bytes": 17250,
+    "sha256": "35b00bb00017f1320019efe58e2955ba2075a9b7b785b4b0f912d6788f44cc44"
   },
   {
     "path": "games/sudoku/index.html",
-    "bytes": 15472,
-    "sha256": "875090c24168adf6c272fd49f0770d1f8c380aba91efe5ecbf8d3974d4da0a06"
+    "bytes": 15364,
+    "sha256": "9f3cb950fa442e13b7c54afda6e67ebbd09728f482a539968b34002649b34cdd"
   },
   {
     "path": "games/block-puzzle/index.html",
-    "bytes": 15089,
-    "sha256": "33a53adbe2efb2117880f7c9ceffccdee6989b37378ea964fe0f73158859d390"
+    "bytes": 14981,
+    "sha256": "15e11e0c01324c49f187f8ee99d87c27b63d72a3cb43de3df79c7213448115c5"
   },
   {
     "path": "games/number-merge/index.html",
-    "bytes": 15075,
-    "sha256": "c836ccedde4ac214c1e1234e6b18639efd6a5d333fa3cc57a152dd5d7ec23f06"
+    "bytes": 14967,
+    "sha256": "b63d5d9b4c6d10b28c1a6492118f91652089b111f095ca6d9f870ad027c98e29"
   },
   {
     "path": "apps/water-sort/index.html",
@@ -86,8 +86,8 @@
   },
   {
     "path": "404.html",
-    "bytes": 8674,
-    "sha256": "1ebfecaa9aefa9c54e0c84ef88aa1164f8aa291a9d230bbd486c002e5feb12eb"
+    "bytes": 8593,
+    "sha256": "e00b90ffd3ab6860b8de5768d32761dd70055b5489fd125df3ec3eb9570ffd1e"
   },
   {
     "path": "assets/styles.css",

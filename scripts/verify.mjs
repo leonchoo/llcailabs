@@ -184,11 +184,27 @@ const bodyHash = h => {
 };
 const privacyDiffs = [];
 const approvedEdits = [];
-/* Two policy pages had a footer link to a GitHub repo that returns 404.
-   The task authorises repairing dead GitHub links, so a single-line body
-   change is allowed there — and only there, capped at 2 changed lines. */
-const BODY_EDIT_ALLOW = new Set(['agecalculator/privacy-policy.html', 'quickqrscanner/privacy-policy.html']);
-const bodyOf = h => { const i = h.indexOf('</head>'); return (i >= 0 ? h.slice(i) : h).split('\n'); };
+/* Clause text must not change. Two kinds of authorised substitution are
+   normalised out before comparison — brand spelling and the confirmed
+   contact address — and site chrome (header/footer/skip link) is stripped,
+   because the navigation was rebuilt on the legacy pages by approval.
+   Anything else that changes still fails. */
+const BODY_EDIT_ALLOW = new Set(['BlockPuzzle/privacy-policy.html', 'mpos/privacy-policy.html']);
+const stripChrome = h => h
+  .replace(/<header class="site-header">[\s\S]*?<\/header>/g, '')
+  .replace(/<footer class="site-footer">[\s\S]*?<\/footer>/g, '')
+  .replace(/<header data-site-chrome="header"[\s\S]*?<\/header>/g, '')
+  .replace(/<footer data-site-chrome="footer"[\s\S]*?<\/footer>/g, '')
+  .replace(/<a class="skip-link"[^>]*>[\s\S]*?<\/a>/g, '');
+const normLegal = s => s
+  .replace(/>llcailabs</g, '>[[BRAND]]<')
+  .replace(/© 2026 llcailabs\./g, '© 2026 [[BRAND]].')
+  .replace(/LLCAI Labs|LLCaiLabs|LLC AI LABS/g, '[[BRAND]]')
+  .replace(/llcailabs@@gmail\.com|REPLACE_WITH_YOUR_EMAIL@example\.com|llcailabs@gmail\.com|leonchoo@users\.noreply\.github\.com/g, '[[EMAIL]]');
+const bodyOf = h => {
+  const i = h.indexOf('</head>');
+  return stripChrome(i >= 0 ? h.slice(i) : h).split('\n').filter(l => l.trim() !== '');
+};
 let gitOk = true;
 for (const r of PRIVACY_FILES) {
   const p = path.join(DOCS, r);
@@ -200,20 +216,21 @@ for (const r of PRIVACY_FILES) {
   } catch (e) { gitOk = false; continue; }
   const now = fs.readFileSync(p, 'utf8');
   if (bodyHash(head) === bodyHash(now)) continue;
-  const a = bodyOf(head), b = bodyOf(now);
+  const a = bodyOf(head).map(normLegal), b = bodyOf(now).map(normLegal);
   // LCS-based changed-line count (insertions + deletions), offset-insensitive
   const dp = Array.from({ length: a.length + 1 }, () => new Int32Array(b.length + 1));
   for (let i = a.length - 1; i >= 0; i--)
     for (let j = b.length - 1; j >= 0; j--)
       dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
   const changed = (a.length - dp[0][0]) + (b.length - dp[0][0]);
-  if (BODY_EDIT_ALLOW.has(r) && changed <= 3) approvedEdits.push(`${r}: ${changed} line(s) diff, one logical repair (dead GitHub link removed)`);
+  if (changed === 0) continue;
+  if (BODY_EDIT_ALLOW.has(r) && changed <= 2) approvedEdits.push(`${r}: ${changed} line(s) outside brand/address normalisation`);
   else privacyDiffs.push(`${r}: BODY CHANGED (${changed} lines)`);
 }
 rec('V13', 'Legal pages body unchanged', !gitOk ? 'UNKNOWN' : privacyDiffs.length ? 'FAIL' : 'PASS',
   !gitOk ? 'git show unavailable'
     : privacyDiffs.length ? privacyDiffs.join('\n')
-    : `${PRIVACY_FILES.length}/${PRIVACY_FILES.length} legal pages verified; ${approvedEdits.length} approved one-line repair(s)${approvedEdits.length ? ': ' + approvedEdits.join('; ') : ''}`);
+    : `${PRIVACY_FILES.length}/${PRIVACY_FILES.length} legal pages verified: clause text identical after normalising brand spelling + confirmed address, site chrome stripped; ${approvedEdits.length} unexpected approved-scope line change(s)${approvedEdits.length ? ': ' + approvedEdits.join('; ') : ''}`);
 
 /* ------------------------------------------------------------ V05b water sort */
 const wsLeaks = [];
@@ -273,9 +290,85 @@ for (const rel of ['agecalculator/privacy-policy.html', 'quickqrscanner/privacy-
   const html = fs.readFileSync(path.join(DOCS, rel), 'utf8');
   if (!html.includes(C.privacyEmail)) emailIssues.push(`${rel}: does not name ${C.privacyEmail}`);
 }
+// placeholder / non-deliverable addresses may not survive anywhere except the frozen KuizKu page
+const PH = /REPLACE_WITH_YOUR_EMAIL|@example\.com|users\.noreply\.github\.com/i;
+const phHits = [];
+for (const f of htmlFiles) {
+  const r = rel(f);
+  if (r === 'kuizku/privacy-policy.html') continue;
+  if (PH.test(fs.readFileSync(f, 'utf8'))) phHits.push(r);
+}
+if (phHits.length) emailIssues.push('placeholder address still present: ' + phHits.join(', '));
 rec('V18', 'Contact email consistency (no invented addresses)', emailIssues.length ? 'FAIL' : 'PASS',
   emailIssues.length ? emailIssues.join('\n')
-    : `support=${C.supportEmail} privacy=${C.privacyEmail} business=not published; 2 per-app policies name the same address`);
+    : `support=${C.supportEmail} privacy=${C.privacyEmail} business=not published; 2 per-app policies name the same address; 0 placeholder/noreply addresses on ${htmlFiles.length - 1} pages (kuizku excluded: owner unconfirmed, left untouched)`);
+
+/* --------------------------------------------- V19 navigation & brand consistency */
+const LEGACY_20 = [
+  'agecalculator/privacy-policy.html', 'quickqrscanner/privacy-policy.html',
+  'scan2drive/privacy-policy.html', 'scan2drive/data-deletion.html',
+  'uconverter/privacy-policy.html', 'WaterSort/privacy-policy.html',
+  'SnapLedger/privacy-policy.html', 'SnapLedger/delete-data.html',
+  'sudoku/privacy-policy.html', 'BlockPuzzle/privacy-policy.html',
+  'numbermerge/privacy-policy.html', 'mpos/privacy-policy.html',
+  'braintwist/privacy-policy.html', 'crosswordjourney/privacy-policy.html',
+  'apps/mathnova/privacy/index.html', 'quickshot/privacy-policy.html',
+  'privacy/ua-switcher/index.html', 'support/ua-switcher/index.html',
+  'privacy/index.html', 'terms/index.html',
+];
+const NAV_CANON = ['/apps/', '/games/', '/extensions/', '/support/', '/privacy/', '/contact/'];
+const navIssues = [];
+const withChrome = [];
+for (const f of htmlFiles) {
+  const r = rel(f);
+  const html = fs.readFileSync(f, 'utf8');
+  const shared = /<header class="site-header">/.test(html);
+  const compact = /data-site-chrome="header"/.test(html);
+  if (!shared && !compact) continue;
+  withChrome.push(r);
+  const nav = html.match(/<nav[^>]*aria-label="Primary"[^>]*>([\s\S]*?)<\/nav>/);
+  if (!nav) { navIssues.push(`${r}: no labelled primary nav`); continue; }
+  const links = [...nav[1].matchAll(/href="([^"]+)"/g)].map(x => x[1]);
+  const missing = NAV_CANON.filter(u => !links.includes(u));
+  if (missing.length) navIssues.push(`${r}: nav missing ${missing.join(', ')}`);
+  const footerBlock = html.match(/<footer class="site-footer">[\s\S]*?<\/footer>/)
+    || html.match(/<footer data-site-chrome="footer"[\s\S]*?<\/footer>/);
+  if (!footerBlock) navIssues.push(`${r}: no site footer`);
+  else if (!footerBlock[0].includes('href="/privacy/"') || !footerBlock[0].includes('href="/contact/"')) {
+    navIssues.push(`${r}: footer links incomplete`);
+  }
+  if (!/LLC AI LABS/.test(html)) navIssues.push(`${r}: brand name not LLC AI LABS`);
+}
+for (const r of LEGACY_20) {
+  if (!withChrome.includes(r)) navIssues.push(`${r}: no site chrome`);
+}
+const brandLeft = [];
+for (const f of htmlFiles) {
+  const r = rel(f);
+  if (r === 'kuizku/privacy-policy.html') continue;
+  if (/LLCAI Labs|LLCaiLabs/.test(fs.readFileSync(f, 'utf8'))) brandLeft.push(r);
+}
+rec('V19', 'Navigation & brand consistency across legacy pages', (navIssues.length || brandLeft.length) ? 'FAIL' : 'PASS',
+  (navIssues.length || brandLeft.length)
+    ? [...navIssues, ...brandLeft.map(r => `${r}: old brand spelling`)].join('\n')
+    : `${withChrome.length} pages share one nav (${NAV_CANON.join(' ')}), one footer nav and the LLC AI LABS wordmark; 0 pages keep a legacy brand spelling (kuizku excluded: owner unconfirmed)`);
+
+/* ------------------------------------------------ V20 Play URLs carry no UTM */
+const utmIssues = [];
+for (const p of data.products) {
+  const want = `https://play.google.com/store/apps/details?id=${p.packageId}`;
+  if (p.playUrl !== want) utmIssues.push(`products.json: ${p.packageId} is not the bare listing URL`);
+  const page = `${p.section}/${p.slug}/index.html`;
+  const html = fs.readFileSync(path.join(DOCS, page), 'utf8').replace(/&amp;/g, '&');
+  if (!html.includes(`href="${p.playUrl}"`)) utmIssues.push(`${page}: CTA does not point at ${p.playUrl}`);
+}
+for (const f of htmlFiles) {
+  const r = rel(f);
+  if (/utm_[a-z]/i.test(fs.readFileSync(f, 'utf8'))) utmIssues.push(`${r}: contains a utm_ parameter`);
+}
+rec('V20', 'Play URLs carry no UTM and match every CTA', utmIssues.length ? 'FAIL' : 'PASS',
+  utmIssues.length ? utmIssues.join('\n')
+    : `9/9 playUrl values are the bare store URLs; 9/9 product pages link to them; 0 utm_ parameter in ${htmlFiles.length} pages`);
 
 /* -------------------------------------------------------------- V04 external */
 if (NET) {

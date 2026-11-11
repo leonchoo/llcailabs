@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Privacy Policy — LLCAI Labs</title>
-  <meta name="description" content="Studio-level privacy policy for LLCAI Labs apps and games. Every app's data lives on your device unless stated otherwise.">
+  <title>Privacy Policy — LLC AI LABS</title>
+  <meta name="description" content="Studio-level privacy policy for LLC AI LABS apps and games. Every app's data lives on your device unless stated otherwise.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://llcailabs.com/privacy/">
-  <meta property="og:title" content="Privacy Policy — LLCAI Labs">
-  <meta property="og:description" content="Studio-level privacy stance for LLCAI Labs apps.">
+  <meta property="og:title" content="Privacy Policy — LLC AI LABS">
+  <meta property="og:description" content="Studio-level privacy stance for LLC AI LABS apps.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://llcailabs.com/privacy/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -21,16 +21,17 @@
 
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="site-brand" href="/" aria-label="LLCAI Labs home">
-        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="28" height="28">
-        <span class="site-brand__name">LLCAI Labs</span>
+      <a class="site-brand" href="/" aria-label="LLC AI LABS home">
+        <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="30" height="30">
+        <span class="site-brand__name">LLC AI LABS</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="/apps/">Apps</a>
-        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
+        <a href="/games/">Games</a>
+        <a href="/extensions/">Extensions</a>
+        <a href="/support/">Support</a>
         <a href="/privacy/" aria-current="page">Privacy</a>
-        <a href="/terms/">Terms</a>
-        <a href="/contact/">Contact</a>
+        <a class="site-nav__cta" href="/contact/">Contact</a>
       </nav>
     </div>
   </header>
@@ -39,7 +40,7 @@
     <section class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="page-header__lead">This page describes LLCAI Labs&rsquo; general privacy stance.
+        <p class="page-header__lead">This page describes LLC AI LABS&rsquo; general privacy stance.
           Each app may collect different data; the per-app privacy policies below are authoritative.</p>
       </div>
     </section>
@@ -52,7 +53,7 @@
 
         <h2>2. What we (generally) do</h2>
         <ul>
-          <li><strong>No account required.</strong> You can use every LLCAI Labs app without signing up.</li>
+          <li><strong>No account required.</strong> You can use every LLC AI LABS app without signing up.</li>
           <li><strong>Local-first data.</strong> Any data you enter is stored on your device unless an
             app&rsquo;s privacy policy explicitly says otherwise.</li>
           <li><strong>No analytics SDKs.</strong> We do not embed Google Analytics, Firebase Analytics,
@@ -65,7 +66,7 @@
         </ul>
 
         <h2>3. Per-app privacy policies</h2>
-        <p>Each LLCAI Labs app has its own detailed privacy policy. If you have a question about a
+        <p>Each LLC AI LABS app has its own detailed privacy policy. If you have a question about a
           specific app, please refer to its policy first.</p>
 
         <ul>
@@ -122,19 +123,44 @@
 
   <footer class="site-footer">
     <div class="container site-footer__inner">
-      <div>© <span id="year">2026</span> LLCAI Labs. All rights reserved.</div>
-      <nav class="site-footer__nav" aria-label="Footer">
-        <a href="/apps/">Apps</a>
-        <a href="/chrome-extensions/user-agent-switcher/">Extensions</a>
-        <a href="/privacy/">Privacy</a>
-        <a href="/terms/">Terms</a>
-        <a href="/contact/">Contact</a>
-      </nav>
+      <div class="site-footer__brand">
+        <a class="site-brand" href="/">
+          <img class="site-brand__mark" src="/assets/favicon.svg" alt="" width="30" height="30">
+          <span class="site-brand__name">LLC AI LABS</span>
+        </a>
+        <p>Independent App & Game Studio. Building small, focused Android apps, games and Chrome extensions that simplify everyday tasks.</p>
+      </div>
+      <div class="site-footer__col">
+        <h3>Products</h3>
+        <ul>
+          <li><a href="/apps/">Apps</a></li>
+          <li><a href="/games/">Games</a></li>
+          <li><a href="/extensions/">Extensions</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=LLC+AI+LABS" rel="noopener">Google Play developer page</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="/support/">Help &amp; support</a></li>
+          <li><a href="/data-deletion/">Data deletion</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="/privacy/">Privacy policy</a></li>
+          <li><a href="/terms/">Terms of use</a></li>
+          <li><a href="/privacy/">App-specific policies</a></li>
+        </ul>
+      </div>
     </div>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-      document.getElementById('lastUpdated').textContent = new Date().getFullYear();
-    </script>
+    <div class="container site-footer__legal">
+      <span>&copy; <span id="year">2026</span> LLC AI LABS. All rights reserved.</span>
+      <span>Apps and games are distributed via Google Play.</span>
+    </div>
+    <script>var y=document.getElementById('year');if(y){y.textContent=new Date().getFullYear();}</script>
   </footer>
 </body>
 </html>
