@@ -8,3 +8,5 @@ docs/app-ads.txt text eol=lf
 *.txt  text eol=lf
 *.svg  text eol=lf
 *.md   text eol=lf
+*.json text eol=lf
+*.xml  text eol=lf

@@ -1,0 +1,609 @@
+[
+  {
+    "slug": "quick-qr-scanner",
+    "packageId": "com.llcailabs.quickqrscanner",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.quickqrscanner&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:29.038Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/SnN_ymtCLhATb4BI8t3vUqmtjLE6843kAozoaMJBGjXFFrL1R73QXj499UjsCOZkfrAlF-bIuRuW10RLFe-j=s512",
+        "bytes": 217201,
+        "sha256": "1ab165690aa42a7891e12e8ce1444e5af12ff9561bcd9421c2d9538e6423c8eb",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/iVr8vYsc_891C5JuIwCfQBtmrpkTOEI6UnzjQiR5M1DzOWTrmvOUqT2yuu2N_BGYMnd7ho3TxsRPhSVbrHG5Enw=s0",
+        "bytes": 178531,
+        "sha256": "36e346fcb33d643e2986edc658593603833d08ed62ae115ef13126af27e503a7",
+        "width": 1080,
+        "height": 2388,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/xuldGsBta7qfGHpDkvf3OlgEd17JnuGutXkp3a_Dj8hUYhhtlMOG6mbi5CjeE8tXEs54ZopYbsE9k4GG1JvfWA=s0",
+        "bytes": 270870,
+        "sha256": "df65b5eda762853de55cd339089f5bb5fa9c49b90c86f26b98e1fe9f5f8bd6b9",
+        "width": 1080,
+        "height": 2388,
+        "format": "jpg"
+      }
+    ],
+    "name": "Quick QR Scanner",
+    "shortDescription": "Fast, simple QR code and barcode scanner with scan history and privacy controls.",
+    "fullDescription": "Quick QR Scanner is a fast and simple QR code and barcode scanner designed for everyday use.\n\nScan QR codes and popular 1D barcodes using your device camera, or select an image from your gallery to scan. Results are displayed clearly so you can quickly view and use the information you scanned.\n\n### Key Features\n\n• Fast QR code scanning\n• Supports popular 1D barcodes including EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93 and ITF\n• Supports PDF417, Aztec and Data Matrix formats\n• Scan directly with your camera\n• Scan an existing image from your gallery\n• Automatic URL opening option\n• Scan history for reviewing previous scans\n• Delete individual scan records or clear your entire scan history\n• Vibration and scan sound controls\n• Light, Dark and System theme options\n• No account required\n• Simple and easy-to-use interface\n• Privacy-focused design with scan processing performed on your device\n\n### Scan History\n\nYour scan results can be saved locally on your device so you can review them later. You can delete individual records or clear your entire scan history whenever you want.\n\n### Privacy\n\nQuick QR Scanner does not require an account. Camera frames and barcode scanning are processed on your device. Scan history and app settings are stored locally on your device.\n\nThe app contains Google AdMob banner advertising on the Home and History screens. Ad-related data may be collected by Google to provide and measure advertising services.\n\nFor complete information about data collection and privacy, please review our Privacy Policy.\n\nQuick QR Scanner by LLCAI Labs.\n\nMade for fast, convenient and straightforward QR code and barcode scanning.",
+    "ok": true
+  },
+  {
+    "slug": "scan2drive",
+    "packageId": "com.llcailabs.scan2drive",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.scan2drive&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:30.215Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Z4sN6MrYoT_zYFQKOManUSjRt5UHRu5hw95bn4ZUzVWYDikEJJZCEwju27JFFM4F-BSWojzKKGYM4yt4-oVSpho=s512",
+        "bytes": 225162,
+        "sha256": "f0efe378a1e9fc4420589fe06d525500df9743f8f93503320ec6e8a9b2f7cde8",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/WzuDpLT4v_mLGfuIjCLKAQFGbj0U28zqn2XVZhQGWpisGjSjStS7HTqruTApCp_3Pv6BOgehjsmHXNbAZlclAg=s0",
+        "bytes": 182362,
+        "sha256": "95ad6d30c7e0a55abe1a94a8ce4b359fae82d14a38ef6b0cddfc611e3f43a8bb",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/UPJN5xi9Ai1sMRaUUW7wWHlzE1wK3y0ePSGaoH1RLuQ8Eq5awRO8tG3kC9Ozna7TE37CYqc-M_2C628LnnFQ=s0",
+        "bytes": 62553,
+        "sha256": "7deaaf328901854920e7e299c9c541f7eb7c1909582f8cdecb4f9d0276fa2495",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/mOmNIVg4bnWmZcWBxLSLdffnE95FBvolnuEehdqHYGmpa02ByQDYBgL1cU2eocqcW3tjtyLxPlVXuWNjSE8AbhQ=s0",
+        "bytes": 1382978,
+        "sha256": "366906790dd4763caf6b3fdb37dffc7278a3ccb2abbe9dff632ddb4c854727eb",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Yqb-XixS9XzQ5SJEgaM7sOeGoFYAQZ_L07aBxvIN3nB-ExxwKm4rWIbx9dlBTyOMLvMR9Wp5UNyVETg8_kBJ=s0",
+        "bytes": 1064006,
+        "sha256": "13e966ebc4a599ea35ddc58c9b3262a2dd8c26b4339b9cfed309578bb05ac809",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      }
+    ],
+    "name": "Scan Tools",
+    "shortDescription": "Scan, capture, sign, extract text, scan QR codes and convert files with ease.",
+    "fullDescription": "Scan Tools is a simple and practical scanning and document utility app designed to help you scan, capture, convert, and manage your documents and images.\n\nWhether you need to scan a document, capture a high-quality photo, extract text, scan a QR code, sign a document, or create a PDF, Scan Tools puts useful everyday tools in one place.\n\nKEY FEATURES\n\n📄 DOCUMENT SCANNER\nScan documents quickly and create clean, easy-to-read digital copies.\n\n📷 HIGH QUALITY PHOTO\nCapture high-resolution photos with a dedicated camera experience, ideal for documents, notes, receipts, and other important images.\n\n✍️ SIGN\nAdd your signature to documents and images when you need to sign or mark something digitally.\n\n🔤 EXTRACT TEXT\nExtract text from images using OCR. Useful for notes, documents, receipts, and other printed content.\n\n🔲 QR SCAN\nQuickly scan QR codes and access the information they contain.\n\n📄 CONVERT TO PDF\nConvert images into PDF documents for easier sharing, storage, and organization.\n\n📁 FILES\nKeep your PDFs and photos organized in one place. Easily browse, preview, and open your saved files.\n\nSIMPLE AND EASY TO USE\n\nScan Tools is designed with a clean and straightforward interface so you can get things done without unnecessary complexity.\n\nFrom scanning a document to saving a PDF, the app keeps the workflow simple and practical.\n\nPRIVACY\n\nYour documents and photos are handled directly on your device whenever possible. Scan Tools is designed to provide useful document tools while keeping the experience simple and privacy-conscious.\n\nDownload Scan Tools and keep your everyday scanning, photo, text, QR, signing, and PDF tools in one convenient app.",
+    "ok": true
+  },
+  {
+    "slug": "age-calculator",
+    "packageId": "com.llcailabs.agecalculator",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.agecalculator&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:32.324Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/jR-TJU5bwis5pOyk8uZhggL6MGGciJDO7Fj_jd9xV8mvVqiuys2zVtGv0m9rGqaI7eHGGfJrdReo4GkH3LkH=s512",
+        "bytes": 195608,
+        "sha256": "94f2b4fd41c96d5037b460fdb55fdf2f4d28f09b0f16170e8ab83613e1d9b7fd",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Ib72DH9QEEuitT0TqNVO3854AhYNbJD6qwWluSIjwMNeQyAUrfBtPRcayXioGdHmx9Bqp4g3o8dD_B3UZSh1DQ=s0",
+        "bytes": 157338,
+        "sha256": "3412b9ab1ddde304f8a1a3417150ecce988986b1c80d8924b1e800fd6faf0287",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/UidhlPPhaQE6K63ksA_429hyaqEo7FpliwQMTcnfQXXcUkkqaY592Ah6kyvSsZ3Kt_PM99p1Tpt1PJnxSxvCFpQ=s0",
+        "bytes": 144845,
+        "sha256": "63018aa3fc23b8ea942573b52888f39f33aa27aae45478e12f6d6ef33f894b61",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/z1xUnGmfLlVZM9huJlKFf9_YKkFnCXwsTbZOqY-Jj7L4hIeLaAO2GvuCq3Fcg4MQLdbK_Yv_a0-JbrqDZGtW=s0",
+        "bytes": 115061,
+        "sha256": "12f6729005c4ad894859268ac30c3ecafe2a906f48b487db03c8ca2dea867d7a",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/JAfVUxILezOMReAnkG3q-Uz-oPQoK1YEIAO7rSv7K0bSMqgoaZB1ONcfltm0JOMKd1UOXonfb_ldsJQqAOmE=s0",
+        "bytes": 89100,
+        "sha256": "8b9440eaefcbd5d77eba9918885cd3d7cbe44d4aebf56cb3945754c94239080d",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-5.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/bL7N2pWB0zdUgygkBKzbpMceXuYWZRrpHz88omptWfvdJUs0_EcissMVZX0ddm9BzqO1b5wkOzZuwZRwiDxGlg=s0",
+        "bytes": 157683,
+        "sha256": "16f52d4aef789a9c46ae9bde938d9ac3c03fc1432bc61271b4345304bb603cb0",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-6.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/vx2Z2IPy8nx7tlOTt3ilyBvnGjYrys1AskqAaQZtdyuHd6av6oR3QJfF1aBjEhl3lSpQLVE91ocsnzhZYvDis-w=s0",
+        "bytes": 103883,
+        "sha256": "fa12450e1270bf43361977cfcc4014d509978ed0ea9144cf8724b61774fcef6e",
+        "width": 1080,
+        "height": 2220,
+        "format": "png"
+      }
+    ],
+    "name": "My Days",
+    "shortDescription": "Track important days, birthdays, family ages, holidays, and date calculations.",
+    "fullDescription": "My Days helps you keep track of the dates that matter to you.\n\nFrom birthdays and family members to important events, public holidays, and date calculations, My Days brings useful date tools together in one simple app.\n\nFEATURES\n\n🎂 Birthday & Age Calculator\n• Calculate your exact age from your date of birth\n• See your age in years and days\n• Check your next birthday\n• Save your birthday for quick access\n\n❤️ Important Days\n• Save birthdays, anniversaries, trips, exams, holidays, and custom events\n• See countdowns to upcoming events\n• Mark the days that matter most to you\n• Keep important events organized in one place\n\n👨‍👩‍👧 Family\n• Save family members and their birthdays\n• Calculate their current age\n• See upcoming birthdays and countdowns\n• Add notes and relationship information\n\n📅 Calendar\n• View your important dates and calendar events\n• Import calendars using standard ICS calendar URLs\n• Add public holiday calendars from supported sources\n• Keep your calendar information together with your important days\n\n🧮 Date Calculator\n• Calculate the difference between two dates\n• Find dates by adding or subtracting days\n• Useful for planning events, trips, deadlines, and anniversaries\n\n🌍 Public Holiday Calendars\n• Access verified public holiday calendars for supported countries and regions\n• Import calendars into My Days when needed\n• Calendar availability may vary by country and region\n\nMy Days is designed to make date tracking simple, useful, and easy to understand.\n\nWhether you want to know how old someone is, count down to an important day, remember a family birthday, or plan around public holidays, My Days keeps the dates that matter close at hand.",
+    "ok": true
+  },
+  {
+    "slug": "uconverter",
+    "packageId": "com.llcailabs.uconverter",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.uconverter&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:35.344Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/V29CIX4lT42O8OiEctxpBTQJk7E0wdkJGgmZmeg4CVOimBz-_kT7UPkeIHKyg2-zV-YLR6bDwmsPLGtH0V-CZg=s512",
+        "bytes": 71944,
+        "sha256": "5edf935e7a519d330865fc738b75b2b284ba0f9fde25b8552cd7b7d5d915e84a",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gZXVNxYjN3eq1u_9cOtYgU7pMNIBLnPtHgbM9yQBcwqhH7-J1rgr-XkIrYZA0jHe6oOGTnuhs028q5fRnc99=s0",
+        "bytes": 125002,
+        "sha256": "3ab7217b0fff4e827631d3cd7bfbfb6e1dbaf63fd2dd55818c6d4f7fe89fb129",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gX3LIB2txyEQoWUIyTfSRFXHwkLsZvNY7uBuT5LcKxekre8-NOom5rzoMfFmi7Xwx1oMo8IZG8gPqNJgSt11oMU=s0",
+        "bytes": 117069,
+        "sha256": "8015ff2c727669dbbce2dc96fa7704792ca2e9ca9e49cd37c30b3dfc4a9fb4c7",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/XL58K-UfzED_SbOsK9vG1D5liezRKbFGOpHRfkkxGE_u0ILqk7Gv1NdfGCnLCmAmFhnFYwiKlGd896L59qoCmQ=s0",
+        "bytes": 128127,
+        "sha256": "d95c1bf4655f90bfe00a53e4337ac3ecb6141905035f88ce329bd86bca83d767",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/e3lD_q_ZNnE4_QMIU_Hnf2OWoZvXGMZbhJ1cCBNW13TRQUbu0Aer0XTcwCnikuRYkTwhJbMtfcdAS4dpLVZWZw=s0",
+        "bytes": 263976,
+        "sha256": "1be825a163361bd6ef457580e563fc8d21e119d5a76da5595c4087aed9a20ca7",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-5.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/tqzYHHvBEvPMCKU1b7Nz4lQBrbxngBe_ZqE6cCQVFAO8ggy3diwageJCq2da7nuuPOVMph9XWFUEiIVP17gyiw=s0",
+        "bytes": 124426,
+        "sha256": "f486a24717e9f476570bec85503b771644eafa1ef6ac16854f35e2d6ace6bc52",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-6.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ZTqn7QJqLKxASHuiF7G8tm2Xk1p6tGFZWjBxeKmBUsnDNJ76EAuv-NaabiMk4yf8tOcl5pE5ZNmdMjPPP5jd=s0",
+        "bytes": 119872,
+        "sha256": "96ab01d3a3f67ca658b685203a87bb415e268fcff7cfa02317be662ba320107f",
+        "width": 1080,
+        "height": 2220,
+        "format": "jpg"
+      }
+    ],
+    "name": "uConverter - Unit Converter",
+    "shortDescription": "Convert units, calculate BMI, and get quick everyday measurements.",
+    "fullDescription": "uConverter is a simple and reliable unit converter with a built-in BMI calculator for everyday use.\n\nConvert common measurements quickly and easily:\n\n• Length conversion\nConvert between meters, kilometers, centimeters, feet, inches, and more.\n\n• Weight conversion\nConvert between kilograms, grams, pounds, and other common weight units.\n\n• Area conversion\nConvert measurements such as square meters, square feet, and more.\n\n• Temperature conversion\nConvert between Celsius, Fahrenheit, and other temperature units.\n\n• Data conversion\nConvert common digital storage units.\n\n• Currency reference conversion\nView reference currency conversions. Exchange rates are for informational purposes only and may not represent live market rates.\n\n• BMI calculator\nCalculate your Body Mass Index (BMI) using your height and weight. Results are provided for general informational and wellness purposes only and are not medical advice.\n\nWhy choose uConverter?\n\n✓ Fast and easy to use\n✓ Works offline for calculations\n✓ No account required\n✓ Your conversion and BMI calculations stay on your device\n✓ Supports light and dark themes\n✓ Supports multiple languages\n\nuConverter is designed to make everyday calculations simple, convenient, and accessible.\n\nNote:\nCurrency exchange results are reference values only and should not be used as financial advice. BMI results are for informational purposes and should not replace professional medical advice.",
+    "ok": true
+  },
+  {
+    "slug": "snapledger",
+    "packageId": "com.llcailabs.snapledger",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.snapledger&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:39.547Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/5OLbben8xG5ODgGBpAziQqDW3TYN64ztsy7Y-d5izmcDhEhvQ2R7AJSwZ15lBj_C6ivo4jzIl9EJoFnywF7W1g=s512",
+        "bytes": 4824,
+        "sha256": "695a1eecdbea9adc86eedaa8e28de9fe199b6dda6b3c64ed38a5d0925a2297bc",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/63DLxtWtqyUOL9hBocoVh_CaFTfvq_CIQHazgacS4xzZzJHxLAGspaFZPJdEBbKArgphM06raM0FC61cwsod=s0",
+        "bytes": 242245,
+        "sha256": "1cc7314c2c73e28ea1b3f959fdc81298f9fda65cf6f658a0bf108e6e13bcfbbc",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/EZzUyYRa5Ts9kr5tO6NvT5uKgliggrBrU6LeEagXIHeQm5D7RTiIKwr_2q1uObYOjbocTOX-FeJkkKlPGoiR6w=s0",
+        "bytes": 203714,
+        "sha256": "f8beefd94fae6d81ebdc88ba50aff3e4605a81beec8e7ddce42ba6e1cad6ff72",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/iAeHQrc6bnfYL3J0HUJ_ZgiGjuywHRzNUyyaPadfbTpReL0eSupMjoKvompZjoo8j-Ltp2FApND6VeM5O7dVGQ=s0",
+        "bytes": 349051,
+        "sha256": "87e367db2a4e90e6ebe24e9d1cacd8844b17cbfdb361e4f351ecc16343357b5b",
+        "width": 1080,
+        "height": 2340,
+        "format": "jpg"
+      }
+    ],
+    "name": "SnapLedger",
+    "shortDescription": "Scan receipts and track expenses effortlessly with SnapLedger.",
+    "fullDescription": "SnapLedger — Scan Receipts, Track Expenses\n\nSnapLedger makes expense tracking simple.\n\nTake a photo of your receipt, let SnapLedger extract the important details, review the information, and save your expense. No complicated setup. No account required.\n\n📸 SCAN RECEIPTS\n\nTurn paper receipts into digital expenses with on-device text recognition.\n\nSnapLedger can help identify:\n• Merchant\n• Date\n• Total amount\n• Category\n• Payment method\n• Subtotal, tax, and other receipt details when available\n\nYou can review and edit the information before saving.\n\n🔒 PRIVATE & OFFLINE\n\nYour core expense tracking works on your device.\n\nSnapLedger is designed for offline use, so you can record and review expenses without needing an internet connection.\n\nYour receipt images are stored locally on your device.\n\n💰 TRACK YOUR SPENDING\n\nKeep your expenses organized in one place.\n\nView:\n• Total spending\n• Recent expenses\n• Spending by category\n• Spending by merchant\n• Monthly spending\n\n📊 UNDERSTAND YOUR EXPENSES\n\nSee where your money goes with simple spending statistics.\n\nTrack categories such as:\n• Food & Dining\n• Groceries\n• Transport\n• Shopping\n• Bills\n• Health\n• Entertainment\n• Other\n\n✏️ YOU STAY IN CONTROL\n\nReceipt recognition is designed to save you time, not make decisions for you.\n\nBefore an expense is saved, you can review and correct the extracted information.\n\n📄 EXPORT YOUR EXPENSES\n\nExport your expense data for your own records and further analysis.\n\nWhether you want to track daily spending, organize receipts, or understand your monthly expenses, SnapLedger helps turn receipts into a simple expense record.\n\nStart tracking your spending with SnapLedger.\n\nSnapLedger — Scan a receipt. Track your spending.",
+    "ok": true
+  },
+  {
+    "slug": "sudoku",
+    "packageId": "com.llcailabs.sudoku",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.sudoku&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:40.665Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/RmwKHOaKECYElaWW60qzpr0Lvk44jDgwC5cBhpFAKjoAHvkCsFSdSefy8TLYL0LLRHV4ItDFn94IRP5Yz1zC=s512",
+        "bytes": 162868,
+        "sha256": "5b2698c6728f6afe64b252c2fec32d3ea3f4b53dd84bd6a40bf3383f8de63366",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Nq7fM2-Yl2hR8a7AMbNLoQb1kL-mNfruEoRd3-fr_ZTC-3U88B4HjY7cxh6iGRFabdvqtbZT6TtuLBOrjKk5=s0",
+        "bytes": 140992,
+        "sha256": "6a1058dba81d4176daceba1265383381de001c144177211e39e496b0cbdada87",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1bKIGn_3u8Rwtju1sV94-cO1huA9rWp8QRAsWKipSuU9eVfT_aG_wDZjDTVrbV3fw_6UDiv1--HlOVhus0x9Rg0=s0",
+        "bytes": 144201,
+        "sha256": "bb415740a874f6f07a1cb7e98091425cf22bfe48d147dfb38ce2d0c08a8bb8f1",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/T_dGQcVYtWIpYIGKve8VxkMw3Iwr2-UVjI2plhoro8YULdKKOOpzDSCLBS4zuaeGpPtggb0cYF2ACnpZGuwprZg=s0",
+        "bytes": 144190,
+        "sha256": "027fa0aeabfe621583e5025fc37306d93c74a517d0f0a0688843497bbd0c6435",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/m1Ug9lwPAQxqY4IM6rcCEkMEpzbQQYXmXeSDMaWvRV6sOMRnDXXJjlea24Js1_T3V0Fdp3YXtygcpEU9XN8qWw=s0",
+        "bytes": 161923,
+        "sha256": "ea93acc7baa3cd194191d29e1d84337c0e2c4bd2e55c2f5a1ed286047a79d8e0",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-5.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/lmzYLUmQLxc_hkYTb0g8rZ7WHhMbOzGrP8n-TgxOu91WLNwfqa0k7V7PTo5WpwXCyXwhhEuPpy_c-yUbv0hG6w=s0",
+        "bytes": 158146,
+        "sha256": "2bb1200622cb8b53b67bc09594702838d83c473b3e49c7db2ae0c3fa61edb6c2",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-6.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/jJ6QW2vTd5YUFDd92JtQgPYNtnsvw434eWaedXzpOn80wm1oTbZPfLdzb3YGA1_xto8VPEUH7Km18Gw3ZFlIey4=s0",
+        "bytes": 152239,
+        "sha256": "89ab14401ccd1cef9d6cace575b5487820a6067ebaae475a14c1acc98d44926e",
+        "width": 1080,
+        "height": 2340,
+        "format": "png"
+      }
+    ],
+    "name": "Sudoku - Classic Puzzle",
+    "shortDescription": "Classic Sudoku puzzle game with simple, relaxing number logic challenges.",
+    "fullDescription": "Sudoku - Classic Puzzle is a simple and relaxing number puzzle game for players who enjoy logic and brain challenges.\n\nFill the 9×9 grid with numbers from 1 to 9. Each number can appear only once in each row, column, and 3×3 box. Use logic and careful thinking to complete the puzzle.\n\n### Features\n\n• Classic 9×9 Sudoku gameplay\n• Simple and easy-to-use interface\n• Exercise your logic and problem-solving skills\n• Relaxing gameplay for short or longer sessions\n• Suitable for beginners and Sudoku fans\n• No account required\n• Play at your own pace\n\nWhether you are new to Sudoku or already enjoy number puzzles, Sudoku - Classic Puzzle offers a straightforward way to enjoy the classic logic puzzle.\n\nStart a puzzle, think carefully, and complete the grid!",
+    "ok": true
+  },
+  {
+    "slug": "block-puzzle",
+    "packageId": "com.llcailabs.blockpuzzle",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.blockpuzzle&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:43.389Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/fczIbdL5Gva9kTXWyLpSC8VCtu5bs2mCPzX3OcLHdAvEl084xUuSIoGXW7_jAxvTGQyJ9D1syDfF7dEiPDK-kw=s512",
+        "bytes": 259917,
+        "sha256": "f01f6c2b79d004ec70840432537f0cb4cce52ee51bbbbcd86b9d9abc28094ea7",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/xex8oxisO2c66Nam-2TYCNk4_3GKR2wYAY60xNq6VqPuubFl-Dq1zIipXo4ZxF_Iyvj8Kd6MVsh7nzlejKTCeQ=s0",
+        "bytes": 146674,
+        "sha256": "b60a3d3cdb23d64b3bba44aebd2a1357a3eec0b137be03c7ed516b05942ec757",
+        "width": 1080,
+        "height": 1920,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ABA5eM0D-kyMbV7kE9gdyfmph6_U9VopfqMfFi1_kxVNx6vdymkzNb1dAN3MK5nLDSMo8s8dOSUjnJsY-AvzvA=s0",
+        "bytes": 144333,
+        "sha256": "b17bca74056ca158bbb65bd595689bd472ab626dd94884778ad5f085dfea7053",
+        "width": 1080,
+        "height": 1920,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/acoPY9E6TnqkbJgLFzmrsZCAoNLr9VPt6A5ioEHg6XP77Tnf8er03MbCTuSqp1hLQQCaNhfTOCGRmnZH-zRs=s0",
+        "bytes": 122663,
+        "sha256": "020624153de39347c4d4f01346658c53e52234544eb22b8bd5b3413479e7e319",
+        "width": 1080,
+        "height": 1920,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/PUfJmiBFiWiDqk8goQqzFFuM7rBQRHyD8xcpMh85UZmP0PlMdFGEfqoUDZ64ttwstp2HsXa8Mv9EkbVwfn7E=s0",
+        "bytes": 154245,
+        "sha256": "87a9d5dd7780db7bc806045bb7b46ae423504488f297cb04fad589d1411e3f8e",
+        "width": 1080,
+        "height": 1920,
+        "format": "png"
+      }
+    ],
+    "name": "Block Puzzle",
+    "shortDescription": "Classic block puzzle game. Place blocks, clear lines, and beat your high score!",
+    "fullDescription": "Block Puzzle is a simple and relaxing classic block puzzle game that's easy to learn and fun to play.\n\nPlace the blocks on the grid, complete rows and columns, and clear them to make space for more blocks. Plan your moves carefully and try to achieve your highest score!\n\n### Features\n\n• Classic block puzzle gameplay\n• Simple drag-and-place controls\n• Easy to learn, challenging to master\n• Relaxing gameplay for short or long sessions\n• Challenge yourself to beat your high score\n• Clean and simple game experience\n• Play anytime, anywhere\n\nWhether you have a few minutes to spare or want a longer puzzle session, Block Puzzle gives you a simple and enjoyable way to challenge your mind.\n\nCan you beat your best score?\n\nDownload Block Puzzle and start playing today!",
+    "ok": true
+  },
+  {
+    "slug": "number-merge",
+    "packageId": "com.llcailabs.numbermerge",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.numbermerge&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:45.274Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/X8Y_4PRliQAEjxHFr5KbHQB8n4OoBSWtgy5YUKMAML_5PlKgzxrScB50E2SfHeR1DDxGkQ9zxVdRtobvu4TM-A=s512",
+        "bytes": 613097,
+        "sha256": "bc61b913840a1fb85301a48184f8c741aa6bf633bd88c7f1fee843f404062525",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Ou2dl7ePL8J9iW0M_AaCJYu3Gpksi1dWe58PBqNcA-yzSUlzTcyYZXYvU0A6LNAAB8Yet25FfWj00XFpJFic=s0",
+        "bytes": 273936,
+        "sha256": "2002b719fec881162efb137dc81e9abe5acb4ef5c2fb8dd0b766767fe0f35265",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gFn7uT7DhUB5IUCGBKqf1G1BKLcdJzdzW_cE3P0Y8S93AQUCb55EPMBhxsNkeJXwoWBw7elPEE5ROPeeqwKTJA=s0",
+        "bytes": 244901,
+        "sha256": "17234ce8dd44735c646767e3aaa877acdabf2288cc99e278b99d1bc845922898",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/dHChnzE-EsW07_YZzNJ849jGuGxYoIlc8uVtdyo2HVT2nD9dt1rL8tmBnTj519KqHIGe3AGEsWC03milTLh3=s0",
+        "bytes": 257576,
+        "sha256": "6e317b1147f5c0d1dd52e3e13abdd403800af0efff5b93f474468d1d796f65eb",
+        "width": 1440,
+        "height": 2560,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/PiPwri4DmBWEM_pr5rPe26FQW3DZrp9WPXJwCh_H47dEEU8OJ7R-VIyU_vq1KH7ygAjNAbbvDVnvvt2-GM2V1WU=s0",
+        "bytes": 193125,
+        "sha256": "f9845d95ae45d54dd535b1807ca817b23b37ea5f5351b73bde5b83a0aa25bdf7",
+        "width": 1440,
+        "height": 2960,
+        "format": "png"
+      }
+    ],
+    "name": "Number Merge",
+    "shortDescription": "Merge numbers, match tiles, and enjoy a fun, relaxing puzzle game.",
+    "fullDescription": "**Number Merge – Simple Number Puzzle**\n\nMerge numbers, match tiles, and enjoy a relaxing puzzle game that is easy to learn and fun to play.\n\nCombine matching numbers to create higher numbers. Plan your moves, keep the board under control, and see how high you can score.\n\n**Features**\n• Simple and easy-to-learn gameplay\n• Merge numbers and create bigger values\n• Relaxing casual puzzle experience\n• Challenge yourself to achieve a higher score\n• Clean and simple interface\n• Great for quick games anytime\n\nWhether you have a few minutes or want to play longer, Number Merge gives you a simple way to enjoy a number puzzle at your own pace.\n\nHow high can you merge?",
+    "ok": true
+  },
+  {
+    "slug": "mpos",
+    "packageId": "com.llcailabs.mobilepos",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.mobilepos&hl=en&gl=US",
+    "httpStatus": 200,
+    "collectedAt": "2026-11-11T03:51:48.691Z",
+    "assets": [
+      {
+        "kind": "icon",
+        "file": "icon-512.png",
+        "sourceUrl": "https://play-lh.googleusercontent.com/_To-7nVHg3m-MnDcK2EmEQX3VZszQqePbCd9aEeOSv6CpXSw0e_MKvIEdX82cIFDnMPh6xZLP_wpcbieqCvvUA=s512",
+        "bytes": 263952,
+        "sha256": "817e5b0ca544c38e02026d348b5a6b7bb4cbbfbd393f7ceb16f38b784ec2e24e",
+        "width": 512,
+        "height": 512,
+        "format": "png"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-1.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/5MVYsPOYBI9TcNaWOUu3v_wSE52ucfKtvMgJ9MsV8v-pIC1i6qFS2rMFXkiH4wptki7Miyy18UeMo2MnyPClP_E=s0",
+        "bytes": 57513,
+        "sha256": "3eff6b593e2c7881e6c99bee61aa549060cb671c5f741f85d281b4546858b4aa",
+        "width": 622,
+        "height": 1280,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-2.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/GZaT8l2US0mfpTsV4m3MnnvCbx-D1woGIm2SmTFjH42h43NrjAy9kGPbIg7aC1p8Pr2WzOibX1bt4PlbXaISI8w=s0",
+        "bytes": 57570,
+        "sha256": "5612639a26d00eaedb08f33fe5619be24c5f59bb51acaec54a2210cb689108ee",
+        "width": 622,
+        "height": 1280,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-3.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/3Gnn_nNBxLDdSRrlXk_vE4z298trn8mP4WC9nSs71vgHMO7T7ctM7PilQJ5QrLBvFvSWF7ZbXjN1Oen7JoKdEw=s0",
+        "bytes": 32277,
+        "sha256": "78805dd22732a91dc4094563f7d53d4c9d8ff8539d0c2118b7ba9dcad1b0d7d8",
+        "width": 622,
+        "height": 1280,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-4.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/QrZJ40oB6uxN2LC7g45IWhb70gOz1jLFW6BU60eorrpbLytwvqQTdQ1YOd3rHVS9YX6Zoeg1MxD948JXscg-v0Y=s0",
+        "bytes": 30807,
+        "sha256": "39224d23219e73a43335ae61bb20ba425eb163277e52c41cc8acceeff8a1696d",
+        "width": 622,
+        "height": 1280,
+        "format": "jpg"
+      },
+      {
+        "kind": "screenshot",
+        "file": "shot-5.jpg",
+        "sourceUrl": "https://play-lh.googleusercontent.com/OdZAAkDAWC0V07nXJ8K-QmiGALNw0yb6JLSaJdKpZbNpJmmy3A-o7_PdzxUVGe_l9Fp5o6Mrv51Xi7BKHBPrTCA=s0",
+        "bytes": 50739,
+        "sha256": "35d1b0c3cc72e0729c167ee01f640e7440ff421e5fda5421f3d60559abd909f5",
+        "width": 622,
+        "height": 1280,
+        "format": "jpg"
+      }
+    ],
+    "name": "mPOS — Mobile Point of Sale",
+    "shortDescription": "Offline mobile POS for small shops: sales, inventory, checkout, and backup.",
+    "fullDescription": "mPOS — Mobile Point of Sale is an offline-first POS app designed for small shops, stalls, and mobile sellers.\n\nManage products, inventory, sales, checkout, and receipts directly from your Android device. mPOS works without an account or an internet connection for everyday POS operations.\n\nKEY FEATURES\n\n• Product & inventory management\nAdd products with names, prices, categories, SKUs, stock quantities, and low-stock thresholds. Edit prices, archive products, or mark items as unlimited stock.\n\n• Fast checkout\nTap products to add them to the cart, adjust quantities, review the total, and complete the sale. A 5-sen cash rounding option is available for Malaysian users.\n\n• Price override\nApply a temporary price override to individual items during checkout. The original product price remains unchanged.\n\n• Sales history\nView previous orders by date and open individual orders to see item details, totals, and receipt information.\n\n• Receipt printing\nConnect a compatible Bluetooth ESC/POS thermal printer for 58mm or 80mm paper receipts. Print receipts after checkout or reprint them from order history.\n\n• Stock & restock\nMonitor stock levels with low-stock indicators. Quickly restock products using preset quantities or enter a custom quantity.\n\n• Reports\nReview sales information and stock-related information to help monitor your shop's daily activity.\n\n• Backup & restore\nCreate backup files and save them locally or optionally back them up to your Google Drive. Restore your product, order, inventory, and settings data when needed.\n\n• Multi-language\nAvailable in English, Bahasa Malaysia, Bahasa Indonesia, and Simplified Chinese.\n\n• Tax & currency\nConfigure the applicable SST rate and currency code. MYR is the default currency.\n\nOFFLINE-FIRST\n\nmPOS is designed to work offline. No mPOS account is required and everyday POS data is stored locally on your device.\n\nGoogle Drive backup is optional. When you choose to use it, mPOS uses Google Drive to store and restore your backup data.\n\nSUPPORTED DEVICES\n\nAndroid 8.0 (API 26) or later.\n\nIMPORTANT\n\nmPOS is a business management and point-of-sale tool. It does not process card payments or provide banking, financial, lending, or payment services.\n\nThe app does not provide tax or legal advice. Tax rates and settings should be configured according to your business requirements and applicable local regulations.\n\nPrivacy Policy:\nhttps://leonchoo.github.io/llcailabs/mpos/privacy-policy.html",
+    "ok": true
+  }
+]

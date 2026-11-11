@@ -1,0 +1,382 @@
+{
+  "brand": {
+    "name": "LLC AI LABS",
+    "shortName": "LLC AI LABS",
+    "tagline": "Build. Create. Simplify.",
+    "positioning": "Independent App & Game Studio",
+    "domain": "https://llcailabs.com",
+    "playDeveloperUrl": "https://play.google.com/store/apps/developer?id=LLC+AI+LABS",
+    "contact": {
+      "supportEmail": "llcailabs@gmail.com",
+      "privacyEmail": "llcailabs@gmail.com",
+      "businessEmail": null
+    }
+  },
+  "products": [
+    {
+      "slug": "quick-qr-scanner",
+      "section": "apps",
+      "type": "App",
+      "category": "Scanning",
+      "name": "Quick QR Scanner",
+      "packageId": "com.llcailabs.quickqrscanner",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.quickqrscanner&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Fast, simple QR and barcode scanning — processed on your device.",
+      "intro": "Scan QR codes and common 1D barcodes with your camera, or open an image from your gallery. Results are shown clearly, and your scan history stays on your device.",
+      "features": [
+        "Scan QR codes and 1D barcodes including EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93 and ITF",
+        "Also reads PDF417, Aztec and Data Matrix formats",
+        "Scan with the camera or pick an existing image from your gallery",
+        "Optional automatic opening of scanned URLs",
+        "Scan history you can review, prune or clear at any time",
+        "Light, dark and system theme options; vibration and sound controls"
+      ],
+      "privacyUrl": "/quickqrscanner/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "Does Quick QR Scanner require an account?",
+          "a": "No. The app works without signing in — its listing states that no account is required."
+        },
+        {
+          "q": "Where is my scan history stored?",
+          "a": "On your device. You can delete individual records or clear the whole history in the app."
+        },
+        {
+          "q": "Which barcode formats are supported?",
+          "a": "QR codes, plus EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF, PDF417, Aztec and Data Matrix."
+        }
+      ]
+    },
+    {
+      "slug": "scan2drive",
+      "section": "apps",
+      "type": "App",
+      "category": "Documents",
+      "name": "Scan Tools",
+      "formerName": "Scan2Drive",
+      "packageId": "com.llcailabs.scan2drive",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.scan2drive&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Scan, capture, sign, OCR, QR and PDF — everyday document tools in one app.",
+      "intro": "Scan Tools puts the everyday document jobs in one place: clean document scans, high-resolution photo capture, signatures, text extraction, QR scanning and PDF conversion, with your files kept together.",
+      "features": [
+        "Document scanner that produces clean, easy-to-read digital copies",
+        "High-resolution photo capture for documents, notes and receipts",
+        "Sign documents and images digitally",
+        "Extract printed text from images with OCR",
+        "Scan QR codes and open the information they contain",
+        "Convert images into PDF files, and browse saved PDFs and photos in one library"
+      ],
+      "privacyUrl": "/scan2drive/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": "/scan2drive/data-deletion.html",
+      "faq": [
+        {
+          "q": "Is this the app formerly called Scan2Drive?",
+          "a": "Yes. The app is listed on Google Play as Scan Tools; the package name is unchanged (com.llcailabs.scan2drive), so existing installs update normally."
+        },
+        {
+          "q": "Can I request deletion of my data?",
+          "a": "Yes — see the data deletion page for the supported request process."
+        },
+        {
+          "q": "What does OCR do here?",
+          "a": "It extracts printed text from images so you can reuse notes, receipts and document text instead of retyping it."
+        }
+      ]
+    },
+    {
+      "slug": "age-calculator",
+      "section": "apps",
+      "type": "App",
+      "category": "Dates & time",
+      "name": "My Days",
+      "formerName": "Age Calculator",
+      "packageId": "com.llcailabs.agecalculator",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.agecalculator&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Birthdays, countdowns, family ages and date maths in one app.",
+      "intro": "My Days keeps track of the dates that matter: your age and next birthday, the days you are counting down to, family birthdays, holiday calendars and date differences.",
+      "features": [
+        "Exact age from your date of birth, in years and days",
+        "Next-birthday countdown and a saved birthday for quick access",
+        "Important days — birthdays, anniversaries, trips, exams, holidays and custom events — with countdowns",
+        "Family list with birthdays, ages, countdowns and notes",
+        "Calendar view with ICS calendar URL import and public holiday calendars",
+        "Date calculator for the difference between two dates"
+      ],
+      "privacyUrl": "/agecalculator/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "Is this the app formerly called Age Calculator?",
+          "a": "Yes. It is listed on Google Play as My Days; the package name is unchanged (com.llcailabs.agecalculator), so existing installs update normally."
+        },
+        {
+          "q": "Does My Days show advertising?",
+          "a": "The app's own privacy policy documents its advertising behaviour. Advertising is off by default and can be enabled in Settings; see the privacy policy for the current details."
+        },
+        {
+          "q": "Where are the dates I enter stored?",
+          "a": "On your device. See the privacy policy for what is stored and how to remove it."
+        }
+      ]
+    },
+    {
+      "slug": "uconverter",
+      "section": "apps",
+      "type": "App",
+      "category": "Tools",
+      "name": "uConverter",
+      "packageId": "com.llcailabs.uconverter",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.uconverter&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Convert units, calculate BMI, and get quick everyday measurements.",
+      "intro": "A small, reliable converter for the measurements you actually need, with a built-in BMI calculator. Calculations run on your device.",
+      "features": [
+        "Length: metres, kilometres, centimetres, feet, inches and more",
+        "Weight: kilograms, grams, pounds and other common units",
+        "Area: square metres, square feet and more",
+        "Temperature: Celsius, Fahrenheit and other scales",
+        "Data storage units and reference currency conversion",
+        "BMI calculator from height and weight; works offline for calculations"
+      ],
+      "privacyUrl": "/uconverter/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "Are the currency rates live?",
+          "a": "No. Currency conversion is a reference aid for information only and may not reflect live market rates."
+        },
+        {
+          "q": "Is the BMI result medical advice?",
+          "a": "No. BMI is provided for general informational and wellness purposes only, not as medical advice."
+        },
+        {
+          "q": "Does it work offline?",
+          "a": "Yes — the calculations run offline on your device."
+        }
+      ]
+    },
+    {
+      "slug": "snapledger",
+      "section": "apps",
+      "type": "App",
+      "category": "Finance",
+      "name": "SnapLedger",
+      "packageId": "com.llcailabs.snapledger",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.snapledger&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Scan receipts and track expenses — on your device.",
+      "intro": "Photograph a receipt, let SnapLedger pick out the useful details, review them, and save the expense. Core tracking works offline and needs no account.",
+      "features": [
+        "On-device text recognition pulls merchant, date, total, category and payment method from a receipt",
+        "You review and edit the extracted fields before anything is saved",
+        "Receipt images are stored locally on your device",
+        "Spending overview by total, recent expenses, category, merchant and month",
+        "Core expense tracking works offline",
+        "No account required"
+      ],
+      "privacyUrl": "/SnapLedger/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": "/SnapLedger/delete-data.html",
+      "faq": [
+        {
+          "q": "Does SnapLedger need an internet connection?",
+          "a": "Core expense tracking is designed to work offline. Receipt images stay on your device."
+        },
+        {
+          "q": "Can I correct a receipt that was read wrong?",
+          "a": "Yes. Extracted fields are shown for review and can be edited before you save the expense."
+        },
+        {
+          "q": "How do I delete my data?",
+          "a": "Use the deletion page linked below, or the in-app options described in the privacy policy."
+        }
+      ]
+    },
+    {
+      "slug": "mpos",
+      "section": "apps",
+      "type": "App",
+      "category": "Business",
+      "name": "mPOS — Mobile Point of Sale",
+      "packageId": "com.llcailabs.mobilepos",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.mobilepos&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Offline-first point of sale for small shops, stalls and mobile sellers.",
+      "intro": "Run products, stock, checkout and receipts from an Android device. Everyday POS operations work without an account or an internet connection.",
+      "features": [
+        "Products with names, prices, categories, SKUs, stock quantities and low-stock thresholds",
+        "Fast checkout: tap products into a cart, adjust quantities and complete the sale",
+        "5-sen cash rounding option for Malaysian pricing",
+        "Temporary price override at checkout without changing the saved product price",
+        "Sales history by date, with per-order item and receipt details",
+        "Receipt printing to compatible Bluetooth ESC/POS thermal printers (58 mm and 80 mm), plus reprints"
+      ],
+      "privacyUrl": "/mpos/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "Does mPOS need an account?",
+          "a": "No. Everyday POS operations run without an account."
+        },
+        {
+          "q": "Does it need internet?",
+          "a": "It is built offline-first — products, checkout and receipts work without a connection."
+        },
+        {
+          "q": "Which printers are supported?",
+          "a": "Compatible Bluetooth ESC/POS thermal printers using 58 mm or 80 mm paper."
+        }
+      ]
+    },
+    {
+      "slug": "sudoku",
+      "section": "games",
+      "type": "Game",
+      "category": "Logic",
+      "name": "Sudoku - Classic Puzzle",
+      "packageId": "com.llcailabs.sudoku",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.sudoku&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Classic 9×9 Sudoku — simple, relaxing logic play.",
+      "intro": "Fill the 9×9 grid so every row, column and 3×3 box holds 1 to 9 exactly once. Straightforward, unhurried, and easy to pick up for a few minutes or a longer session.",
+      "features": [
+        "Classic 9×9 Sudoku ruleset",
+        "Simple, uncluttered interface",
+        "Relaxing pace — play a puzzle at your own speed",
+        "Suitable for beginners as well as regular Sudoku players",
+        "No account required"
+      ],
+      "privacyUrl": "/sudoku/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "Is the game free to play?",
+          "a": "See the Google Play listing for the current price and any in-app purchase details."
+        },
+        {
+          "q": "Do I need to sign in?",
+          "a": "No account is required."
+        },
+        {
+          "q": "Is it suitable for beginners?",
+          "a": "Yes — the ruleset is the standard 9×9 puzzle with a simple interface."
+        }
+      ]
+    },
+    {
+      "slug": "block-puzzle",
+      "section": "games",
+      "type": "Game",
+      "category": "Puzzle",
+      "name": "Block Puzzle",
+      "packageId": "com.llcailabs.blockpuzzle",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.blockpuzzle&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Place blocks, clear lines, beat your best score.",
+      "intro": "A classic block puzzle: drag pieces onto the grid, fill rows and columns to clear them, and keep space open for the next move.",
+      "features": [
+        "Classic block puzzle gameplay",
+        "Simple drag-and-place controls",
+        "Easy to learn, with room to plan ahead",
+        "Short sessions or longer runs",
+        "High-score chasing with a clean, simple board"
+      ],
+      "privacyUrl": "/BlockPuzzle/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "How does clearing work?",
+          "a": "Complete a full row or column and it clears, freeing space for the next blocks."
+        },
+        {
+          "q": "Is there a time limit?",
+          "a": "No — you play at your own pace."
+        },
+        {
+          "q": "Is the game free to play?",
+          "a": "See the Google Play listing for the current price and any in-app purchase details."
+        }
+      ]
+    },
+    {
+      "slug": "number-merge",
+      "section": "games",
+      "type": "Game",
+      "category": "Puzzle",
+      "name": "Number Merge",
+      "packageId": "com.llcailabs.numbermerge",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.llcailabs.numbermerge&utm_source=chatgpt.com",
+      "status": "live",
+      "tagline": "Merge matching numbers into bigger tiles.",
+      "intro": "A calm number puzzle: combine matching tiles to build higher values, keep the board under control, and see how far you can get.",
+      "features": [
+        "Merge matching numbers to create higher values",
+        "Simple rules that are quick to learn",
+        "Relaxing casual pace, good for short games",
+        "Clean, simple interface",
+        "Score chasing as the board grows"
+      ],
+      "privacyUrl": "/numbermerge/privacy-policy.html",
+      "supportUrl": "/support/",
+      "dataDeletionUrl": null,
+      "faq": [
+        {
+          "q": "How do I play?",
+          "a": "Combine matching numbers on the board; matching tiles merge into a higher value."
+        },
+        {
+          "q": "Is there a time limit?",
+          "a": "No — you play at your own pace."
+        },
+        {
+          "q": "Is the game free to play?",
+          "a": "See the Google Play listing for the current price and any in-app purchase details."
+        }
+      ]
+    }
+  ],
+  "unlisted": [
+    {
+      "slug": "water-sort",
+      "name": "Water Sort: Color Journey",
+      "packageId": "com.llcailabs.watersort",
+      "playUrl": null,
+      "status": "unpublished",
+      "privacyUrl": "/WaterSort/privacy-policy.html",
+      "note": "Not shown in the public catalogue. Google Play returned HTTP 404 for this package on 2026-11-11; the privacy policy page stays online."
+    }
+  ],
+  "extensions": [
+    {
+      "slug": "quickshot",
+      "name": "QuickShot — Screenshot & Annotate",
+      "type": "Chrome Extension",
+      "storeUrl": "https://chromewebstore.google.com/detail/jdblmhndaneoemimeapfdfajfbhagjbf",
+      "pageUrl": "/quickshot/",
+      "privacyUrl": "/quickshot/privacy-policy.html",
+      "supportUrl": "/quickshot/support.html",
+      "status": "live"
+    },
+    {
+      "slug": "user-agent-switcher",
+      "name": "User-Agent Switcher",
+      "type": "Chrome Extension",
+      "storeUrl": null,
+      "pageUrl": "/chrome-extensions/user-agent-switcher/",
+      "privacyUrl": "/privacy/ua-switcher/",
+      "supportUrl": "/support/ua-switcher/",
+      "status": "live"
+    }
+  ]
+}
